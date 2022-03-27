@@ -64,7 +64,7 @@ table{
 
 @media (max-width : 800px){
 	* {
-		background-color: red;
+		background-color: gray;
 	}
 }
 
