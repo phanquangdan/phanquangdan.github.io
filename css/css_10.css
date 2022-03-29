@@ -61,12 +61,12 @@ footer a{
 
 @media (max-width : 800px){
 	* {
-		background-color: red;
+		background-color: grey;
 	}
 }
 
 @media (max-width : 400px){
 	* {
-		background-color: yellow;
+		background-color: powderblue;
 	}
 }
