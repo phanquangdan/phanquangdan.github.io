@@ -6,8 +6,7 @@
 }
 
 nav{
-	background-color: white;
-	border:2px solid DodgerBlue;
+	background-color: #333;
 	overflow: hidden;
 }
 
@@ -46,7 +45,7 @@ nav a:hover {
 
 #flex_container{
 	display: flex;
-	flex-wrap: wrap;
+	/*flex-wrap: wrap;*/
 }
 
 footer{
@@ -59,13 +58,10 @@ footer a{
 	color: white;
 }
 
-table{
-	border: 1;
-}
 
 @media (max-width : 800px){
 	* {
-		background-color: gray;
+		background-color: red;
 	}
 }
 
