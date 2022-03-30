@@ -1,5 +1,6 @@
 #menu_text{
 	background-color: powderblue;
+	font-weight: bold;
 	text-align: center;
 	padding: 80px;
 	margin: 0px;
@@ -7,12 +8,14 @@
 
 nav{
 	background-color: #333;
+	font-weight: bold;
 	overflow: hidden;
 }
 
 nav a{
 	color: white;
 	padding: 14px 20px;
+	font-weight: bold;
 	/*display: block;*/
 	text-align: center;
 	text-decoration: none;
@@ -41,6 +44,7 @@ nav a:hover {
 #right_side{
 	flex: 70%;
 	padding: 10px 20px;
+	background-color: black;
 }
 
 #flex_container{
