@@ -9,6 +9,7 @@
 	<meta name="country" content="Viet Nam">
 	<title>Home Page</title>
 	<link rel="stylesheet" type="text/css" href="css/css_10.css">
+	<script type="text/javascript" src="script/script_pro.js"></script>
 </head>
 <body>
 	<h1 id="menu_text"><strong>WELLCOME!!!<br>#Blog Quang Dan</strong></h1><hr>
@@ -20,7 +21,11 @@
 	</nav>
 	<div id="flex_container">
 		<div id="left_side">
-			<img src="images/dan.png" width="400" height="600" alt="My Phan Quang Dan" title="Phan Quang Dan hight school">
+			<img id="myImage" src="images/dan.png" width="400" height="600" alt="My Phan Quang Dan" title="Phan Quang Dan hight school">
+			<p>
+				<button type="button" onclick="light(1)">Light On</button>
+				<button type="button" onclick="light(0)">Light Off</button>
+			</p>
 			<h2 id="contact"><strong>Contact information</strong></h2>
 			<p><em>I am working in the information technology field.</em></p>
 			<ul>
@@ -48,7 +53,11 @@
 				Nội dung blog một nửa là về kĩ thuật lập trình, một nửa còn lại là những kinh nghiệm tôi học được:sắp xếp thời gian, kĩ năng mềm, ngôn ngữ lập trình nên học, con đường phát triển nghề nghiệp… Đó là những điều quan trọng không thua gì kĩ năng lập trình.<br>
 				<strong style="color: blue;font-weight: bold;">Về bản thân mình</strong><br>
 				Mình hiện tại đang là sinh viên năm 3 ngành an toàn thông tin của học viện FSO(Liên Bang Nga).</em></p><br><hr>
-				<img src="images/duhoc.jpg" alt="5 anh em siêu nhân sang Nga" usemap="#workmap" width="100%" title="5 anh em siêu nhân sang Nga">
+				<img id="c95" src="images/duhoc.jpg" alt="5 anh em siêu nhân sang Nga" usemap="#workmap" width="100%" title="5 anh em siêu nhân sang Nga">
+				<p>
+					<button type="button" onclick="insertimage(1)">Light On</button>
+					<button type="button" onclick="insertimage(0)">Light Off</button>
+				</p>
 				<map name="workmap">
 					<area shape="rect" coords="148,291,260,417" alt="Hoàng Công Tuyên " href="https://www.facebook.com/tuyn.hoang.58" title="Hoàng Công Tuyên click here !!!">
 					<area shape="rect" coords="408,312,511,436" alt="Lê Minh Tú" href="https://www.facebook.com/tuminh99" title="Lê Minh Tú click here !!!">
@@ -56,7 +65,9 @@
 					<area shape="rect" coords="773,304,878,439" alt="Nguyễn Việt Hòa" href="https://www.facebook.com/viethoa.nguyen.1369" title="Nguyễn Việt Hòa click here !!!">
 					<area shape="rect" coords="1022,336,1135,465" alt="Phạm Thế Long" href="https://www.facebook.com/long.the.16940" title="Phạm Thế Long click here !!!">
 				</map>	
-				<p style="color:white;font-weight: bold;"> Ngày đi học:19/08/2018</p>    
+				<p style="color:white;font-weight: bold;"> Ngày đi học:19/08/2018</p>
+				<button type="button" onclick="document.getElementById('time').innerHTML = Date()"> Click me to display Date and Time.</button>
+				<p id="time" style="color:white;"></p>   
 		</div>
 	</div>
 	<footer>Created by Phan Quang Dan- <a href="mailto:phanquangdan012099@gmail.com">Email me</a></footer>
