@@ -36,13 +36,13 @@ nav a:hover {
 }
 
 #left_side{
-	flex: 30%;
+	flex: 20%;
 	padding: 10px 20px;
 	background-color:grey;
 }
 
 #right_side{
-	flex: 70%;
+	flex: 80%;
 	padding: 10px 20px;
 	background-color: black;
 }
