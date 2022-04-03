@@ -2,7 +2,7 @@
 	background-color: powderblue;
 	font-weight: bold;
 	text-align: center;
-	padding: 80px;
+	padding: 60px;
 	margin: 0px;
 }
 
@@ -16,19 +16,24 @@ nav a{
 	color: white;
 	padding: 14px 20px;
 	font-weight: bold;
-	/*display: block;*/
+	display:flex;
 	text-align: center;
 	text-decoration: none;
+	border: 1px solid;
+	background-color: black;
 }
 
 nav a.menu_left{
-	float: left;
+	flex: 70%;
 }
 
 nav a.menu_right{
-	float: right;
+	flex: 30%;
 }
-/*  */
+
+#flex_nav{
+	display: flex;
+}
 nav a:hover {
 	background-color: #DDD;
 	color: black;
@@ -56,6 +61,7 @@ footer{
 	background-color: #333;
 	color: white;
 	text-align: center;
+	padding: 0px 4px;
 }
 
 footer a{
@@ -64,13 +70,17 @@ footer a{
 
 
 @media (max-width : 800px){
-	* {
+	#flex_container,#flex_nav{
 		background-color: grey;
+		width: 100%;
+		flex-wrap: wrap;
 	}
 }
 
 @media (max-width : 400px){
-	* {
-		background-color: powderblue;
+	#flex_container,#flex_nav{
+		background-color: grey;
+		width: 100%;
+		flex-wrap: wrap;
 	}
 }
