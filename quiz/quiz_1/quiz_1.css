@@ -1,0 +1,10 @@
+#homepage{
+    float: left;
+    color: white;
+    background: black;
+}
+#nextquestion{
+    float: right;
+    color: white;
+    background-color: black;
+}
