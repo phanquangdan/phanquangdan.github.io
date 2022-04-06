@@ -1,0 +1,16 @@
+#homepage{
+    float: left;
+    color: white;
+    font-size: 10px;
+    background: black;
+}
+#nextquestion{
+    float: right;
+    color: white;
+    background-color: black;
+}
+#previousquestion{
+    float: left;
+    background-color: black;
+    color: white;
+}
