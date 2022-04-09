@@ -7,15 +7,16 @@
 	<style type="text/css">
 	   canvas{
 	   	   background-color: gray;
-           margin-left: 600px;
 	   }
 	</style>
+    <link rel="stylesheet" type="text/css" href="canvass.css">
 </head>
 <body>
-   <canvas id="Gamecanvas" width="480" height="320"></canvas>
+   <div id="game">
+        <canvas id="Gamecanvas" width="480" height="320"></canvas>
    <script type="text/javascript">
-   	 var canvas = document.getElementById("Gamecanvas");
-   	 var ctx = canvas.getContext("2d");
+     var canvas = document.getElementById("Gamecanvas");
+     var ctx = canvas.getContext("2d");
      var x= canvas.width/2;
      var y= canvas.height - 20;
      var dx =2 ;
@@ -54,31 +55,31 @@
            }
      }
      function keyDown(event){
-     	if(event.keyCode == 39)
-     		 {
-     		 	rightPress = true;
-     		 }
+        if(event.keyCode == 39)
+             {
+                rightPress = true;
+             }
         else if(event.keyCode == 37)
-        	 {
-        	 	leftPress = true;
-        	 }
+             {
+                leftPress = true;
+             }
      }
      function keyUp(event){
-     	if(event.keyCode == 39)
-     		 {
-     		 	rightPress = false;
-     		 }
+        if(event.keyCode == 39)
+             {
+                rightPress = false;
+             }
         if(event.keyCode == 37)
-        	 {
-        	 	leftPress = false;
-        	 }
+             {
+                leftPress = false;
+             }
      }
      function drawBall(){
-     	ctx.beginPath();
-     	ctx.arc(x,y,ballRadius,0,Math.PI*2,false);
-     	ctx.fillStyle="blue";
-     	ctx.fill();
-     	ctx.closePath();
+        ctx.beginPath();
+        ctx.arc(x,y,ballRadius,0,Math.PI*2,false);
+        ctx.fillStyle="blue";
+        ctx.fill();
+        ctx.closePath();
      }
      function drawPaddle(){
         ctx.beginPath();
@@ -135,40 +136,40 @@
                }
      }
      function draw(){
-     	//Ham nay dung de xoa noi dung truoc do
-     	ctx.clearRect(0,0,canvas.width,canvas.height);
+        //Ham nay dung de xoa noi dung truoc do
+        ctx.clearRect(0,0,canvas.width,canvas.height);
       drawBricks();
-     	drawBall();
-     	drawPaddle();
+        drawBall();
+        drawPaddle();
       drawScore();
       collision();
-     	if(x+dx > canvas.width - ballRadius || x+dx < ballRadius)
-     		  {
-     		  	  dx = -dx;
-     		  }
+        if(x+dx > canvas.width - ballRadius || x+dx < ballRadius)
+              {
+                  dx = -dx;
+              }
         if(y+dy < ballRadius)
-        	  {
-        	  	 dy = -dy;
-        	  }
+              {
+                 dy = -dy;
+              }
         if (y+dy > canvas.height - ballRadius) {
-        	if(x > paddleX && x < paddleX + paddleWidth)
-        		 {
-        		 	dy = -dy;
-        		 }
-        	else{
+            if(x > paddleX && x < paddleX + paddleWidth)
+                 {
+                    dy = -dy;
+                 }
+            else{
                 document.location.reload();
-        	}
+            }
         }
         x += dx;
         y += dy;
         if(rightPress && paddleX < canvas.width - paddleWidth)
-        	 {
-        	 	paddleX += 5;
-        	 }
+             {
+                paddleX += 5;
+             }
         if(leftPress && paddleX > 0)
-        	 {
-        	 	paddleX -= 5;
-        	 }
+             {
+                paddleX -= 5;
+             }
 
      }
     
@@ -176,6 +177,9 @@
      setInterval(draw,20);
    </script>
    <hr>
+   </div>
+   <br>
+   <p>Chỉ chơi được trên PC</p>
    <a href="../index.html" title="return Home page">HOME PAGE</a>
 </body>
 </html>
