@@ -33,13 +33,47 @@
 		<img class="intro_1" src="name.png" alt="name">
 		<p style="font-size:20px"> Bước 3: Chọn qmake (Như hình dưới)</p>
 		<img class="intro_1" src="qmake.png" alt="name">
-		<p style="font-size:20px"> Bước 4: Bạn có thể để mặc định như hình bên dưới</p>
+		<p style="font-size:20px"> Bước 4:  Trong cửa sổ thông tin lớp, người lập trình có thể thay đổi tên lớp của cửa sổ ứng dụng chính. Các giá trị mặc định được đề xuất được hiển thị trong hình. Ở các giai đoạn phát triển ban đầu, bạn nên chỉ sử dụng các tên lớp như vậy.</p>
 		<img class="intro_1" src="class.png" alt="name">
-		<p style="font-size:20px"> Bước 5: Mình chọn MinGW 32-bit để chương trình chạy ổn định</p>
+		<p style="font-size:20px"> Bước 5: Trong hộp thoại tiếp theo, chọn một bộ để xây dựng ứng dụng. Bạn nên chọn phiên bản cài đặt mới nhất. Trong hình, 5.11.3 MinGW 32 bit được chọn.</p>
 		<img class="intro_1" src="kit.png" alt="name">
-		<p style="font-size:20px"> Bước 6: Chọn finish.Đây là giao diên dự án sau khi bạn tạo.Để chạy bạn ứng dụng nhấn phím F5.</p>
+		<p style="font-size:20px"> Bước 6: Sau khi nhấp vào nút Hoàn tất, Qt Creator sẽ tạo một thư mục thử nghiệm và đặt các tệp dự án cần thiết vào đó. Sau đó, chế độ Trình chỉnh sửa sẽ bật và một cửa sổ sẽ mở ra chứa mã của hàm tạo và hàm hủy của cửa sổ ứng dụng chính, được tạo tự động.</p>
 		<img class="intro_1" src="app.png" alt="name">
 		<p> Đây là giao diện để thiết kế giao diện úng dụng của các bạn</p>
 		<img class="intro_1" src="design.png" alt="name">
+		<h2>***Note:</h2>
+		<p style="font-size:20px">Chúng ta hãy nhìn vào cấu trúc của dự án. Mỗi dự án Qt được tạo trong một thư mục riêng biệt có cùng tên với dự án. Thư mục chứa các tệp sau:</p>
+		<table border="0">
+<tbody>
+<tr>
+<td valign="top"><span style="font-family: courier new,courier,monospace; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">main.cpp</font></font></span></td>
+<td><span style="font-family: times new roman,times,serif; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">tệp chứa hàm chính </font></font><span style="font-family: courier new,courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">int main ()</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> . </font><font style="vertical-align: inherit;">Nó là điểm vào ứng dụng. </font><font style="vertical-align: inherit;">Trong tệp này, chẳng hạn, bạn có thể lập trình bất kỳ hành động nào phải được thực hiện trước khi tải cửa sổ ứng dụng chính.&nbsp; </font></font></span></td>
+</tr>
+<tr>
+<td valign="top"><span style="font-family: courier new,courier,monospace; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mainwindow.cpp</font></font></span></td>
+<td><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Một tệp chứa triển khai các phương thức của lớp cửa sổ chính của ứng dụng.</font></font></span></td>
+</tr>
+<tr>
+<td valign="top"><span style="font-family: courier new,courier,monospace; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mainwindow.h</font></font></span></td>
+<td><span style="font-family: times new roman,times,serif; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Một tệp có mô tả về lớp của cửa sổ chính của ứng dụng.</font></font></span></td>
+</tr>
+<tr>
+<td valign="top"><span style="font-family: courier new,courier,monospace; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">mainwindow.ui</font></font></span></td>
+<td><span style="font-family: times new roman,times,serif; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tệp có phần mở rộng ui (Giao diện người dùng). </font><font style="vertical-align: inherit;">Tệp này chứa mô tả về biểu mẫu sẽ trông như thế nào. </font><font style="vertical-align: inherit;">Đây là một tệp XML. </font><font style="vertical-align: inherit;">Bạn không nên chỉnh sửa tệp này trực tiếp trong trình soạn thảo văn bản. </font><font style="vertical-align: inherit;">Chúng tôi sẽ thay đổi nó chỉ trong chế độ thiết kế.&nbsp; </font></font></span></td>
+</tr>
+<tr>
+<td valign="top"><span style="font-family: courier new,courier,monospace; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">test.pro</font></font></span></td>
+<td>
+<p><span style="font-family: times new roman,times,serif; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Một tệp chứa mô tả về dự án. </font><font style="vertical-align: inherit;">Không giống như mô tả ngắn gọn về các ứng dụng console, mô tả của một dự án ứng dụng window chứa khá nhiều thông tin. </font><font style="vertical-align: inherit;">Cấu trúc của tệp này dựa trên nguyên tắc "biến = giá trị". </font><font style="vertical-align: inherit;">Tương tự với ngôn ngữ C ++, cú pháp gán tốc ký được cho phép trong tệp này. </font><font style="vertical-align: inherit;">Ví dụ:&nbsp;</font></font></span></p>
+<p><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-family: 'Courier,monospace'; font-weight: 600; background-color: #f0f0f0; vertical-align: top;"><span style="color: #800080;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONFIG</font></font></span><span style="color: #c0c0c0;"> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> + = </font></font><span style="color: #c0c0c0;"> </span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">c ++ 11</font></font></span> </span></p>
+<p><span style="font-family: times new roman,times,serif; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">May mắn thay, lập trình viên không thường xuyên phải chỉnh sửa tệp này. </font><font style="vertical-align: inherit;">Các kiến ​​thức chi tiết hơn về cách chỉnh sửa tệp này, chẳng hạn như để thêm hỗ trợ mạng và đa phương tiện, chúng ta sẽ có trong các bài học tiếp theo.</font></font></span></p>
+</td>
+</tr>
+<tr>
+<td valign="top"><span style="font-family: courier new,courier,monospace; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">test.pro.user</font></font></span></td>
+<td><span style="font-family: times new roman,times,serif; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Tệp có phần mở rộng .user chứa cài đặt dự án áp dụng cho máy tính này. </font><font style="vertical-align: inherit;">Nó chứa các đường dẫn xây dựng, đường dẫn đến thư viện Qt, các phiên bản trình biên dịch đã cài đặt, v.v. </font><font style="vertical-align: inherit;">Tệp này không phải là một phần không thể thiếu của dự án và nếu bạn mở dự án trên máy tính khác mà không có tệp này, Qt Creator sẽ nhắc bạn thiết lập dự án để xây dựng trên máy tính đó.</font></font></span></td>
+</tr>
+</tbody>
+</table>
 		<a href="../homeprogram.html">Back Page</a>
 </body>
