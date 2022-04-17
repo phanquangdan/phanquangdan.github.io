@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hộp Thoại hệ thống</title>
+	<link rel="stylesheet" type="text/css" href="dialogbox.css">
+</head>
+<body id="dialogbox">
+	<h1 style="color:green;">Hộp thoại hệ thống</h1>
+	<p>Trong các ứng dụng, bạn thường phải thực hiện các hành động tiêu chuẩn: mở và lưu tệp, đặt thuộc tính phông chữ, chọn màu, v.v. Qt chứa các thành phần triển khai các hộp thoại tiêu chuẩn tương ứng.</p>
+	<p> Các thành phần hộp thoại chính được liệt kê trong bảng.</p>
+	<table style="width: 100%;" cellspacing="1" cellpadding="10" border="1">
+<tbody>
+<tr>
+<td width="168">
+<p align="center"><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><strong>Thành phần</strong></font></font></span></p>
+</td>
+<td width="489">
+<p align="center"><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"><strong>Sự miêu tả</strong></font></font></span></p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p><span style="font-size: large; font-family: 'courier new',courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QFileDialog</font></font></span></p>
+</td>
+<td width="489">
+<p><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lớp hộp thoại chọn tên tệp để mở hoặc lưu</font></font></span></p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p><span style="font-size: large; font-family: 'courier new',courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QFontDialog</font></font></span></p>
+</td>
+<td width="489">
+<p><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lớp hộp thoại "Phông chữ" - lựa chọn các thuộc tính phông chữ</font></font></span></p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p><span style="font-size: large; font-family: 'courier new',courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QColorDialog</font></font></span></p>
+</td>
+<td width="489">
+<p><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lớp hộp thoại "Màu" - lựa chọn màu</font></font></span></p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p><em><span style="font-size: large; font-family: 'courier new',courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QPrintDialog</font></font></span></em></p>
+</td>
+<td width="489">
+<p><em><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Lớp hộp thoại "In"</font></font></span></em></p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p><span style="font-size: large; font-family: 'courier new',courier,monospace;"><span style="color: #007330;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QProgressDialog</font></font></span></span></p>
+</td>
+<td width="489">
+<p><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Một lớp hộp thoại trực quan hóa tiến trình của các hoạt động chạy dài</font></font></span></p>
+</td>
+</tr>
+<tr>
+<td width="168">
+<p><span style="font-size: large; font-family: 'courier new',courier,monospace;"><span style="color: #007330;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QInputDialog</font></font></span></span></p>
+</td>
+<td width="489">
+<p><span style="font-size: large; font-family: times new roman,times,serif;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Một lớp cho phép bạn yêu cầu người dùng cho một giá trị đơn giản.</font></font><br></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<h1 style="color:green"><strong>Hộp thoại chọn tên tệp QFileDialog</strong></h1>
+<p>Hộp thoại chọn tệp được thiết kế để chọn một hoặc nhiều tệp, cũng như các tệp nằm trên máy tính từ xa và hỗ trợ khả năng đổi tên tệp và tạo thư mục. Lớp QFileDialog cung cấp việc triển khai hộp thoại chọn tệp và chịu trách nhiệm tạo và chạy ba hộp thoại cùng một lúc. Một trong số chúng cho phép bạn chọn một tệp để mở, thứ hai là để chọn đường dẫn và tên của tệp để lưu nó, và thứ ba là để chọn một thư mục. Lớp QFileDialog có nguồn gốc từ lớp QDialog . Định nghĩa của nó  nằm trong tệp <QFileDialog> .</p>
+<p>Ví dụ:</p>
+<pre id="pre">
+void MainWindowNodePad::on_actionOpen_triggered()
+{
+    QString filter = "All file (*.*) ;; File (*.txt*);;File (*.cpp*)";
+    QString file_name = QFileDialog::getOpenFileName(this,"Open File","C:/Users/PHANQUANGDAN/Desktop/HTG Locker/QT_WebEngine/NodePadDemo",filter);
+    QFile file(file_name);
+    if(!file.open(QFile::ReadOnly | QFile::Text)){
+        QMessageBox::warning(this,"My Warning","File is not open !!!");
+        return;
+    }
+    QTextStream in(&file);
+    QString text = in.readAll();
+    ui->textEdit->setText(text);
+    file.close();
+}
+</pre>
+<p>Hộp thoại sẽ hiển thị:</p>
+<img id="box" src="box.png" alt="box">
+<p>Lớp này cung cấp các phương thức tĩnh sau:</p>
+<span style="font-family: 'times new roman', times, serif; font-size: large;"><span style="font-family: courier new, courier, monospace;"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getOpenFileName ()</font></font></strong></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> 
+ - Tạo một hộp thoại chọn tệp duy nhất. </font><font style="vertical-align: inherit;">Phương thức này trả về một QString chứa tên và đường dẫn của tệp đã chọn;</font></font></span>
+ <p><strong><span style="font-family: 'times new roman', times, serif; font-size: large;"></span></strong><span style="font-family: 'times new roman', times, serif; font-size: large;"><span style="font-family: courier new, courier, monospace;"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getOpenFileNames ()</font></font></strong></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Tạo hộp thoại chọn nhiều tệp. </font><font style="vertical-align: inherit;">Trả về danh sách các chuỗi kiểu QStringList chứa đường dẫn và tên tệp;</font></font></span></p>
+ <p><span style="font-family: courier new, courier, monospace; font-size: large;"></span><span style="font-family: 'times new roman', times, serif; font-size: large;"><strong><span style="font-family: courier new, courier, monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getSaveFileName ()</font></font></span></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - Tạo hộp thoại lưu tệp. </font><font style="vertical-align: inherit;">Trả về tên tệp và đường dẫn trong một biến chuỗi kiểu QString;</font></font></span></p>
+ <p><strong><span style="font-family: 'times new roman', times, serif; font-size: large;"></span></strong><span style="font-family: 'times new roman', times, serif; font-size: large;"><span style="font-family: courier new, courier, monospace;"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getExistingDirectory ()</font></font></strong></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> - tạo một cửa sổ lựa chọn thư mục. </font><font style="vertical-align: inherit;">Phương thức này trả về một QString chứa tên và đường dẫn của thư mục đã chọn;</font></font></span></p>
+<hr>
+	<a href="../homelibraries.html">Back Home</a>
+</body>
+</html>
