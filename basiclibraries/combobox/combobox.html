@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ComboBox</title>
+	<link rel="stylesheet" type="text/css" href="combobox.css">
+</head>
+<body id=combo">
+	<h1 style="color:green;">3.Các lớp trực quan hóa dữ liệu văn bản.ComboBox.</h1>
+	<p>Làm việc với danh sách chuỗi QComboBox tương tự như làm việc với ListWidget, với sự khác biệt là danh sách chuỗi trong đó được "thu gọn" và chỉ hiển thị khi người dùng tương tác với nó.</p>
+    <img class="image" src="box.png">
+    <p>Tương tự với ListWidget, bạn có thể đặt danh sách các chuỗi được hiển thị cho ComboBox ở chế độ Thiết kế. Để thay đổi các mục của tiện ích ComboBox, hãy nhấp đúp vào nó ở chế độ thiết kế và định cấu hình các mục của nó trong hộp thoại xuất hiện.</p>
+    <img class="image" src="combo.png">
+    <p>Hoặc trong quá trình thực thi ứng dụng, như sau:</p>
+    <p style="border: 1px solid;"><span style="color: #800000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ui </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt; </font></font></span><span style="color: #800000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">comboBox </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt; </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">addItems </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">({ </font></font></span><span style="color: #008000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"cat" </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">, </font></font></span><font style="vertical-align: inherit;"><span style="color: #008000;"><font style="vertical-align: inherit;">"dog" </font></span><span style="color: #000000;"><font style="vertical-align: inherit;">, </font></span><span style="color: #008000;"><font style="vertical-align: inherit;">"cow" </font></span><span style="color: #000000;"><font style="vertical-align: inherit;">, </font></span><span style="color: #008000;"><font style="vertical-align: inherit;">"golgfish" </font></span><span style="color: #000000;"><font style="vertical-align: inherit;">});</font></span></font><span style="color: #c0c0c0;"> </span><span style="color: #008000;"><font style="vertical-align: inherit;"></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"></font></span><span style="color: #c0c0c0;"> </span><span style="color: #008000;"><font style="vertical-align: inherit;"></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"></font></span><span style="color: #c0c0c0;"> </span><span style="color: #008000;"><font style="vertical-align: inherit;"></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"></font></span></p>
+    <p>Bạn có thể tìm ra số lượng mục được người dùng chọn bằng phương thức currentIndex () và văn bản đã chọn hoặc đã nhập bằng currentText ();</p>
+    <p>Một điểm khác biệt quan trọng so với ListWidget là khả năng chỉnh sửa văn bản trong trường đầu vào của tiện ích ComboBox. Để thực hiện việc này, hãy đặt thuộc tính có thể chỉnh sửa của nó thành true trong chế độ thiết kế hoặc bật tính năng chỉnh sửa trong mã chương trình, ví dụ, trong phương thức khởi tạo cửa sổ:</p> 
+    <div class="cpp" style="border-collapse: collapse; width: 100%;border: 1px solid;">
+<pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="color: #c0c0c0;">    </span><span style="color: #800000;">ui</span><span style="color: #000000;">-&gt;</span><span style="color: #800000;">comboBox</span><span style="color: #000000;">-&gt;</span><span style="color: #000000;">setEditable</span><span style="color: #000000;">(</span><span style="color: #808000;">true</span><span style="color: #000000;">);</span></pre>
+</div>
+    <p>Sau đó, người dùng sẽ có thể viết văn bản của riêng mình trong trường đầu vào, sẽ có sẵn thông qua thuộc tính currentText (). Nếu văn bản do người dùng nhập không khớp với bất kỳ mục nào trong ComboBox, thì giá trị của currentIndex () sẽ là -1.</p>
+<hr>
+	<a href="../homelibraries.html">Back Home</a>
+</body>
+</html>
