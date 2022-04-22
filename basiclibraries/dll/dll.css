@@ -1,0 +1,8 @@
+@media (max-width : 800px){
+	#dl{
+		width: 100%;
+	}
+	#image,#mylib,#pro,#con,#ex,#cho,#lol,#coc,#k,#l{
+		width: 100%;
+	}
+}
