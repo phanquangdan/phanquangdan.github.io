@@ -1,0 +1,39 @@
+Release	12.2.32	
+Description	ENTERPRISE/FW/IDS PLUS IPSEC 3DES	
+Size	14021680	
+BSD Checksum	30412	
+Router Checksum	0x55e8	
+MD5	543d356b01e7718eb74930b291160126	
+Date Published:	05-DEC-2005
+
+
+Release	12.2.32	
+Size	11300300	
+BSD Checksum	33649	
+Router Checksum	0x8463	
+MD5	843d9d570c32478af84049d6d509b7b8	
+Date Published:	05-DEC-2005
+
+
+Release	12.3.17a	
+Description	IP/FW/IDS PLUS IPSEC 3DES BASIC NO ATM	
+Size	16138608	
+BSD Checksum	30328	
+Router Checksum	0xfbfd	
+MD5	fbd290bec7279cc470d4a920d22d2cde	
+Date Published:	14-DEC-2005
+
+
+Release	12.2.32	
+Size	6830024	
+BSD Checksum	29277	
+Router Checksum	0x62bb	
+MD5	b82eed2a7e70f5d7e16c4b6292e3e577	
+Date Published:	05-DEC-2005
+
+Release	12.3.17a	
+Size	8800260	
+BSD Checksum	57356	
+Router Checksum	0xa1c6	
+MD5	9ed560f4cce0a8daddc784a113141b21	
+Date Published:	14-DEC-2005

@@ -1,0 +1,5 @@
+@media (max-width : 800px){
+	#ex_1,#video1,#ui,#open,#size,#upper,#first,#replace,#no,#sta,#in,#rep{
+		width: 100%;
+	}
+}
