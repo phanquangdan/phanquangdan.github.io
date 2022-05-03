@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>QPainter</title>
+	<link rel="stylesheet" type="text/css" href="qtime.css">
+</head>
+<body id="qpainter">
+	<h1 style="color:green;">Class QPainter</h1>
+	<p>Lớp QPainter, được định nghĩa trong tệp tiêu đề Qpainter, là lớp thực thi các lệnh vẽ. Nó chứa rất nhiều phương thức để hiển thị đường thẳng, hình tròn, hình chữ nhật,...</p>
+	<img id="pain" src="painter.jpg" width="100%">
+	<p>Để bắt đầu vẽ lên cửa sổ chính chúng ta thêm trình xử lí sự kiện painEvent bằng cách ấn tổ hợp phím <strong>Alt + Enter</strong> như sau:
+	</p>
+	<img id="create" src="createwindows.png" width="100%">
+	<p>Chọn <strong>painEvent(QpainterEvent *)</strong>:</p>
+	<img id="cho" src="choose.png" width="100%">
+	<p>Một phương thức được thêm tự động như sau:</p>
+	<img id="dis" src="display.png" width="100%">
+	<p>Trong phương thức vừa tạo chúng ta bắt đầu vẽ:</p>
+	<div class="rj_insertcode">
+<div class="rj_insertcode_cpp" style="overflow: auto; width: 95%; height: auto; border: 1px solid #054b6e; background: #f8f8f8;">
+<div class="cpp" style="border-collapse: collapse; width: 100%;">
+<pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="color: #808000;">void</span><span style="color: #c0c0c0;"> </span><span style="color: #800080;">MainWindow</span>::<span style="font-weight: 600; font-style: italic; color: #00677c;">paintEvent</span>(<span style="color: #800080;">QPaintEvent</span><span style="color: #c0c0c0;"> </span>*<span style="color: #092e64;">event</span>)</pre>
+<pre style="-qt-block-indent: 0; text-indent: 0px; margin: 0px;">{</pre>
+<pre style="-qt-block-indent: 0; text-indent: 0px; margin: 0px;"><span style="color: #c0c0c0;">    </span><span style="color: #800080;">QPainter</span><span style="color: #c0c0c0;"> </span><span style="color: #092e64;">painter</span>;<span style="color: #c0c0c0;"> </span></pre>
+<pre style="-qt-block-indent: 0; text-indent: 0px; margin: 0px;"><span style="color: #c0c0c0;">    </span><span style="color: #092e64;">painter</span>.<span style="color: #00677c;">begin</span>(<span style="color: #808000;">this</span>);<span style="color: #c0c0c0;"> </span><span style="color: #008000;"></span><span style="color: #c0c0c0;"> </span><span style="color: #008000;"></span><span style="color: #c0c0c0;"> </span></pre>
+<pre style="-qt-block-indent: 0; text-indent: 0px; margin: 0px;"><span style="color: #c0c0c0;">    </span><span style="color: #008000;">//</span><span style="color: #c0c0c0;"> </span><span style="color: #008000;">Lệnh</span><span style="color: #c0c0c0;"> </span><span style="color: #008000;">vẽ</span><span style="color: #c0c0c0;"> </span></pre>
+<pre style="-qt-block-indent: 0; text-indent: 0px; margin: 0px;"><span style="color: #c0c0c0;">    </span><span style="color: #092e64;">painter</span>.<span style="color: #00677c;">end</span>();<span style="color: #c0c0c0;"> </span></pre>
+<pre style="-qt-block-indent: 0; text-indent: 0px; margin: 0px;">}</pre>
+<pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;">&nbsp;</span></pre>
+</div>
+</div>
+</div>
+	<h2>Brush</h2>
+	<p>Brush được sử dụng để tô màu liên tục lên như như hình tròn, hình elip và đa giác.Brush được thiết lập bởi hai tham số - màu sắc và mẫu tô. Bạn có thể đặt bút vẽ bằng phương thức QPainter::setBrush(), truyền cho nó một đối tượng của lớp QBrush hoặc một trong các mẫu được xác định trước được liệt kê trong bảng. </p>
+	<h2>Pen and brush</h2>
+	<p>Bút vẽ là nền tảng để lập trình đồ họa bằng thư viện Qt. Nếu không có chúng, sẽ không thể hiển thị dù chỉ một điểm trên màn hình.</p>
+	<p>Các dòng sau thiết lập một brush màu đỏ với các nét ngang: </p>
+	<div class="rj_insertcode">
+<div class="rj_insertcode_cpp-qt" style="overflow: auto; width: 95%; height: auto; border: 1px solid #054b6e; background: #f8f8f8;">
+<div class="cpp-qt" style="border-collapse: collapse; width: 100%;">
+<pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><a href="http://doc.trolltech.com/latest/qpainter.html"><span style="color: #22aadd;">QPainter</span></a> painter<span style="color: #006e28;">(</span><span style="color: #000000; font-weight: bold;">this</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">painter.<span style="color: #2b74c7;">setBrush</span><span style="color: #006e28;">(</span><a href="http://doc.trolltech.com/latest/qbrush.html"><span style="color: #22aadd;">QBrush</span></a><span style="color: #006e28;">(</span>Qt<span style="color: #006e28;">::</span><span style="color: #2b74c7;">red</span><span style="color: #006e28;">,</span> Qt<span style="color: #006e28;">::</span><span style="color: #2b74c7;">HorPattern</span><span style="color: #006e28;">)</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;</span></pre>
+</div>
+</div>
+</div>
+	<h2>Hiển thị hình dạng</h2>
+	<p>Hiển thị hình dạng là một nhiệm vụ đơn giản, vì nó không yêu cầu tính toán vị trí của mỗi pixel đầu ra, vì đã có một số phương pháp để hiển thị hầu hết tất cả các hình dạng hình học. Ví dụ: bằng cách gọi phương thức drawRect (), bạn có thể vẽ một hình chữ nhật.</p>
+	<p>Trước khi bạn bắt đầu vẽ, điều quan trọng là phải hiểu triết lý đằng sau tọa độ pixel. Nó nằm ở thực tế là trung tâm của pixel nằm ở giữa của nó. Tức là pixel nằm ở góc trên bên trái sẽ có tọa độ (0,5, 0,5). Nếu chúng ta cố gắng vẽ một pixel có tọa độ (0, 0), thì QPainter sẽ tự động thêm 0,5 vào chúng và kết quả sẽ là (0,5, 0,5).</p>
+	<p>Chỉ có bút được sử dụng để hiển thị điểm. Danh sách vẽ tám chấm trên màn hình.</p>
+	<p>Sử dụng phương thức drawPoin() :</p>
+	<div class="rj_insertcode">
+<div class="rj_insertcode_cpp-qt" style="overflow: auto; width: 95%; height: auto; border: 1px solid #054b6e; background: #f8f8f8;">
+<div class="cpp-qt" style="border-collapse: collapse; width: 100%;">
+<pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><a href="http://doc.trolltech.com/latest/qpainter.html"><span style="color: #22aadd;">QPainter</span></a> painter<span style="color: #006e28;">(</span><span style="color: #000000; font-weight: bold;">this</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">painter.<span style="color: #2b74c7;">setPen</span><span style="color: #006e28;">(</span><a href="http://doc.trolltech.com/latest/qpen.html"><span style="color: #22aadd;">QPen</span></a><span style="color: #006e28;">(</span>Qt<span style="color: #006e28;">::</span><span style="color: #2b74c7;">black</span><span style="color: #006e28;">,</span> <span style="color: #b08000;">3</span><span style="color: #006e28;">)</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span>&nbsp;&nbsp;<span style="color: #b08000;"></span>&nbsp;&nbsp;</span>
+<span style="vertical-align: top;"><span style="color: #0057ae;">int</span> n <span style="color: #006e28;">=</span> <span style="color: #b08000;">8</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;"><span style="color: #000000; font-weight: bold;">for</span> <span style="color: #006e28;">(</span><span style="color: #0057ae;">int</span> i <span style="color: #006e28;">=</span> <span style="color: #b08000;">0</span><span style="color: #006e28;">;</span> i <span style="color: #006e28;">&lt;</span> n<span style="color: #006e28;">;</span> <span style="color: #006e28;">++</span>i<span style="color: #006e28;">)</span> <span style="color: #006e28;">{</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;qreal fAngle <span style="color: #006e28;">=</span> <span style="color: #b08000;">2</span> <span style="color: #006e28;">*</span> <span style="color: #800080;">3.14</span> <span style="color: #006e28;">*</span> i <span style="color: #006e28;">/</span> n<span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;qreal x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006e28;">=</span> <span style="color: #b08000;">50</span> <span style="color: #006e28;">+</span> <span style="color: #2b74c7;">cos</span><span style="color: #006e28;">(</span>fAngle<span style="color: #006e28;">)</span> <span style="color: #006e28;">*</span> <span style="color: #b08000;">40</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;qreal y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006e28;">=</span> <span style="color: #b08000;">50</span> <span style="color: #006e28;">+</span> <span style="color: #2b74c7;">sin</span><span style="color: #006e28;">(</span>fAngle<span style="color: #006e28;">)</span> <span style="color: #006e28;">*</span> <span style="color: #b08000;">40</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;painter.<span style="color: #2b74c7;">drawPoint</span><span style="color: #006e28;">(</span><a href="http://doc.trolltech.com/latest/qpointf.html"><span style="color: #22aadd;">QPointF</span></a><span style="color: #006e28;">(</span>x<span style="color: #006e28;">,</span> y<span style="color: #006e28;">)</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;"><span style="color: #006e28;">}</span></span>
+<span style="vertical-align: top;">&nbsp;</span></pre>
+</div>
+</div>
+</div>
+	<img id="ch" src="cham.png" width="100%">
+	<p>Để vẽ một đoạn thẳng từ điểm này đến điểm khác, hãy sử dụng phương thức drawLine (), được truyền tọa độ của các điểm QPointF bắt đầu (x1, y1) và kết thúc (x2, y2).</p>
+	<div class="rj_insertcode">
+<div class="rj_insertcode_cpp-qt" style="overflow: auto; width: 95%; height: auto; border: 1px solid #054b6e; background: #f8f8f8;">
+<div class="cpp-qt" style="border-collapse: collapse; width: 100%;">
+<pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><a href="http://doc.trolltech.com/latest/qpainter.html"><span style="color: #22aadd;">QPainter</span></a> painter<span style="color: #006e28;">(</span><span style="color: #000000; font-weight: bold;">this</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">painter.<span style="color: #2b74c7;">setRenderHint</span><span style="color: #006e28;">(</span><a href="http://doc.trolltech.com/latest/qpainter.html"><span style="color: #22aadd;">QPainter</span></a><span style="color: #006e28;">::</span><span style="color: #2b74c7;">Antialiasing</span><span style="color: #006e28;">,</span> <span style="color: #0057ae;">true</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">painter.<span style="color: #2b74c7;">drawLine</span><span style="color: #006e28;">(</span><a href="http://doc.trolltech.com/latest/qpointf.html"><span style="color: #22aadd;">QPointF</span></a><span style="color: #006e28;">(</span><span style="color: #b08000;">10</span><span style="color: #006e28;">,</span> <span style="color: #b08000;">10</span><span style="color: #006e28;">)</span><span style="color: #006e28;">,</span> <a href="http://doc.trolltech.com/latest/qpointf.html"><span style="color: #22aadd;">QPointF</span></a><span style="color: #006e28;">(</span><span style="color: #b08000;">90</span><span style="color: #006e28;">,</span> <span style="color: #b08000;">90</span><span style="color: #006e28;">)</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;</span></pre>
+</div>
+</div>
+</div>
+	<p>Phương thức drawPolyLine() vẽ một đường thẳng nối các điểm được truyền trong tham số đầu tiên. Tham số thứ hai chỉ định số điểm được kết nối (tức là số phần tử của mảng). Điểm đầu tiên và điểm cuối cùng không kết nối.</p>
+	<div class="rj_insertcode">
+<div class="rj_insertcode_cpp-qt" style="overflow: auto; width: 95%; height: auto; border: 1px solid #054b6e; background: #f8f8f8;">
+<div class="cpp-qt" style="border-collapse: collapse; width: 100%;">
+<pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><a href="http://doc.trolltech.com/latest/qpainter.html"><span style="color: #22aadd;">QPainter</span></a> painter<span style="color: #006e28;">(</span><span style="color: #000000; font-weight: bold;">this</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">painter.<span style="color: #2b74c7;">setRenderHint</span><span style="color: #006e28;">(</span><a href="http://doc.trolltech.com/latest/qpainter.html"><span style="color: #22aadd;">QPainter</span></a><span style="color: #006e28;">::</span><span style="color: #2b74c7;">Antialiasing</span><span style="color: #006e28;">,</span> <span style="color: #0057ae;">true</span><span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;</span>
+<span style="vertical-align: top;"><span style="color: #0057ae;">int</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;n <span style="color: #006e28;">=</span> <span style="color: #b08000;">8</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;"><a href="http://doc.trolltech.com/latest/qpointf.html"><span style="color: #22aadd;">QPointF</span></a>&nbsp;&nbsp;a<span style="color: #006e28;">[</span>n<span style="color: #006e28;">]</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;"><span style="color: #000000; font-weight: bold;">for</span> <span style="color: #006e28;">(</span><span style="color: #0057ae;">int</span> i <span style="color: #006e28;">=</span> <span style="color: #b08000;">0</span><span style="color: #006e28;">;</span> i <span style="color: #006e28;">&lt;</span> n<span style="color: #006e28;">;</span> <span style="color: #006e28;">++</span>i<span style="color: #006e28;">)</span> <span style="color: #006e28;">{</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qreal fAngle <span style="color: #006e28;">=</span> <span style="color: #b08000;">2</span> <span style="color: #006e28;">*</span> <span style="color: #800080;">3.14</span> <span style="color: #006e28;">*</span> i <span style="color: #006e28;">/</span> n<span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qreal x&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006e28;">=</span> <span style="color: #b08000;">50</span> <span style="color: #006e28;">+</span> <span style="color: #2b74c7;">cos</span><span style="color: #006e28;">(</span>fAngle<span style="color: #006e28;">)</span> <span style="color: #006e28;">*</span> <span style="color: #b08000;">40</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;qreal y&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color: #006e28;">=</span> <span style="color: #b08000;">50</span> <span style="color: #006e28;">+</span> <span style="color: #2b74c7;">sin</span><span style="color: #006e28;">(</span>fAngle<span style="color: #006e28;">)</span> <span style="color: #006e28;">*</span> <span style="color: #b08000;">40</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a<span style="color: #006e28;">[</span>i<span style="color: #006e28;">]</span> <span style="color: #006e28;">=</span> <a href="http://doc.trolltech.com/latest/qpointf.html"><span style="color: #22aadd;">QPointF</span></a><span style="color: #006e28;">(</span>x<span style="color: #006e28;">,</span> y<span style="color: #006e28;">)</span><span style="color: #006e28;">;</span> </span>
+<span style="vertical-align: top;"><span style="color: #006e28;">}</span> </span>
+<span style="vertical-align: top;">painter.<span style="color: #2b74c7;">drawPolyline</span><span style="color: #006e28;">(</span>a<span style="color: #006e28;">,</span> n<span style="color: #006e28;">)</span><span style="color: #006e28;">;</span>&nbsp;&nbsp;</span></pre>
+</div>
+</div>
+</div>
+	<p>Bài tập: Hãy vẽ là cờ Việt Nam như sau:</p>
+	<img id="fl" src="flag.png" width="100%">
+	<h2>Hướng dẫn:</h2>
+	<img id="hu" src="huongdan.png" width="100%">
+	<hr>
+	<a href="../homelibraries.html">Back Home</a>
+</body>
+</html>
