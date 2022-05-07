@@ -1,50 +1,82 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang ="en">
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title> Libraries Qt </title>
-	<style type="text/css">
-		.grid-container {
-			display: grid;
-			grid-template-columns: auto auto auto;
-			background-color: powderblue;
-			padding: 10px;
-			column-gap: 5px;
-			grid-row-gap: 5px;
-		}
-		.grid-item {
-			background-color: rgba(255, 255, 255, 0.8);
-			border: 2px solid rgba(0, 0, 0, 0.8);
-			padding: 90px 10px;
-			font-size: 20px;
-			text-align: center;
-			color: green;
-		}
-		@media (max-width: 800px){
-			.grid-container,.grid-item{
-				background-color: powderblue;				
-			}
-		}
-	</style>
+	<meta name="description" content="My resume website">
+	<meta name="author" content="Phan Quang Dan">
+	<meta name="country" content="Viet Nam">
+	<title>Home Page</title>
+	<link rel="stylesheet" type="text/css" href="css/css_10.css">
+	<script type="text/javascript" src="script/script_pro.js"></script>
+	
 </head>
+
 <body>
-	<a id="homepage" href="../index.html">&#127984 Home Page</a>
-	<hr>
-	<h1 style="color:green;">Các lớp và thành phần cốt lõi của Qt</h1>
-	<div class="grid-container">
-		<div class="grid-item"><a href="qstring/qstring.html"><strong>&#128293Thư viện QString&#128293</strong></strong></a></div>
-		<div class="grid-item"><a href="qstringlist/qstringlist.html"><strong>&#128293Thư Viên QStringList&#128293</strong></a></div>
-		<div class="grid-item"><a href="qfile/qfile.html"><strong>&#128293 Thư Viện QFile và Bổ sung &#128293</strong></a></div>
-		<div class="grid-item"><a href="qtime/qtime.html"><strong>&#128293 Thư Viện QTime &#128293</strong></a></div>
-		<div class="grid-item"><a href="dialogbox/dialogbox.html"><strong>&#128293 Hộp thoại hệ thống &#128293</strong></a></div>
-		<div class="grid-item"><a href="listwidget/listwidget.html"><strong>&#128293 Thành phần listWidget &#128293</strong></a></div>
-		<div class="grid-item"><a href="plaintext/plaintext.html"><strong>&#128293 Thành phần listWidget &#128293</strong></a></div>
-		<div class="grid-item"><a href="combobox/combobox.html"><strong>&#128293 Thành phần ComboBox &#128293</strong></a></div>
-		<div class="grid-item"><a href="dll/dll.html"><strong>&#128293 Dynamic Link Library &#128293</strong></a></div>
-		<div class="grid-item"><a href="graphic/graphics.html"><strong>&#128293 Biểu đồ Qt &#128293</strong></a></div>
-		<div class="grid-item"><a href="qpainter/qpainter.html"><strong>&#128293 Lớp QPainter &#128293</strong></a></div>
-		<div class="grid-item">&#128293Đang Updates&#128293</div>
+	<h1 id="menu_text"><strong>WELLCOME!!!<br>#Blog Quang Dan</strong></h1><hr>
+	<nav>
+		<a href="webgame/canvas.html" class="menu_left">&#128073 Game &#128293</a>
+		<a href="#contact" class="menu_left">&#128073 Contact &#128293</a>
+		<a href="#education" class="menu_left">&#128073 Blog &#128293</a>
+		<a href="basiclibraries/homelibraries.html" class="menu_left">&#128073 Basic Libraries in Qt &#128293</a>
+		<a href="programc++inqt/homeprogram.html" class="menu_left">&#128073 Basic application in Qt &#128293</a>
+		<a href="structureandalgorithms/structure.html" class="menu_left">&#128073 Data Structure and Algorithms &#128293</a>
+		<a href="quiz/quiz_1/quiz_1.html" class="menu_left">&#128073 C++ Quiz &#128293</a>
+		<a href="#media" class="menu_right">&#128073 Social Media &#128293</a>
+	</nav>
+	<div id="flex_container">
+		<div id="left_side">
+			<img id="myImage" src="images/dan.png" width="380" height="600" alt="My Phan Quang Dan" title="Phan Quang Dan hight school">
+			<p>
+				<button type="button" onclick="light(1)">&#128373 On</button>
+				<button type="button" onclick="light(0)">&#128378 Off</button>
+			</p>
+			<h2 id="contact"><strong>&#128073 Contact information</strong></h2>
+			<p><em>I am working in the information technology field.</em></p>
+			<ul>
+				<li><strong>Fullname: </strong> Phan Quang Dần &#129409</li>
+				<li><strong>BirthDay: </strong> 20/01/1999 &#127874</li>
+				<li><strong>Country: </strong> Việt Nam &#127759</li>
+			</ul>
+			<h2 id="education"><strong>&#128073	Blog</strong></h2>
+			<a href=""><img src="kiniem.JPG" alt="post_ki_niem_img" id="kiniem" width="360" height="300">
+				<h2 class="post-title">
+					<a href="">
+						 Kỉ Niệm
+					</a>
+					<span class="post-date" style="float:right;">26 Jul 2018</span>
+				</h2>
+				Những chuyến đi đáng nhớ.
+			</a>
+			<h2 id="media">&#128073 Social Media</h2>
+			<a href="https://www.youtube.com/channel/UCO55lOG12pQ1GF1WQaNkD8A" target = "_blank" title="Go to chanel Phan Quang Dan" style="color: red;">&#128293 Youtube Me &#128293</a><br>
+			<a href="https://www.facebook.com/dan.phan.16940/" target="_blank" style="color: green;">&#128293 Facebook Me &#128293</a>	
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/tgbNymZ7vqY?autoplay=1&mute=1">
+	</iframe>
+		</div>
+		<div id="right_side">
+			<h1><strong style="color:white;">1.Introduce</strong></h1>
+				<p style="color: white;"><em>Chào các bạn, mình là <span style="color:yellowgreen;font-weight: bold;">Phan Quang Dần</span>, tác giả của blog.Mình tạo nên blog này để chia sẻ những kiến thức lập trình mình đã học được ,tích lũy trong những năm tháng rèn luyện.Nội dung #Blog là những ứng dụng mình viết bằng ngôn ngữ C++ trong quá trình mình học tại học viện.<br>
+				<strong style="color: blue;font-weight: bold;">Về bản thân mình</strong><b><br>
+				Mình hiện tại đang là sinh viên năm 3 ngành an toàn thông tin của học viện FSO(Liên Bang Nga).</em></p><br><hr>
+				<img id="c95" src="images/duhoc.jpg" alt="5 anh em siêu nhân sang Nga" usemap="#workmap" width="100%" title="5 anh em siêu nhân sang Nga">
+				<p>
+					<button type="button" onclick="insertimage(1)">Light On</button>
+					<button type="button" onclick="insertimage(0)">Light Off</button>
+				</p>
+				<map name="workmap">
+					<area shape="rect" coords="148,291,260,417" alt="Hoàng Công Tuyên " href="https://www.facebook.com/tuyn.hoang.58" title="Hoàng Công Tuyên click here !!!">
+					<area shape="rect" coords="408,312,511,436" alt="Lê Minh Tú" href="https://www.facebook.com/tuminh99" title="Lê Minh Tú click here !!!">
+					<area shape="rect" coords="590,288,694,417" alt="Phan Quang Dần" href="https://www.facebook.com/dan.phan.16940" title="Phan Quang Dần Chủ Trang Blog">
+					<area shape="rect" coords="773,304,878,439" alt="Nguyễn Việt Hòa" href="https://www.facebook.com/viethoa.nguyen.1369" title="Nguyễn Việt Hòa click here !!!">
+					<area shape="rect" coords="1022,336,1135,465" alt="Phạm Thế Long" href="https://www.facebook.com/long.the.16940" title="Phạm Thế Long click here !!!">
+				</map>	
+				<p style="color:white;font-weight: bold;">&#9992 Ngày đi học:19/08/2018</p>
+				<button type="button" onclick="document.getElementById('time').innerHTML = Date()">&#128338 Click me to display Date and Time.</button>
+				<p id="time" style="color:white;"></p>   
+		</div>
 	</div>
+	<footer>&#128293 Created by Phan Quang Dan- <a href="mailto:phanquangdan012099@gmail.com"> &#128236 Email me &#9993 &#128293</a></footer>
 </body>
 </html>
