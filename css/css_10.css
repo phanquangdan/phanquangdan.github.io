@@ -2,7 +2,7 @@
 	background-color: powderblue;
 	font-weight: bold;
 	text-align: center;
-	padding: 60px;
+	padding: 65px;
 	margin: 0px;
 }
 
@@ -42,7 +42,7 @@ nav a:hover {
 
 #left_side{
 	flex: 20%;
-	padding: 10px 20px;
+	padding: 10px 7px;
 	background-color:grey;
 }
 
