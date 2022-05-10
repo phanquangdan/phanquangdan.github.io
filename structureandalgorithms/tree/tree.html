@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tree</title>
+	<link rel="stylesheet" type="text/css" href="tree.css">
+</head>
+<body>
+	<h1>1.Câu trúc dữ liệu phân cấp.Các loại và mục đích của cây.</h1>
+	<img class="tre" src="tree.png" width="500px">
+	<p>Dưới đây là một số khái niệm quan trọng liên quan tới cây:</p>
+	<ul>
+		<li><strong style="color:green;">Cây</strong> là một cấu trúc dữ liệu gồm các nút(Node) và các cạnh có hướng kết nối chúng lại với nhau và mỗi cung dẫn đến một nút (ngoại trừ gốc).</li>
+		<li><strong>Gốc</strong> là nút đầu tiên của cây.</li>
+		<li><strong style="color:green">Lá</strong> là một nút mà ở đó không có bất kỳ nút con nào.</li>
+		<li><strong>Bậc:</strong>của một nút biểu diễn số con của một nút. Nếu nút gốc có bậc là 0, thì nút con tiếp theo sẽ có bậc là 1, và nút cháu của nó sẽ có bậc là 2, …</li>
+	</ul>
+	<h1>2.Khái niệm đệ quy.Cây giống như một cấu trúc dữ liệu đệ quy.</h1>
+	<p style="color: green;">Cây là một cấu trúc dữ liệu đệ quy.</p>
+	<p>Cấu trúc của một nút:</p>
+	<pre>
+  struct Node {
+  int  data; // data
+  Node* parent; // cha
+  list<Node*> children; // danh sách con
+  };
+	</pre>
+	<h2>Cây nhị phân</h2>
+	<p><strong style="color:green">Cây nhị phân</strong> (binary) là cây mà mỗi nút có nhiều nhất hai nút con.</p>
+	<p>Ứng dụng cây nhị phân.</p>
+	<ul>
+		<li>Tìm kiếm dữ liệu trong các cây được xây dựng đặc biệt.</li>
+		<li>Sắp xếp dữ liệu.</li>
+		<li>Tính các biểu thức số học.</li>
+		<li>Mã hóa.</li>
+	</ul>
+	<p>Khai báo một node trong của cây.</p>
+	<pre>
+struct Node {
+  int  data;   
+  Node *left, *right;
+  };
+	</pre>
+	<p><strong>Khóa</strong> là đặc điểm của nút mà tìm kiếm được thực hiện.</p>
+	<img class="tre" src="binary.png" width="500px">
+	<p>Ở bên trái của mỗi nút là các nút có khóa nhỏ hơn và bên phải là các nút có khóa lớn hơn.</p>
+	<p><strong>Cách tìm kiếm khóa bằng x:</strong></p>
+	<ol>
+		<li>Nếu cây rỗng, khóa không được tìm thấy.</li>
+		<li>Nếu khóa của nút là x thì dừng lại.</li>
+		<li>Nếu khóa của nút lớn hơn x, thì hãy tìm x trong cây con bên trái.</li>
+		<li>Nếu khóa của nút bé hơn x, thì hãy tìm x trong cây con bên phải.</li>
+	</ol>
+	<h3>Tìm kiếm trong cây nhị phân.</h3>
+	<h4>Tìm kiếm trong mảng (N phần tử):</h4>
+	<img class="tre" src="array.png">
+	<p>Mỗi lần so sánh loại bỏ 1 phần tử => số lần so sánh = N lần.</p>
+	<h4>Tìm kiếm trong cây nhị phân (N phần tử):</h4>
+	<img class="tre" src="binary.png">
+	<p>Mỗi lần so sánh loại bỏ một nửa số phần tử => số lần so sánh ~ log2N lần.</p>
+	<h4>Ưu điểm của cây nhị phân: rõ ràng sẽ tìm kiếm nhanh hơn.</h4>
+	<h4>Nhược điểm:</h4>
+	<ul>
+		<li>Bạn cần phải xây dựng một cái cây trước.</li>
+		<li>Bạn phải làm sao cho cây nhị phân đó phải có chiều cao tối thiểu.Vì một số trường hợp sẽ làm cho cây sẽ trở thành giống như một danh sách sách liên kết đơn. Ví dụ như khi bạn nhập một dãy tăng dần. Để tránh tình trạng này thì chúng ta sẽ phải chuyển thanh cây AVL.Cây AVL là cây là cây độ cao của các cây con bên trái và cây con bên phải đảm bảo rằng hiệu số giữa chúng không lớn hơn 1.</li>
+	</ul>
+	<h2>Khái niệm về đề quy.</h2>
+	<p>Một hàm đệ quy là một hàm mà phần thân của nó chứa một lệnh gọi đến chính nó.</p>
+	<p><strong>Điều kiện khả thi của đệ quy:</strong></p>
+	<ul>
+		<li>Bài toán ban đầu có thể chia thành các nhiệm vụ con đơn giản hơn có kích thước nhỏ hơn.</li>
+		<li>Mỗi nhiệm vụ con có cấu trúc(thuật toán giải) tương thự như cấu trúc của bài toán ban đầu.</li>
+		<li>Toàn bộ tập hợp các nhiệm vụ phải chứa ít nhất một giải pháp cơ sở.</li>
+	</ul>
+	<p><strong>Giải pháp cơ sở:</strong> là một giải pháp được tính toán rõ ràng, và không thông qua việc phân thành các nhiệm vụ con.</p>
+	<p><strong>Bước đệ quy:</strong> là một lời gọi hàm đệ quy cho một nhiệm vụ nhỏ hơn.</p>
+	<hr>
+	<a href="../structure.html">Back Page</a>
+</body>
+</html>
+
+	
+	
