@@ -1,0 +1,1154 @@
+24.09.2018 03:14:20 192.168.1.187 svchost.exe DEBUG PEERDIST_ERROR_ALREADY_EXISTS	An element already exists and was not replaced.
+25.02.2019 11:02:24 192.168.5.189 explorer.exe INFO ERROR_CLUSTER_NETWORK_EXISTS	The cluster network already exists.
+16.11.2018 18:14:25 192.168.3.185 csrss.exe TRACE PEERDIST_ERROR_ALREADY_INITIALIZED	The supplied object has already been initialized.
+08.11.2018 02:10:23 192.168.2.183 lsm.exe DEBUG ERROR_DEPENDENT_RESOURCE_EXISTS	The operation cannot be completed because other resources are dependent on this resource.
+12.09.2018 09:05:36 192.168.9.180 ICCProxy.exe ERROR ERROR_CLUSTER_PARTIAL_SEND	A network error occurred while sending data to another node in the cluster. The number of bytes transmitted was less than required.
+10.10.2018 12:26:42 192.168.9.180 conhost.exe INFO ERROR_CLUSTER_OBJECT_ALREADY_USED	An attempt to use the specified cluster name failed because an enabled computer object with the given name already exists in the domain.
+23.11.2018 08:57:06 192.168.2.184 GoogleUpdate.exe ERROR ERROR_RESMON_INVALID_STATE	The resource monitor will not allow the fail operation to be performed while the resource is in its current state. This may happen if the resource is in a pending state.
+27.09.2018 00:05:32 192.168.1.181 usp02pi.exe INFO ERROR_NO_MORE_SEARCH_HANDLES	No more internal file identifiers available.
+26.09.2018 22:21:05 192.168.5.184 igfxpers.exe ERROR ERROR_EA_LIST_INCONSISTENT	The extended attributes are inconsistent.
+07.10.2018 02:09:44 192.168.8.182 svchost.exe INFO ERROR_CLUSTER_SHARED_VOLUMES_IN_USE	There is one or more shared volumes resources configured in the cluster. Those resources must be moved to available storage in order for operation to succeed.
+30.09.2018 00:26:37 192.168.6.188 svchost.exe WARNING ERROR_WRITE_FAULT	The system cannot write to the specified device.
+30.09.2018 14:26:38 192.168.10.182 ICCProxy.exe INFO ERROR_CLUSTER_INVALID_SECURITY_DESCRIPTOR	The Security Descriptor does not meet the requirements for a cluster.
+20.11.2018 05:43:20 192.168.5.180 VCDDaemon.exe INFO ERROR_SIGNAL_PENDING	A signal is already pending.
+19.01.2019 07:14:54 192.168.3.187 svchost.exe ALARM ERROR_REC_NON_EXISTENT	The name does not exist in the WINS database.
+12.12.2018 16:17:50 192.168.10.182 chrome.exe INFO ERROR_RESOURCE_DISABLED	A resource required for this operation is disabled.
+22.01.2019 05:35:24 192.168.4.181 VCDDaemon.exe WARNING ERROR_APP_DATA_NOT_FOUND	Fast Cache data not found.
+30.12.2018 05:12:49 192.168.8.186 cmd.exe INFO ERROR_CLUSTER_INVALID_NODE_WEIGHT	The request is invalid either because node weight cannot be changed while the cluster is in disk-only quorum mode, or because changing the node weight would violate the minimum cluster quorum requirements.
+12.02.2019 15:06:24 192.168.9.184 tasklist.exe INFO ERROR_UNABLE_TO_EJECT_MOUNTED_MEDIA	Unable to eject the medium because it is in a drive.
+15.10.2018 10:32:39 192.168.2.189 csrss.exe INFO ERROR_RESOURCE_NOT_ONLINE	The cluster resource is not online.
+05.12.2018 04:36:50 192.168.10.186 audiodg.exe ALARM ERROR_DEPENDENCY_TREE_TOO_COMPLEX	The dependencies for this resource are nested too deeply.
+01.11.2018 02:31:57 192.168.6.183 igfxtray.exe INFO ERROR_CLUSTER_GROUP_BUSY	The current operation cannot be performed on this group at this time.
+24.09.2018 17:17:09 192.168.9.187 netbeans64.exe ALARM ERROR_INVALID_PARAMETER	The parameter is incorrect.
+14.01.2019 14:30:51 192.168.7.189 svchost.exe ERROR ERROR_SECURITY_STREAM_IS_INCONSISTENT	The security stream for the given volume is in an inconsistent state. Please run CHKDSK on the volume.
+31.01.2019 22:25:29 192.168.10.186 audiodg.exe INFO ERROR_INVALID_DRIVE	The system cannot find the drive specified.
+20.11.2018 00:29:04 192.168.5.180 lsm.exe INFO ERROR_CLUSTER_JOIN_ABORTED	The cluster join operation was aborted.
+12.09.2018 16:15:43 192.168.6.184 SearchIndexer.exe INFO ERROR_IEPORT_FULL	Cannot use the inject/eject port because it is not empty.
+06.11.2018 22:36:07 192.168.2.185 lsass.exe TRACE ERROR_EXE_MACHINE_TYPE_MISMATCH	This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+16.10.2018 10:20:37 192.168.8.180 svchost.exe TRACE ERROR_CLUSTER_INVALID_NODE	The cluster node is not valid.
+19.12.2018 03:15:48 192.168.9.187 svchost.exe WARNING ERROR_CLUSTER_SHUTTING_DOWN	The cluster software is shutting down.
+15.10.2018 00:38:55 192.168.0.182 svchost.exe INFO ERROR_WMI_SET_FAILURE	The WMI data item or data block could not be changed.
+17.09.2018 14:07:39 192.168.2.181 igfxpers.exe WARNING ERROR_INVALID_EXE_SIGNATURE	Cannot run %1 in Win32 mode.
+29.09.2018 17:04:21 192.168.10.185 VirtualBox.exe INFO PEERDIST_ERROR_SERVICE_UNAVAILABLE	PeerDist Service is still initializing and will be available shortly.
+27.02.2019 14:59:09 192.168.3.182 csrss.exe WARNING ERROR_SIGNAL_REFUSED	The recipient process has refused the signal.
+24.01.2019 07:10:24 192.168.1.180 Greenshot.exe INFO ERROR_MESSAGE_EXCEEDS_MAX_SIZE	The message provided exceeds the maximum size allowed for this parameter.
+17.10.2018 17:17:12 192.168.6.186 igfxpers.exe CRITICAL ERROR_CLUSTER_NETINTERFACE_NOT_FOUND	The cluster network interface was not found.
+13.09.2018 07:11:25 192.168.10.189 svchost.exe WARNING ERROR_INVALID_OPERATION	The operation identifier is not valid.
+05.12.2018 13:45:06 192.168.7.185 csrss.exe INFO ERROR_SECUREBOOT_POLICY_PUBLISHER_NOT_FOUND	A new Secure Boot policy did not contain the current publisher on its update list.
+11.12.2018 10:42:13 192.168.3.180 chrome.exe INFO ERROR_UNABLE_TO_CLEAN	The drive cannot be cleaned or does not support cleaning.
+12.09.2018 23:47:41 192.168.1.187 lsm.exe ERROR ERROR_REQ_NOT_ACCEP	No more connections can be made to this remote computer at this time because there are already as many connections as the computer can accept.
+15.01.2019 22:57:06 192.168.10.187 svchost.exe INFO ERROR_UNABLE_TO_INVENTORY_TRANSPORT	Unable to retrieve status about the transport.
+02.10.2018 10:05:30 192.168.5.185 winlogon.exe ALARM ERROR_NOT_SUPPORTED	The request is not supported.
+14.01.2019 12:11:58 192.168.3.187 svchost.exe INFO ERROR_CRC	Data error (cyclic redundancy check).
+27.02.2019 19:51:17 192.168.9.183 System ERROR ERROR_OBJECT_IN_LIST	The object is already in the list.
+18.12.2018 02:02:42 192.168.8.188 SecUPDUtilSvc.exe DEBUG ERROR_WMI_ALREADY_DISABLED	The WMI data block or event notification has already been disabled.
+22.11.2018 06:17:09 192.168.7.184 svchost.exe INFO ERROR_CLUSTER_RESOURCES_MUST_BE_ONLINE_ON_THE_SAME_NODE	The resources must be online on the same node for this operation.
+23.01.2019 11:17:35 192.168.2.184 GoogleUpdate.exe INFO ERROR_SIGNAL_REFUSED	The recipient process has refused the signal.
+22.11.2018 12:43:09 192.168.1.185 svchost.exe WARNING ERROR_CLUSTER_OLD_VERSION	One or more nodes in the cluster are running a version of Windows that does not support this operation.
+12.10.2018 02:28:08 192.168.5.187 ICCProxy.exe WARNING ERROR_WMI_INSTANCE_NOT_FOUND	The instance name passed was not recognized as valid by a WMI data provider.
+23.10.2018 23:42:28 192.168.0.183 winlogon.exe INFO ERROR_NOT_LOCKED	The segment is already unlocked.
+05.01.2019 15:59:25 192.168.9.189 svchost.exe INFO ERROR_INVALID_FUNCTION	Incorrect function.
+24.09.2018 05:59:49 192.168.9.182 ICCProxy.exe INFO ERROR_APP_DATA_CORRUPT	Fast Cache data corrupt.
+31.01.2019 01:58:35 192.168.7.188 svchost.exe CRITICAL ERROR_DYNLINK_FROM_INVALID_RING	The operating system cannot run this application program.
+19.10.2018 22:06:22 192.168.1.187 wininit.exe ERROR ERROR_BAD_THREADID_ADDR	The address for the thread ID is not correct.
+16.12.2018 04:37:34 192.168.10.183 chrome.exe INFO ERROR_QUORUM_OWNER_ALIVE	The cluster node failed to take control of the quorum resource because the resource is owned by another active node.
+28.09.2018 16:08:09 192.168.9.186 csrss.exe INFO ERROR_RESOURCE_NOT_ONLINE	The cluster resource is not online.
+16.09.2018 02:25:12 192.168.1.185 SecUPDUtilSvc.exe ERROR ERROR_CLUSTER_NODE_NOT_PAUSED	The cluster node is not paused.
+28.02.2019 14:11:39 192.168.6.184 chrome.exe TRACE ERROR_EAS_NOT_SUPPORTED	The mounted file system does not support extended attributes.
+19.09.2018 23:26:21 192.168.2.184 chrome.exe INFO ERROR_INSUFFICIENT_BUFFER	The data area passed to a system call is too small.
+21.09.2018 16:01:31 192.168.9.181 dwm.exe ALARM ERROR_RING2SEG_MUST_BE_MOVABLE	The code segment cannot be greater than or equal to 64K.
+06.10.2018 23:11:44 192.168.10.181 chrome.exe INFO ERROR_INVALID_TARGET_HANDLE	The target internal file identifier is incorrect.
+04.12.2018 15:24:12 192.168.1.183 csrss.exe INFO ERROR_SHARING_BUFFER_EXCEEDED	Too many files opened for sharing.
+06.02.2019 15:06:16 192.168.4.186 GoogleUpdate.exe INFO ERROR_INDIGENOUS_TYPE	The media type cannot be removed from this library since at least one drive in the library reports it can support this media type.
+14.01.2019 18:16:20 192.168.4.188 svchost.exe INFO ERROR_PROC_NOT_FOUND	The specified procedure could not be found.
+14.11.2018 08:08:42 192.168.3.180 dopus.exe ALARM ERROR_CLUSCFG_ALREADY_COMMITTED	The cluster configuration action has already been committed.
+05.02.2019 19:04:51 192.168.10.188 System CRITICAL ERROR_CLUSTER_PROPERTY_DATA_TYPE_MISMATCH	The actual data type of the property did not match the expected data type of the property.
+02.10.2018 19:43:21 192.168.3.189 hkcmd.exe INFO ERROR_TOO_MANY_DESCRIPTORS	The command specified a number of descriptors that exceeded the maximum supported by the device.
+11.12.2018 13:13:24 192.168.3.188 svchost.exe ERROR ERROR_NO_MORE_SEARCH_HANDLES	No more internal file identifiers available.
+02.02.2019 13:11:13 192.168.4.185 VirtualBox.exe ERROR ERROR_CLUSTER_NODE_NOT_FOUND	The cluster node was not found.
+13.02.2019 22:54:24 192.168.0.181 tasklist.exe WARNING ERROR_CLUSTER_NULL_DATA	An internal cluster error occurred. Data was not properly initialized.
+06.02.2019 18:08:43 192.168.5.189 VirtualBox.exe WARNING ERROR_CORE_RESOURCE	The cluster resource could not be deleted since it is a core resource.
+15.12.2018 07:55:22 192.168.7.180 dopus.exe INFO PEERDIST_ERROR_OUT_OF_BOUNDS	An operation accessed data beyond the bounds of valid data.
+03.09.2018 01:07:27 192.168.8.188 chrome.exe TRACE PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED	The version of the supplied content information is not supported.
+13.09.2018 03:57:15 192.168.9.189 ICCProxy.exe WARNING ERROR_EMPTY	The library, drive, or media pool is empty.
+06.11.2018 13:17:30 192.168.5.186 igfxtray.exe WARNING ERROR_EXE_MARKED_INVALID	The operating system cannot run %1.
+13.11.2018 06:12:46 192.168.3.187 svchost.exe INFO ERROR_NESTING_NOT_ALLOWED	Cannot nest calls to LoadModule.
+10.09.2018 16:13:43 192.168.7.180 lsm.exe INFO ERROR_DIR_NOT_ROOT	The directory is not a subdirectory of the root directory.
+27.12.2018 01:26:36 192.168.2.189 explorer.exe INFO ERROR_CLUSTER_TOO_MANY_NODES	This cluster can not be created since the specified number of nodes exceeds the maximum allowed limit.
+19.02.2019 00:00:28 192.168.2.187 chrome.exe ALARM ERROR_FORMS_AUTH_REQUIRED	Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.
+17.11.2018 10:13:55 192.168.1.188 wininit.exe ERROR ERROR_INVALID_MINALLOCSIZE	The operating system cannot run %1.
+03.11.2018 21:14:21 192.168.0.186 winlogon.exe INFO ERROR_CANT_EVICT_ACTIVE_NODE	A cluster node cannot be evicted from the cluster unless the node is down or it is the last node.
+25.11.2018 11:47:37 192.168.4.183 hkcmd.exe WARNING ERROR_DRIVE_MEDIA_MISMATCH	The drive and medium are not compatible or exist in different libraries.
+08.01.2019 00:23:25 192.168.2.187 VBoxSVC.exe ERROR ERROR_CLUSTER_PARTIAL_WRITE	An error occurred while writing to a stream of data. The required number of bytes could not be written.
+24.12.2018 11:47:26 192.168.6.181 SearchIndexer.exe WARNING ERROR_CLUSTER_PARTIAL_READ	An error occurred while reading from a stream of data. An unexpected number of bytes was returned.
+14.01.2019 05:40:09 192.168.9.180 dopusrt.exe TRACE ERROR_QUORUM_RESOURCE_ONLINE_FAILED	The quorum resource failed to come online.
+02.02.2019 06:27:51 192.168.3.187 hkcmd.exe WARNING ERROR_SEM_TIMEOUT	The semaphore timeout period has expired.
+06.10.2018 16:59:44 192.168.10.186 dopusrt.exe INFO ERROR_BAD_DRIVER_LEVEL	The system does not support the command requested.
+21.09.2018 03:30:39 192.168.1.183 chrome.exe CRITICAL ERROR_SECTOR_NOT_FOUND	The drive cannot find the sector requested.
+28.01.2019 02:47:42 192.168.5.186 conhost.exe CRITICAL ERROR_TOO_MANY_SEM_REQUESTS	The semaphore cannot be set again.
+04.02.2019 16:15:44 192.168.6.180 conhost.exe INFO ERROR_INVALID_HANDLE	The handle is invalid.
+04.01.2019 03:35:50 192.168.0.183 igfxtray.exe WARNING ERROR_CLUSTER_NETWORK_ALREADY_ONLINE	The cluster network is already online.
+30.12.2018 03:51:24 192.168.8.187 svchost.exe INFO ERROR_NEGATIVE_SEEK	An attempt was made to move the file pointer before the beginning of the file.
+18.11.2018 22:14:33 192.168.4.183 chrome.exe INFO ERROR_PROC_NOT_FOUND	The specified procedure could not be found.
+05.02.2019 18:58:38 192.168.1.186 Greenshot.exe INFO ERROR_WMI_GUID_DISCONNECTED	The WMI data block is no longer available.
+02.01.2019 15:15:51 192.168.10.181 VirtualBox.exe CRITICAL ERROR_MORE_DATA	More data is available.
+12.01.2019 08:39:21 192.168.6.183 wininit.exe INFO ERROR_CLUSTER_INVALID_IPV6_TUNNEL_NETWORK	The cluster network is not valid for an IPv6 Tunnel resource. Check the configuration of the IP Address resource on which the IPv6 Tunnel resource depends.
+06.02.2019 22:07:54 192.168.7.186 wmpnetwk.exe TRACE ERROR_CLUSTER_RESOURCES_MUST_BE_ONLINE_ON_THE_SAME_NODE	The resources must be online on the same node for this operation.
+27.01.2019 20:39:17 192.168.4.183 svchost.exe INFO ERROR_CANT_DELETE_LAST_ITEM	The last remaining item in this group or resource cannot be deleted.
+03.11.2018 19:22:35 192.168.1.187 System ERROR ERROR_CLUSTER_NODE_ALREADY_DOWN	The cluster node is already down.
+08.12.2018 07:00:30 192.168.3.187 VirtualBox.exe INFO ERROR_TRANSPORT_FULL	Cannot use the transport because it is already in use.
+11.09.2018 16:03:06 192.168.8.181 dwm.exe CRITICAL ERROR_NOT_LOCKED	The segment is already unlocked.
+09.11.2018 18:46:30 192.168.8.189 csrss.exe INFO ERROR_CLUSTER_RESOURCE_PROVIDER_FAILED	The resource failed to come online due to the failure of one or more provider resources.
+27.02.2019 18:00:12 192.168.2.183 SecUPDUtilSvc.exe INFO ERROR_INDIGENOUS_TYPE	The media type cannot be removed from this library since at least one drive in the library reports it can support this media type.
+20.02.2019 21:55:02 192.168.7.187 VirtualBox.exe ERROR ERROR_NOT_ALLOWED_ON_SYSTEM_FILE	Operation is not allowed on a file system internal file.
+01.12.2018 10:15:47 192.168.3.187 svchost.exe TRACE ERROR_INVALID_OPERATION_ON_QUORUM	This operation cannot be performed on the cluster resource as it the quorum resource. You may not bring the quorum resource offline or modify its possible owners list.
+02.02.2019 03:29:41 192.168.0.186 smss.exe WARNING PEERDIST_ERROR_NOT_INITIALIZED	The supplied object has not been initialized.
+21.10.2018 13:55:52 192.168.9.182 svchost.exe DEBUG ERROR_VOLUME_CONTAINS_SYS_FILES	The volume contains system or paging files.
+08.10.2018 16:08:10 192.168.10.188 ICCProxy.exe INFO ERROR_JOIN_TO_SUBST	The system tried to join a drive to a directory on a substituted drive.
+12.10.2018 08:43:17 192.168.2.189 WmiPrvSE.exe DEBUG ERROR_SECUREBOOT_INVALID_POLICY	The Secure Boot policy is invalid.
+10.11.2018 06:02:32 192.168.4.189 lsm.exe ERROR ERROR_CLUSTER_INVALID_IPV6_NETWORK	The cluster network is not valid for an IPv6 Address resource, or it does not match the configured address.
+21.02.2019 03:52:13 192.168.5.189 dopus.exe WARNING ERROR_THREAD_MODE_NOT_BACKGROUND	The thread is not in background processing mode.
+14.09.2018 09:54:29 192.168.8.183 svchost.exe INFO ERROR_INVALID_STACKSEG	The operating system cannot run %1.
+20.02.2019 18:03:03 192.168.3.182 chrome.exe CRITICAL ERROR_NOT_READ_FROM_COPY	The specified copy of the requested data could not be read.
+01.09.2018 04:52:40 192.168.1.186 cmd.exe INFO ERROR_LIBRARY_OFFLINE	The operation cannot be performed on an offline library.
+19.12.2018 19:44:56 192.168.5.189 dopusrt.exe WARNING ERROR_VOLUME_CONTAINS_SYS_FILES	The volume contains system or paging files.
+27.11.2018 05:08:04 192.168.6.181 dwm.exe INFO ERROR_SECUREBOOT_INVALID_POLICY	The Secure Boot policy is invalid.
+14.02.2019 05:49:34 192.168.2.184 svchost.exe WARNING ERROR_NOT_APPCONTAINER	This operation is only valid in the context of an app container.
+08.12.2018 15:34:26 192.168.5.188 audiodg.exe INFO ERROR_DEPENDENCY_ALREADY_EXISTS	The cluster resource cannot be made dependent on the specified resource because it is already dependent.
+07.10.2018 15:27:28 192.168.3.187 chrome.exe INFO ERROR_CLUSTER_INSTANCE_ID_MISMATCH	The join operation failed because the cluster instance ID of the joining node does not match the cluster instance ID of the sponsor node.
+18.11.2018 07:46:58 192.168.9.183 SearchIndexer.exe INFO ERROR_CLUSTER_INVALID_IPV6_TUNNEL_NETWORK	The cluster network is not valid for an IPv6 Tunnel resource. Check the configuration of the IP Address resource on which the IPv6 Tunnel resource depends.
+08.09.2018 18:13:24 192.168.9.184 svchost.exe INFO ERROR_MESSAGE_EXCEEDS_MAX_SIZE	The message provided exceeds the maximum size allowed for this parameter.
+31.01.2019 19:52:13 192.168.2.188 SecUPDUtilSvc.exe WARNING ERROR_EAS_NOT_SUPPORTED	The mounted file system does not support extended attributes.
+07.02.2019 11:09:23 192.168.0.188 VirtualBox.exe ALARM ERROR_SEM_OWNER_DIED	The previous ownership of this semaphore has ended.
+11.11.2018 19:00:14 192.168.10.184 svchost.exe CRITICAL ERROR_NOT_A_REPARSE_POINT	The file or directory is not a reparse point.
+10.09.2018 02:59:27 192.168.3.184 GoogleUpdate.exe ERROR ERROR_CLUSTER_GUM_NOT_LOCKER	A non locker code got a request to reserve the lock for making global updates.
+27.10.2018 08:04:36 192.168.8.187 chrome.exe DEBUG ERROR_BAD_FORMAT	An attempt was made to load a program with an incorrect format.
+18.11.2018 06:13:23 192.168.8.182 svchost.exe INFO ERROR_CLUSTERLOG_CHKPOINT_NOT_FOUND	No checkpoint record was found in the cluster log.
+27.12.2018 14:45:02 192.168.10.187 igfxpers.exe ERROR ERROR_OBJECT_NOT_FOUND	The object identifier does not represent a valid object.
+29.12.2018 14:26:03 192.168.0.185 csrss.exe INFO ERROR_INTERMIXED_KERNEL_EA_OPERATION	An attempt was made to modify both a KERNEL and normal Extended Attribute (EA) in the same operation.
+11.01.2019 18:01:08 192.168.3.187 svchost.exe ERROR ERROR_UNDEFINED_SCOPE	The Central Access Policy specified is not defined on the target machine.
+10.09.2018 16:45:41 192.168.0.181 audiodg.exe ALARM ERROR_ADAP_HDW_ERR	A network adapter hardware error occurred.
+21.01.2019 01:01:04 192.168.2.188 csrss.exe WARNING ERROR_CLUSTER_TOO_MANY_NODES	This cluster can not be created since the specified number of nodes exceeds the maximum allowed limit.
+21.01.2019 10:47:18 192.168.1.189 dopus.exe ERROR ERROR_LIBRARY_FULL	Library is full. No slot is available for use.
+30.09.2018 01:10:17 192.168.3.186 VirtualBox.exe INFO ERROR_CLUSTER_NOT_INSTALLED	The Failover Clustering feature is not installed on this node.
+30.09.2018 21:58:42 192.168.1.182 PUTTY.EXE INFO ERROR_CLUSTER_TOO_MANY_NODES	This cluster can not be created since the specified number of nodes exceeds the maximum allowed limit.
+26.10.2018 17:05:05 192.168.4.189 igfxtray.exe INFO ERROR_NODE_NOT_AVAILABLE	A cluster node is not available for this operation.
+11.12.2018 18:53:31 192.168.10.189 SearchIndexer.exe INFO PEERDIST_ERROR_OUT_OF_BOUNDS	An operation accessed data beyond the bounds of valid data.
+05.11.2018 05:00:00 192.168.8.186 svchost.exe INFO ERROR_PIPE_BUSY	All pipe instances are busy.
+08.02.2019 02:13:25 192.168.5.186 dopus.exe INFO ERROR_TOO_MANY_SESS	The network BIOS session limit was exceeded.
+01.12.2018 11:37:15 192.168.4.182 audiodg.exe INFO ERROR_NO_SUPPORTING_DRIVES	This offline media cannot be mounted on this system since no enabled drives are present which can be used.
+06.01.2019 23:11:15 192.168.6.180 VirtualBox.exe INFO ERROR_TOO_MANY_MUXWAITERS	DosMuxSemWait did not execute; too many semaphores are already set.
+14.11.2018 23:14:10 192.168.7.181 SearchIndexer.exe INFO ERROR_IS_SUBSTED	An attempt was made to use a JOIN or SUBST command on a drive that has already been substituted.
+14.02.2019 03:10:03 192.168.4.189 ICCProxy.exe ERROR ERROR_EA_LIST_INCONSISTENT	The extended attributes are inconsistent.
+17.02.2019 09:58:53 192.168.6.188 wmpnetwk.exe INFO ERROR_DISK_CHANGE	The program stopped because an alternate diskette was not inserted.
+11.01.2019 20:39:41 192.168.7.185 System INFO ERROR_CLUSTER_GROUP_MOVING	The group is unable to accept the request since it is moving to another node.
+25.12.2018 23:56:12 192.168.1.185 VirtualBox.exe ALARM ERROR_UNABLE_TO_INVENTORY_TRANSPORT	Unable to retrieve status about the transport.
+15.02.2019 17:32:53 192.168.2.182 lsass.exe WARNING ERROR_BAD_PIPE	The pipe state is invalid.
+29.10.2018 22:57:02 192.168.5.187 svchost.exe INFO PEERDIST_ERROR_NOT_INITIALIZED	The supplied object has not been initialized.
+01.01.2019 02:29:02 192.168.0.180 dopusrt.exe ERROR ERROR_BUSY	The requested resource is in use.
+08.01.2019 00:12:37 192.168.4.189 spoolsv.exe INFO ERROR_INVALID_EA_NAME	The specified extended attribute name was invalid.
+04.10.2018 14:07:30 192.168.0.184 VirtualBox.exe ERROR ERROR_ITERATED_DATA_EXCEEDS_64k	The operating system cannot run %1.
+27.10.2018 16:55:02 192.168.7.184 ICCProxy.exe ALARM ERROR_SHARING_PAUSED	The remote server has been paused or is in the process of being started.
+16.02.2019 07:58:41 192.168.1.186 VirtualBox.exe INFO ERROR_CLUSTER_NETWORK_NOT_FOUND	The cluster network was not found.
+07.10.2018 18:14:49 192.168.1.188 spoolsv.exe ERROR PEERDIST_ERROR_SERVICE_UNAVAILABLE	PeerDist Service is still initializing and will be available shortly.
+10.12.2018 18:04:08 192.168.4.189 igfxtray.exe ERROR ERROR_MORE_DATA	More data is available.
+31.01.2019 12:36:23 192.168.9.184 SecUPDUtilSvc.exe WARNING ERROR_CALL_NOT_IMPLEMENTED	This function is not supported on this system.
+23.12.2018 04:18:09 192.168.9.188 lsass.exe WARNING ERROR_APP_DATA_LIMIT_EXCEEDED	Fast Cache data has exceeded its max size and cannot be updated.
+13.10.2018 17:10:20 192.168.4.187 PUTTY.EXE INFO ERROR_NOT_LOCKED	The segment is already unlocked.
+29.12.2018 11:26:33 192.168.3.183 hkcmd.exe WARNING ERROR_OUT_OF_PAPER	The printer is out of paper.
+02.09.2018 19:46:13 192.168.1.184 cmd.exe ERROR ERROR_INVALID_AT_INTERRUPT_TIME	Cannot request exclusive semaphores at interrupt time.
+24.10.2018 12:06:16 192.168.5.180 VirtualBox.exe CRITICAL ERROR_REQUEST_REFUSED	The operator or administrator has refused the request.
+07.02.2019 22:08:55 192.168.5.184 VirtualBox.exe WARNING ERROR_CLUSTER_GROUP_BUSY	The current operation cannot be performed on this group at this time.
+12.11.2018 12:04:46 192.168.9.183 svchost.exe ERROR ERROR_RPL_NOT_ALLOWED	Replication with a nonconfigured partner is not allowed.
+19.11.2018 21:29:06 192.168.4.188 chrome.exe CRITICAL ERROR_MR_MID_NOT_FOUND	The system cannot find message text for message number 0x%1 in the message file for %2.
+04.02.2019 16:20:22 192.168.9.185 svchost.exe ALARM ERROR_BAD_THREADID_ADDR	The address for the thread ID is not correct.
+24.11.2018 00:50:57 192.168.1.187 igfxtray.exe ALARM ERROR_OBJECT_NOT_FOUND	The object identifier does not represent a valid object.
+16.09.2018 05:16:09 192.168.7.180 dopus.exe INFO ERROR_CANT_DELETE_LAST_ITEM	The last remaining item in this group or resource cannot be deleted.
+07.12.2018 10:14:44 192.168.9.184 chrome.exe INFO ERROR_DRIVE_LOCKED	The disk is in use or locked by another process.
+11.11.2018 06:28:46 192.168.5.185 svchost.exe INFO ERROR_NOT_OWNER	Attempt to release mutex not owned by caller.
+21.12.2018 01:37:57 192.168.1.182 svchost.exe WARNING ERROR_READ_FAULT	The system cannot read from the specified device.
+21.11.2018 08:14:00 192.168.10.181 svchost.exe INFO ERROR_CLUSTER_RESOURCE_VETOED_CALL	The resource vetoed the call.
+19.01.2019 17:14:45 192.168.5.186 chrome.exe INFO ERROR_INVALID_PASSWORD	The specified network password is not correct.
+21.11.2018 06:55:59 192.168.6.189 chrome.exe WARNING ERROR_TOO_MANY_OPEN_FILES	The system cannot open the file.
+09.09.2018 20:06:02 192.168.10.184 dopus.exe INFO ERROR_CLUSTER_NETINTERFACE_NOT_FOUND	The cluster network interface was not found.
+19.02.2019 01:43:46 192.168.8.189 svchost.exe DEBUG ERROR_NO_RANGES_PROCESSED	No ranges for the specified operation were able to be processed.
+16.10.2018 17:59:13 192.168.4.183 taskhost.exe WARNING ERROR_CLUSTER_NETWORK_EXISTS	The cluster network already exists.
+13.11.2018 12:58:44 192.168.3.182 services.exe INFO WAIT_TIMEOUT	The wait operation timed out.
+11.10.2018 17:21:08 192.168.6.189 svchost.exe WARNING PEERDIST_ERROR_VERSION_UNSUPPORTED	The requested version is not supported.
+08.10.2018 02:49:54 192.168.6.184 VirtualBox.exe INFO ERROR_APPCONTAINER_REQUIRED	This application can only run in the context of an app container.
+25.11.2018 04:58:11 192.168.0.182 SearchIndexer.exe INFO ERROR_IS_SUBST_PATH	The path specified is being used in a substitute.
+25.01.2019 20:58:59 192.168.5.186 winlogon.exe TRACE ERROR_WAIT_NO_CHILDREN	There are no child processes to wait for.
+16.02.2019 06:46:12 192.168.3.185 svchost.exe INFO ERROR_RESOURCE_ONLINE	The operation could not be completed because the cluster resource is online.
+13.12.2018 12:33:44 192.168.7.183 dopusrt.exe CRITICAL ERROR_CLUSTER_WRONG_OS_VERSION	This computer cannot be made a member of a cluster because it does not have the correct version of Windows installed.
+12.09.2018 22:21:01 192.168.0.184 hkcmd.exe ALARM ERROR_INVALID_OPERATION	The operation identifier is not valid.
+10.09.2018 17:44:57 192.168.2.186 SecUPDUtilSvc.exe WARNING ERROR_CLUSTER_SINGLETON_RESOURCE	Only one instance of this resource type is allowed in the cluster.
+11.12.2018 15:34:52 192.168.5.184 svchost.exe WARNING ERROR_OPERATION_IN_PROGRESS	An operation is currently in progress with the device.
+04.11.2018 09:07:00 192.168.6.187 chrome.exe ERROR ERROR_BAD_ARGUMENTS	One or more arguments are not correct.
+23.12.2018 02:35:57 192.168.3.189 WmiPrvSE.exe DEBUG ERROR_CLUSTER_NETWORK_NOT_INTERNAL	The cluster network is not configured for internal cluster communication.
+02.02.2019 17:17:23 192.168.10.188 spoolsv.exe INFO ERROR_REPARSE_TAG_INVALID	The tag present in the reparse point buffer is invalid.
+10.02.2019 07:06:05 192.168.5.188 dopus.exe CRITICAL ERROR_WMI_INVALID_MOF	The WMI MOF information is not valid.
+05.12.2018 18:22:53 192.168.4.180 System WARNING ERROR_UNABLE_TO_EJECT_MOUNTED_MEDIA	Unable to eject the medium because it is in a drive.
+22.11.2018 06:36:55 192.168.10.181 svchost.exe CRITICAL ERROR_CLUSTER_PARTIAL_READ	An error occurred while reading from a stream of data. An unexpected number of bytes was returned.
+30.11.2018 11:47:55 192.168.4.182 taskhost.exe INFO ERROR_INVALID_PARAMETER	The parameter is incorrect.
+12.10.2018 08:04:56 192.168.3.180 services.exe WARNING ERROR_WMI_TRY_AGAIN	The WMI request could not be completed and should be retried.
+16.01.2019 20:38:44 192.168.5.180 VirtualBox.exe INFO ERROR_CLUSTER_PARAMETER_MISMATCH	Two or more parameter values specified for a resource's properties are in conflict.
+07.10.2018 05:18:35 192.168.6.182 svchost.exe WARNING ERROR_RESMON_INVALID_STATE	The resource monitor will not allow the fail operation to be performed while the resource is in its current state. This may happen if the resource is in a pending state.
+27.01.2019 02:45:41 192.168.0.187 tasklist.exe INFO ERROR_UNABLE_TO_LOAD_MEDIUM	Unable to load the medium into the drive.
+11.02.2019 04:51:14 192.168.8.180 winlogon.exe INFO PEERDIST_ERROR_MISSING_DATA	The requested data cannot be found in local or peer caches.
+21.10.2018 14:44:44 192.168.5.187 svchost.exe WARNING ERROR_DIRECTORY	The directory name is invalid.
+08.02.2019 06:08:37 192.168.3.188 notepad++.exe TRACE ERROR_CLUSTER_NULL_DATA	An internal cluster error occurred. Data was not properly initialized.
+21.01.2019 11:52:38 192.168.2.185 wininit.exe INFO ERROR_REQ_NOT_ACCEP	No more connections can be made to this remote computer at this time because there are already as many connections as the computer can accept.
+13.02.2019 01:09:56 192.168.2.181 VBoxSVC.exe INFO PEERDIST_ERROR_CANNOT_PARSE_CONTENTINFO	The supplied content information is malformed.
+24.10.2018 05:07:02 192.168.1.183 svchost.exe INFO ERROR_WMI_INVALID_MOF	The WMI MOF information is not valid.
+31.01.2019 16:29:37 192.168.5.180 wmpnetwk.exe DEBUG ERROR_DATABASE_FULL	The database is full.
+26.02.2019 20:19:52 192.168.8.189 chrome.exe ERROR ERROR_CLUSTER_PARTIAL_READ	An error occurred while reading from a stream of data. An unexpected number of bytes was returned.
+16.01.2019 23:32:42 192.168.5.181 svchost.exe WARNING PEERDIST_ERROR_INVALID_CONFIGURATION	A configuration value is invalid.
+10.11.2018 00:36:46 192.168.4.187 dopus.exe INFO ERROR_CLUSTER_CANT_DESERIALIZE_DATA	An error occurred while deserializing a stream of cluster data.
+10.09.2018 16:58:02 192.168.4.180 svchost.exe ALARM ERROR_ALREADY_EXISTS	Cannot create a file when that file already exists.
+10.02.2019 05:59:02 192.168.6.187 chrome.exe INFO ERROR_OFFLOAD_WRITE_FILE_NOT_SUPPORTED	The copy offload write operation is not supported for the file.
+28.11.2018 18:35:03 192.168.2.184 SearchIndexer.exe INFO ERROR_TOO_MANY_SEM_REQUESTS	The semaphore cannot be set again.
+31.10.2018 07:46:34 192.168.9.186 dwm.exe INFO ERROR_BROKEN_PIPE	The pipe has been ended.
+21.02.2019 19:41:33 192.168.5.186 VBoxSVC.exe INFO ERROR_QUORUM_RESOURCE_ONLINE_FAILED	The quorum resource failed to come online.
+20.12.2018 16:17:26 192.168.1.181 wmpnetwk.exe WARNING ERROR_CLUSTER_SINGLETON_RESOURCE	Only one instance of this resource type is allowed in the cluster.
+11.02.2019 20:46:44 192.168.4.185 VirtualBox.exe INFO ERROR_CLUSTER_MAXNUM_OF_RESOURCES_EXCEEDED	This resource cannot be created because the cluster has reached the limit on the number of resources it can monitor.
+10.11.2018 09:41:20 192.168.8.180 chrome.exe INFO ERROR_DISK_CHANGE	The program stopped because an alternate diskette was not inserted.
+26.02.2019 19:07:20 192.168.5.189 VCDDaemon.exe TRACE ERROR_BAD_NET_NAME	The network name cannot be found.
+16.01.2019 04:12:31 192.168.10.186 svchost.exe WARNING ERROR_SECUREBOOT_POLICY_NOT_SIGNED	The Secure Boot policy is either not signed or is signed by a non-trusted signer.
+19.09.2018 04:48:44 192.168.2.187 svchost.exe CRITICAL ERROR_INVALID_SEGMENT_NUMBER	The system detected a segment number that was not correct.
+12.10.2018 08:34:03 192.168.8.186 chrome.exe INFO ERROR_CLUSTER_DATABASE_TRANSACTION_IN_PROGRESS	An internal cluster error occurred. A cluster database transaction was attempted while a transaction was already in progress.
+26.12.2018 21:57:36 192.168.9.186 VirtualBox.exe ERROR ERROR_CLUSTER_MEMBERSHIP_INVALID_STATE	An operation was attempted that is incompatible with the current membership state of the node.
+04.02.2019 15:03:52 192.168.7.183 chrome.exe INFO ERROR_FILE_TOO_LARGE	The file size exceeds the limit allowed and cannot be saved.
+22.02.2019 20:11:37 192.168.0.182 dopus.exe INFO ERROR_CLUSTER_NETWORK_NOT_FOUND_FOR_IP	A matching cluster network for the specified IP address could not be found.
+15.10.2018 22:43:47 192.168.5.180 csrss.exe ALARM ERROR_CLUSTER_MAX_NODES_IN_CLUSTER	A new node can not be added since this cluster is already at its maximum number of nodes.
+26.10.2018 17:30:09 192.168.0.187 cmd.exe CRITICAL ERROR_BAD_DRIVER_LEVEL	The system does not support the command requested.
+03.02.2019 10:25:49 192.168.5.180 Greenshot.exe INFO ERROR_RESMON_ONLINE_FAILED	The cluster resource could not be brought online by the resource monitor.
+12.11.2018 01:37:52 192.168.0.184 netbeans64.exe DEBUG ERROR_RESOURCE_NOT_FOUND	The cluster resource could not be found.
+20.09.2018 08:14:27 192.168.9.187 GoogleUpdate.exe INFO ERROR_DISK_FULL	There is not enough space on the disk.
+12.10.2018 22:43:43 192.168.7.186 svchost.exe ERROR ERROR_DIRECTORY_NOT_SUPPORTED	An operation is not supported on a directory.
+18.10.2018 19:04:33 192.168.0.184 WmiPrvSE.exe TRACE ERROR_BAD_EXE_FORMAT	%1 is not a valid Win32 application.
+26.09.2018 01:16:53 192.168.9.187 winlogon.exe INFO ERROR_CLUSTER_NOT_INSTALLED	The Failover Clustering feature is not installed on this node.
+08.02.2019 03:10:49 192.168.8.189 spoolsv.exe WARNING ERROR_INVALID_CLUSTER_IPV6_ADDRESS	The address is not valid for an IPv6 Address resource. A global IPv6 address is required, and it must match a cluster network. Compatibility addresses are not permitted.
+28.02.2019 02:45:35 192.168.7.187 VirtualBox.exe INFO ERROR_IS_JOIN_PATH	Not enough resources are available to process this command.
+11.02.2019 16:40:53 192.168.2.189 dopus.exe WARNING ERROR_APP_DATA_LIMIT_EXCEEDED	Fast Cache data has exceeded its max size and cannot be updated.
+05.09.2018 15:21:16 192.168.9.187 igfxtray.exe ALARM ERROR_RESOURCE_NOT_FOUND	The cluster resource could not be found.
+19.01.2019 04:18:09 192.168.10.185 Greenshot.exe INFO ERROR_CLUSTER_RHS_FAILED_INITIALIZATION	The RHS process failed to initialize.
+25.11.2018 08:45:04 192.168.0.187 explorer.exe INFO ERROR_BAD_EXE_FORMAT	%1 is not a valid Win32 application.
+05.11.2018 18:33:05 192.168.3.189 lsm.exe INFO ERROR_CLUSTER_RESOURCE_VETOED_MOVE_INCOMPATIBLE_NODES	A resource vetoed a move between two nodes because they are incompatible.
+05.11.2018 17:36:19 192.168.10.182 svchost.exe WARNING ERROR_CLUSTER_NODE_SHUTTING_DOWN	The cluster node is shutting down.
+19.02.2019 07:38:48 192.168.5.186 usp02pi.exe INFO PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED	The version of the supplied content information is not supported.
+04.11.2018 01:08:01 192.168.8.184 chrome.exe INFO ERROR_NOT_SUPPORTED_IN_APPCONTAINER	This functionality is not supported in the context of an app container.
+31.01.2019 18:14:13 192.168.8.185 dopus.exe INFO ERROR_CLUSTER_GUM_NOT_LOCKER	A non locker code got a request to reserve the lock for making global updates.
+03.02.2019 01:22:45 192.168.6.181 chrome.exe ALARM ERROR_SEM_TIMEOUT	The semaphore timeout period has expired.
+21.01.2019 22:57:38 192.168.1.181 smss.exe INFO ERROR_UNEXPECTED_OMID	Unexpected on-medium identifier.
+03.02.2019 12:07:34 192.168.3.181 Greenshot.exe INFO ERROR_DIRECT_ACCESS_HANDLE	Attempt to use a file handle to an open disk partition for an operation other than raw disk I/O.
+04.09.2018 05:34:03 192.168.4.189 explorer.exe INFO ERROR_NESTING_NOT_ALLOWED	Cannot nest calls to LoadModule.
+03.09.2018 10:48:53 192.168.1.181 dopus.exe ERROR ERROR_INCOMPATIBLE_WITH_GLOBAL_SHORT_NAME_REGISTRY_SETTING	Short name settings may not be changed on this volume due to the global registry setting.
+15.11.2018 20:38:02 192.168.6.180 dopusrt.exe INFO ERROR_CLUSTER_JOIN_NOT_IN_PROGRESS	A cluster join operation is not in progress.
+11.01.2019 14:09:03 192.168.1.189 chrome.exe INFO ERROR_FORMS_AUTH_REQUIRED	Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.
+25.11.2018 05:47:05 192.168.0.187 wmpnetwk.exe WARNING ERROR_RESMON_CREATE_FAILED	The cluster resource could not be created in the specified resource monitor.
+28.01.2019 09:35:39 192.168.6.180 chrome.exe INFO ERROR_DIRECTORY	The directory name is invalid.
+26.09.2018 08:03:47 192.168.0.184 svchost.exe WARNING ERROR_INVALID_NAME	The filename, directory name, or volume label syntax is incorrect.
+29.12.2018 05:22:05 192.168.0.187 VBoxSVC.exe WARNING ERROR_BAD_NETPATH	The network path was not found.
+25.11.2018 06:30:49 192.168.3.182 svchost.exe INFO ERROR_INVALID_EXCEPTION_HANDLER	An invalid exception handler routine has been detected.
+11.01.2019 08:57:56 192.168.7.184 taskhost.exe INFO ERROR_ACCESS_DENIED	Access is denied.
+28.09.2018 15:18:58 192.168.1.185 svchost.exe DEBUG ERROR_REMOTE_STORAGE_NOT_ACTIVE	The remote storage service is not operational at this time.
+20.12.2018 10:05:26 192.168.0.186 services.exe INFO ERROR_EXE_CANNOT_MODIFY_SIGNED_BINARY	The image file %1 is signed, unable to modify.
+20.10.2018 10:36:30 192.168.10.183 tasklist.exe ERROR ERROR_CLUSTER_WATCHDOG_TERMINATING	The cluster watchdog is terminating.
+14.09.2018 21:51:30 192.168.1.183 spoolsv.exe WARNING PEERDIST_ERROR_SHUTDOWN_IN_PROGRESS	A shutdown operation is already in progress.
+06.01.2019 15:05:23 192.168.2.181 winlogon.exe ERROR ERROR_TOO_MANY_DESCRIPTORS	The command specified a number of descriptors that exceeded the maximum supported by the device.
+29.09.2018 08:03:20 192.168.9.185 audiodg.exe INFO PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED	The version of the supplied content information is not supported.
+11.11.2018 11:41:42 192.168.7.185 services.exe ALARM ERROR_CLUSTER_RESOURCE_TYPE_BUSY	The resource type cannot accept the request since is too busy performing another operation.
+16.11.2018 09:12:42 192.168.0.188 chrome.exe INFO ERROR_LIBRARY_OFFLINE	The operation cannot be performed on an offline library.
+19.01.2019 04:47:52 192.168.1.187 services.exe INFO ERROR_BUSY	The requested resource is in use.
+16.12.2018 21:18:27 192.168.1.185 VirtualBox.exe INFO ERROR_INVALID_LIST_FORMAT	The DosMuxSemWait list is not correct.
+04.10.2018 17:06:21 192.168.5.180 VirtualBox.exe INFO ERROR_SEEK_ON_DEVICE	The file pointer cannot be set on the specified device or file.
+12.10.2018 17:37:50 192.168.6.189 chrome.exe ERROR ERROR_GROUP_NOT_ONLINE	The operation could not be completed because the cluster group is not online.
+03.01.2019 03:11:59 192.168.1.187 dopus.exe DEBUG ERROR_NODE_CANNOT_BE_CLUSTERED	This computer cannot be made a member of a cluster.
+27.09.2018 16:42:00 192.168.7.180 chrome.exe ALARM PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED	The version of the supplied content information is not supported.
+23.09.2018 05:33:18 192.168.4.186 usp02pi.exe INFO ERROR_CLUSTER_SINGLETON_RESOURCE	Only one instance of this resource type is allowed in the cluster.
+08.02.2019 20:13:56 192.168.3.184 tasklist.exe INFO ERROR_FILE_OFFLINE	This file is currently not available for use on this computer.
+03.10.2018 03:41:34 192.168.3.182 csrss.exe INFO ERROR_CLUSTER_RESOURCE_CONFIGURATION_ERROR	The resource has indicated that it cannot come online on any node.
+23.01.2019 17:20:56 192.168.8.180 ICCProxy.exe INFO ERROR_INVALID_BLOCK	The storage control block address is invalid.
+25.11.2018 02:24:37 192.168.5.187 hkcmd.exe INFO PEERDIST_ERROR_VERSION_UNSUPPORTED	The requested version is not supported.
+26.02.2019 14:12:15 192.168.5.188 wmpnetwk.exe INFO ERROR_INVALID_BLOCK	The storage control block address is invalid.
+17.12.2018 07:06:40 192.168.0.183 System TRACE ERROR_INVALID_OPLOCK_PROTOCOL	An invalid oplock acknowledgment was received by the system.
+28.12.2018 17:12:46 192.168.1.186 notepad++.exe INFO ERROR_CLUSTERLOG_EXCEEDS_MAXSIZE	The cluster log exceeds its maximum size.
+05.02.2019 21:36:20 192.168.0.185 WmiPrvSE.exe ERROR ERROR_RESMON_INVALID_STATE	The resource monitor will not allow the fail operation to be performed while the resource is in its current state. This may happen if the resource is in a pending state.
+25.02.2019 23:35:01 192.168.1.183 VirtualBox.exe WARNING ERROR_OFFLOAD_WRITE_FILE_NOT_SUPPORTED	The copy offload write operation is not supported for the file.
+09.10.2018 12:30:27 192.168.6.181 services.exe INFO ERROR_ITERATED_DATA_EXCEEDS_64k	The operating system cannot run %1.
+23.09.2018 11:36:09 192.168.9.183 explorer.exe CRITICAL ERROR_RELOC_CHAIN_XEEDS_SEGLIM	The operating system cannot run %1.
+31.01.2019 07:42:47 192.168.5.184 igfxpers.exe INFO ERROR_QUORUM_RESOURCE_ONLINE_FAILED	The quorum resource failed to come online.
+18.10.2018 04:53:48 192.168.3.187 netbeans64.exe INFO ERROR_NOT_READ_FROM_COPY	The specified copy of the requested data could not be read.
+21.12.2018 14:58:55 192.168.2.185 conhost.exe TRACE ERROR_JOIN_TO_JOIN	The system tried to join a drive to a directory on a joined drive.
+25.12.2018 07:04:53 192.168.1.188 chrome.exe INFO ERROR_WRONG_DISK	The wrong diskette is in the drive. Insert %2 (Volume Serial Number: %3) into drive %1.
+16.09.2018 08:53:26 192.168.4.189 svchost.exe CRITICAL ERROR_CLUSTER_NODE_EXISTS	The cluster node already exists.
+04.01.2019 00:13:45 192.168.7.182 svchost.exe INFO ERROR_RESOURCE_NOT_AVAILABLE	The cluster resource is not available.
+12.02.2019 05:48:28 192.168.5.189 VirtualBox.exe INFO ERROR_SIGNAL_PENDING	A signal is already pending.
+30.09.2018 03:42:48 192.168.9.184 VirtualBox.exe ALARM ERROR_BAD_DEVICE_PATH	An attempt was made to send down the command via an invalid path to the target device.
+19.02.2019 16:57:53 192.168.4.185 netbeans64.exe INFO ERROR_CLUSTER_QUORUMLOG_NOT_FOUND	The quorum resource does not contain the quorum log.
+30.01.2019 06:41:45 192.168.3.182 VirtualBox.exe ERROR ERROR_UNEXP_NET_ERR	An unexpected network error occurred.
+02.12.2018 04:02:12 192.168.4.187 chrome.exe WARNING ERROR_CLUSTER_BACKUP_IN_PROGRESS	Back up is in progress. Please wait for backup completion before trying this operation again.
+27.11.2018 18:10:45 192.168.5.184 igfxtray.exe INFO ERROR_APP_DATA_CORRUPT	Fast Cache data corrupt.
+11.01.2019 06:23:38 192.168.3.185 svchost.exe INFO ERROR_RING2SEG_MUST_BE_MOVABLE	The code segment cannot be greater than or equal to 64K.
+30.12.2018 14:11:28 192.168.0.187 svchost.exe ALARM ERROR_CLUSTER_RESOURCE_CONFIGURATION_ERROR	The resource has indicated that it cannot come online on any node.
+23.09.2018 17:05:27 192.168.6.182 GoogleUpdate.exe INFO ERROR_CLUSTER_RESOURCE_VETOED_MOVE_INCOMPATIBLE_NODES	A resource vetoed a move between two nodes because they are incompatible.
+24.11.2018 06:49:48 192.168.9.183 svchost.exe ERROR ERROR_EXCEPTION_IN_RESOURCE_CALL	The call into the resource DLL raised an unhandled exception.
+09.10.2018 22:31:19 192.168.1.184 usp02pi.exe WARNING ERROR_DATABASE_FAILURE	Unable to read from or write to the database.
+26.10.2018 16:10:25 192.168.4.189 chrome.exe WARNING ERROR_SUCCESS	The operation completed successfully.
+21.09.2018 08:10:12 192.168.2.180 chrome.exe WARNING ERROR_CLUSTER_NODE_NOT_READY	The cluster node is not ready to perform the requested operation.
+25.01.2019 04:31:06 192.168.7.184 csrss.exe INFO ERROR_CLUSTER_SYSTEM_CONFIG_CHANGED	The system configuration changed during the cluster join or form operation. The join or form operation was aborted.
+12.09.2018 20:57:28 192.168.5.187 dwm.exe ERROR ERROR_DELETE_PENDING	The file cannot be opened because it is in the process of being deleted.
+08.11.2018 08:20:17 192.168.10.185 chrome.exe WARNING ERROR_NO_VOLUME_LABEL	The disk has no volume label.
+06.11.2018 19:18:43 192.168.9.185 svchost.exe ERROR ERROR_EXCL_SEM_ALREADY_OWNED	The exclusive semaphore is owned by another process.
+23.10.2018 18:11:06 192.168.9.183 svchost.exe ERROR ERROR_CLUSTER_NULL_DATA	An internal cluster error occurred. Data was not properly initialized.
+27.09.2018 08:22:30 192.168.5.185 VCDDaemon.exe WARNING ERROR_MEDIA_INCOMPATIBLE	The medium is not compatible with the device or media pool.
+18.11.2018 23:05:52 192.168.6.180 winlogon.exe INFO ERROR_CLUSTER_NODE_ALREADY_UP	The cluster node is already up.
+08.12.2018 21:10:35 192.168.4.187 services.exe INFO ERROR_FORMS_AUTH_REQUIRED	Access Denied. Before opening files in this location, you must first add the web site to your trusted sites list, browse to the web site, and select the option to login automatically.
+20.10.2018 21:21:52 192.168.6.182 chrome.exe DEBUG ERROR_CLUSTER_OBJECT_ALREADY_USED	An attempt to use the specified cluster name failed because an enabled computer object with the given name already exists in the domain.
+22.02.2019 01:58:05 192.168.1.187 svchost.exe WARNING ERROR_BAD_DEVICE_PATH	An attempt was made to send down the command via an invalid path to the target device.
+21.10.2018 01:25:41 192.168.7.189 chrome.exe INFO ERROR_STATIC_INIT	The importation from the file failed.
+17.11.2018 18:16:30 192.168.7.181 hkcmd.exe CRITICAL ERROR_CALL_NOT_IMPLEMENTED	This function is not supported on this system.
+26.10.2018 15:22:56 192.168.4.186 csrss.exe WARNING ERROR_CLUSTER_DATABASE_SEQMISMATCH	The join operation failed because the cluster database sequence number has changed or is incompatible with the locker node. This may happen during a join operation if the cluster database was changing during the join.
+11.11.2018 02:26:16 192.168.8.184 wmpnetwk.exe WARNING ERROR_BAD_FILE_TYPE	The file type being saved or retrieved has been blocked.
+14.12.2018 16:30:34 192.168.5.185 svchost.exe DEBUG ERROR_NOT_ENOUGH_MEMORY	Not enough storage is available to process this command.
+22.01.2019 02:02:47 192.168.1.186 VirtualBox.exe INFO ERROR_CLUSTER_DATABASE_TRANSACTION_IN_PROGRESS	An internal cluster error occurred. A cluster database transaction was attempted while a transaction was already in progress.
+04.10.2018 11:23:23 192.168.4.185 svchost.exe TRACE ERROR_BAD_DEVICE_PATH	An attempt was made to send down the command via an invalid path to the target device.
+23.11.2018 11:33:11 192.168.2.188 csrss.exe INFO ERROR_FILENAME_EXCED_RANGE	The filename or extension is too long.
+15.02.2019 04:17:16 192.168.7.180 GoogleUpdate.exe INFO ERROR_NOT_A_REPARSE_POINT	The file or directory is not a reparse point.
+06.01.2019 05:51:21 192.168.10.181 svchost.exe INFO ERROR_ADAP_HDW_ERR	A network adapter hardware error occurred.
+13.10.2018 12:57:23 192.168.0.182 chrome.exe ERROR ERROR_EXE_MARKED_INVALID	The operating system cannot run %1.
+25.01.2019 22:54:25 192.168.10.187 SearchIndexer.exe INFO ERROR_OFFLOAD_WRITE_FILE_NOT_SUPPORTED	The copy offload write operation is not supported for the file.
+02.02.2019 03:04:50 192.168.7.189 VBoxSVC.exe ALARM ERROR_BUSY	The requested resource is in use.
+27.02.2019 00:54:35 192.168.7.189 wininit.exe INFO ERROR_INFLOOP_IN_RELOC_CHAIN	The operating system cannot run %1.
+06.01.2019 01:19:43 192.168.8.182 PUTTY.EXE TRACE ERROR_RPL_NOT_ALLOWED	Replication with a nonconfigured partner is not allowed.
+25.02.2019 01:03:54 192.168.2.185 svchost.exe INFO ERROR_ENVVAR_NOT_FOUND	The system could not find the environment option that was entered.
+05.12.2018 05:42:52 192.168.10.182 svchost.exe INFO PEERDIST_ERROR_NO_MORE	No more data is available or required.
+18.02.2019 14:36:44 192.168.2.181 PUTTY.EXE CRITICAL ERROR_CLUSTER_INVALID_SECURITY_DESCRIPTOR	The Security Descriptor does not meet the requirements for a cluster.
+27.09.2018 11:07:23 192.168.9.186 lsass.exe DEBUG ERROR_CORE_RESOURCE	The cluster resource could not be deleted since it is a core resource.
+15.11.2018 08:48:43 192.168.6.185 wmpnetwk.exe WARNING PEERDIST_ERROR_INVALIDATED	The supplied object has already been invalidated.
+22.09.2018 23:46:50 192.168.5.187 VirtualBox.exe ERROR ERROR_CLUSTER_GUM_NOT_LOCKER	A non locker code got a request to reserve the lock for making global updates.
+23.02.2019 09:50:42 192.168.2.187 svchost.exe WARNING ERROR_NET_WRITE_FAULT	A write fault occurred on the network.
+08.01.2019 12:23:41 192.168.5.183 chrome.exe INFO ERROR_JOIN_TO_SUBST	The system tried to join a drive to a directory on a substituted drive.
+06.02.2019 11:51:58 192.168.5.180 Greenshot.exe WARNING ERROR_SUCCESS	The operation completed successfully.
+22.10.2018 04:24:11 192.168.0.186 chrome.exe ERROR ERROR_SEM_IS_SET	The semaphore is set and cannot be closed.
+24.10.2018 03:54:04 192.168.8.186 smss.exe INFO ERROR_EA_FILE_CORRUPT	The extended attribute file on the mounted file system is corrupt.
+05.02.2019 12:11:10 192.168.4.186 VirtualBox.exe WARNING ERROR_DRIVE_LOCKED	The disk is in use or locked by another process.
+21.01.2019 23:42:37 192.168.3.186 lsass.exe INFO ERROR_CLUSTER_NOT_SHARED_VOLUME	The directory or file is not located on a cluster shared volume.
+31.10.2018 03:56:47 192.168.1.184 SearchIndexer.exe ERROR ERROR_HANDLE_EOF	Reached the end of the file.
+14.11.2018 09:52:41 192.168.10.180 csrss.exe ERROR ERROR_NODE_NOT_AVAILABLE	A cluster node is not available for this operation.
+03.10.2018 05:15:47 192.168.0.185 chrome.exe INFO ERROR_CLUSTER_RESOURCE_VETOED_CALL	The resource vetoed the call.
+04.10.2018 00:34:36 192.168.10.184 chrome.exe WARNING ERROR_BAD_UNIT	The system cannot find the device specified.
+23.02.2019 02:30:36 192.168.4.183 ICCProxy.exe WARNING ERROR_REPARSE_TAG_MISMATCH	There is a mismatch between the tag specified in the request and the tag present in the reparse point.
+09.12.2018 05:32:46 192.168.9.187 System INFO ERROR_WINS_INTERNAL	WINS encountered an error while processing the command.
+15.09.2018 12:05:12 192.168.7.184 svchost.exe ERROR ERROR_SEEK_ON_DEVICE	The file pointer cannot be set on the specified device or file.
+16.02.2019 17:45:35 192.168.9.182 explorer.exe ERROR ERROR_THREAD_1_INACTIVE	The signal handler cannot be set.
+22.11.2018 16:55:09 192.168.9.182 chrome.exe ERROR ERROR_CLUSTER_NODE_ALREADY_HAS_DFS_ROOT	A DFS root already exists in this cluster node.
+10.02.2019 07:35:11 192.168.7.182 svchost.exe INFO ERROR_QUORUM_OWNER_ALIVE	The cluster node failed to take control of the quorum resource because the resource is owned by another active node.
+18.02.2019 23:22:19 192.168.8.185 VirtualBox.exe ALARM ERROR_RESMON_INVALID_STATE	The resource monitor will not allow the fail operation to be performed while the resource is in its current state. This may happen if the resource is in a pending state.
+08.10.2018 20:32:55 192.168.9.185 usp02pi.exe INFO ERROR_SUBST_TO_JOIN	The system tried to SUBST a drive to a directory on a joined drive.
+31.01.2019 07:07:28 192.168.10.180 csrss.exe INFO ERROR_CLUSTER_INVALID_NETWORK_PROVIDER	The cluster network provider is not valid.
+13.11.2018 04:16:09 192.168.10.186 VirtualBox.exe ALARM ERROR_VIRUS_DELETED	This file contains a virus or potentially unwanted software and cannot be opened. Due to the nature of this virus or potentially unwanted software, the file has been removed from this location.
+03.12.2018 19:48:29 192.168.7.189 audiodg.exe TRACE ERROR_LABEL_TOO_LONG	The volume label you entered exceeds the label character limit of the target file system.
+03.12.2018 07:27:15 192.168.9.180 lsass.exe WARNING ERROR_DEPENDENCY_NOT_ALLOWED	The cluster quorum resource is not allowed to have any dependencies.
+21.02.2019 15:12:59 192.168.9.186 explorer.exe WARNING ERROR_CLUSTERLOG_CHKPOINT_NOT_FOUND	No checkpoint record was found in the cluster log.
+02.01.2019 15:35:04 192.168.3.187 netbeans64.exe INFO ERROR_CHILD_NOT_COMPLETE	The %1 application cannot be run in Win32 mode.
+10.12.2018 12:57:27 192.168.9.181 svchost.exe WARNING ERROR_CLUSTER_PARAMETER_MISMATCH	Two or more parameter values specified for a resource's properties are in conflict.
+10.12.2018 03:02:11 192.168.0.185 dopusrt.exe ALARM PEERDIST_ERROR_ALREADY_INITIALIZED	The supplied object has already been initialized.
+21.01.2019 16:38:45 192.168.3.183 chrome.exe INFO ERROR_NO_MORE_FILES	There are no more files.
+24.12.2018 07:12:20 192.168.3.188 SecUPDUtilSvc.exe CRITICAL ERROR_EAS_NOT_SUPPORTED	The mounted file system does not support extended attributes.
+14.09.2018 19:08:25 192.168.5.187 chrome.exe INFO ERROR_NO_PROC_SLOTS	The system cannot start another process at this time.
+28.02.2019 14:57:42 192.168.9.189 services.exe INFO ERROR_COMPRESSED_FILE_NOT_SUPPORTED	An operation is not supported on a compressed file.
+23.02.2019 21:32:51 192.168.6.184 igfxpers.exe INFO ERROR_IS_SUBST_TARGET	An attempt was made to join or substitute a drive for which a directory on the drive is the target of a previous substitute.
+02.09.2018 10:38:57 192.168.10.185 SearchIndexer.exe ERROR ERROR_CLUSTER_INVALID_STRING_TERMINATION	An input string of characters is not properly terminated.
+20.11.2018 05:32:10 192.168.4.182 svchost.exe ERROR ERROR_UNEXP_NET_ERR	An unexpected network error occurred.
+06.01.2019 12:38:47 192.168.8.186 SearchIndexer.exe WARNING ERROR_CLUSTER_OLD_VERSION	One or more nodes in the cluster are running a version of Windows that does not support this operation.
+09.12.2018 23:43:30 192.168.6.187 igfxpers.exe ERROR ERROR_CLUSTER_NETWORK_NOT_FOUND	The cluster network was not found.
+22.02.2019 18:49:20 192.168.7.183 taskhost.exe INFO ERROR_WMI_UNRESOLVED_INSTANCE_REF	The WMI data provider references an instance set that has not been registered.
+28.12.2018 05:02:07 192.168.2.184 svchost.exe WARNING ERROR_IS_SUBST_TARGET	An attempt was made to join or substitute a drive for which a directory on the drive is the target of a previous substitute.
+14.09.2018 22:39:07 192.168.0.186 SecUPDUtilSvc.exe INFO ERROR_EXE_CANNOT_MODIFY_STRONG_SIGNED_BINARY	The image file %1 is strong signed, unable to modify.
+18.11.2018 19:45:24 192.168.0.181 csrss.exe WARNING ERROR_HOST_NODE_NOT_RESOURCE_OWNER	The operation failed because either the specified cluster node is not the owner of the resource, or the node is not a possible owner of the resource.
+15.02.2019 05:33:07 192.168.0.183 usp02pi.exe WARNING ERROR_ACCESS_DENIED	Access is denied.
+16.11.2018 17:31:35 192.168.5.186 chrome.exe TRACE ERROR_RESOURCE_PROPERTY_UNCHANGEABLE	An attempt to modify a resource property failed because it conflicts with another existing property.
+31.10.2018 06:19:24 192.168.6.180 chrome.exe ERROR ERROR_FILE_OFFLINE	This file is currently not available for use on this computer.
+07.09.2018 11:26:10 192.168.9.186 usp02pi.exe INFO ERROR_NOT_READY	The device is not ready.
+25.02.2019 01:28:34 192.168.6.181 services.exe ERROR ERROR_DEVICE_NOT_AVAILABLE	The device is not ready for use.
+26.01.2019 03:27:20 192.168.6.186 lsass.exe INFO ERROR_CHILD_NOT_COMPLETE	The %1 application cannot be run in Win32 mode.
+25.09.2018 18:20:37 192.168.7.187 chrome.exe INFO ERROR_INVALID_REPARSE_DATA	The data present in the reparse point buffer is invalid.
+31.12.2018 20:56:07 192.168.8.182 VirtualBox.exe WARNING ERROR_ACCESS_DENIED	Access is denied.
+04.11.2018 21:35:33 192.168.6.188 smss.exe INFO ERROR_NOT_SAME_DEVICE	The system cannot move the file to a different disk drive.
+14.09.2018 23:22:47 192.168.2.186 svchost.exe INFO ERROR_FILENAME_EXCED_RANGE	The filename or extension is too long.
+21.01.2019 00:22:16 192.168.1.188 taskhost.exe INFO ERROR_FILE_EXISTS	The file exists.
+20.12.2018 04:28:39 192.168.4.187 svchost.exe INFO ERROR_IS_SUBST_TARGET	An attempt was made to join or substitute a drive for which a directory on the drive is the target of a previous substitute.
+22.02.2019 23:53:23 192.168.10.180 svchost.exe WARNING ERROR_UNABLE_TO_INVENTORY_TRANSPORT	Unable to retrieve status about the transport.
+11.10.2018 13:55:06 192.168.10.182 csrss.exe INFO ERROR_WMI_GUID_NOT_FOUND	The GUID passed was not recognized as valid by a WMI data provider.
+20.09.2018 15:45:45 192.168.1.187 audiodg.exe INFO ERROR_TOO_MANY_SEMAPHORES	Cannot create another system semaphore.
+13.09.2018 16:51:01 192.168.0.183 conhost.exe WARNING ERROR_INVALID_DRIVE_OBJECT	The drive identifier does not represent a valid drive.
+15.09.2018 06:57:47 192.168.1.180 chrome.exe INFO ERROR_INVALID_MODULETYPE	The operating system cannot run %1.
+15.09.2018 09:23:59 192.168.4.181 services.exe WARNING ERROR_CLUSTER_RESNAME_NOT_FOUND	The specified resource name is not supported by this resource DLL. This may be due to a bad (or changed) name supplied to the resource DLL.
+06.01.2019 17:48:00 192.168.9.188 conhost.exe DEBUG ERROR_CLUSTER_EVICT_WITHOUT_CLEANUP	The cluster node was evicted from the cluster successfully, but the node was not cleaned up. To determine what cleanup steps failed and how to recover, see the Failover Clustering application event log using Event Viewer.
+25.11.2018 00:37:59 192.168.0.189 svchost.exe ALARM ERROR_INVALID_MODULETYPE	The operating system cannot run %1.
+10.11.2018 08:46:06 192.168.9.183 VirtualBox.exe ALARM ERROR_CLUSTER_NETWORK_NOT_FOUND_FOR_IP	A matching cluster network for the specified IP address could not be found.
+24.10.2018 08:51:08 192.168.9.189 svchost.exe ERROR ERROR_DUPLICATE_PRIVILEGES	Duplicate privileges were specified for the token.
+19.12.2018 19:24:21 192.168.8.188 chrome.exe DEBUG ERROR_NOT_ALLOWED_ON_SYSTEM_FILE	Operation is not allowed on a file system internal file.
+26.12.2018 21:22:38 192.168.6.182 igfxtray.exe WARNING ERROR_DRIVE_LOCKED	The disk is in use or locked by another process.
+03.11.2018 23:43:40 192.168.0.181 SecUPDUtilSvc.exe INFO ERROR_CLUSTER_MAX_NODES_IN_CLUSTER	A new node can not be added since this cluster is already at its maximum number of nodes.
+21.12.2018 06:34:05 192.168.7.187 WmiPrvSE.exe INFO ERROR_LIBRARY_FULL	Library is full. No slot is available for use.
+31.01.2019 18:36:32 192.168.7.184 chrome.exe TRACE ERROR_PATH_BUSY	The path specified cannot be used at this time.
+12.10.2018 10:16:44 192.168.6.180 smss.exe INFO ERROR_CLUSTER_SINGLETON_RESOURCE	Only one instance of this resource type is allowed in the cluster.
+19.11.2018 18:54:22 192.168.0.185 VBoxSVC.exe WARNING ERROR_SEM_IS_SET	The semaphore is set and cannot be closed.
+30.01.2019 06:25:56 192.168.9.181 System INFO ERROR_THREAD_MODE_ALREADY_BACKGROUND	The thread is already in background processing mode.
+19.02.2019 19:01:32 192.168.9.181 VirtualBox.exe ALARM PEERDIST_ERROR_OUT_OF_BOUNDS	An operation accessed data beyond the bounds of valid data.
+02.11.2018 02:51:53 192.168.7.181 chrome.exe WARNING ERROR_INVALID_VERIFY_SWITCH	The verify-on-write switch parameter value is not correct.
+11.09.2018 02:57:24 192.168.7.187 services.exe ERROR ERROR_CALL_NOT_IMPLEMENTED	This function is not supported on this system.
+10.09.2018 23:57:03 192.168.1.182 wmpnetwk.exe CRITICAL ERROR_NODE_NOT_AVAILABLE	A cluster node is not available for this operation.
+18.01.2019 10:52:57 192.168.7.186 conhost.exe ERROR ERROR_CLUSTER_NETWORK_NOT_FOUND_FOR_IP	A matching cluster network for the specified IP address could not be found.
+14.11.2018 04:37:34 192.168.7.187 dopusrt.exe INFO ERROR_DHCP_ADDRESS_CONFLICT	The DHCP client has obtained an IP address that is already in use on the network. The local interface will be disabled until the DHCP client can obtain a new address.
+11.09.2018 14:30:53 192.168.8.181 svchost.exe WARNING ERROR_APP_DATA_LIMIT_EXCEEDED	Fast Cache data has exceeded its max size and cannot be updated.
+12.11.2018 09:32:36 192.168.6.183 svchost.exe ERROR ERROR_SHARING_PAUSED	The remote server has been paused or is in the process of being started.
+01.11.2018 00:47:14 192.168.8.182 dopusrt.exe INFO ERROR_DISK_FULL	There is not enough space on the disk.
+28.10.2018 08:54:49 192.168.1.188 conhost.exe INFO ERROR_LIBRARY_OFFLINE	The operation cannot be performed on an offline library.
+29.01.2019 02:25:26 192.168.5.182 Greenshot.exe INFO ERROR_CLEANER_SLOT_SET	A cleaner slot is already reserved.
+10.09.2018 20:33:09 192.168.1.183 svchost.exe INFO ERROR_CLUSTER_INVALID_IPV6_TUNNEL_NETWORK	The cluster network is not valid for an IPv6 Tunnel resource. Check the configuration of the IP Address resource on which the IPv6 Tunnel resource depends.
+10.02.2019 00:34:02 192.168.8.185 svchost.exe TRACE ERROR_INVALID_EXE_SIGNATURE	Cannot run %1 in Win32 mode.
+08.11.2018 17:14:57 192.168.3.180 VBoxSVC.exe CRITICAL ERROR_CAN_NOT_DEL_LOCAL_WINS	The local WINS cannot be deleted.
+30.01.2019 02:30:47 192.168.1.186 VirtualBox.exe INFO ERROR_CLUSTER_NODE_DOWN	The cluster node is down.
+19.10.2018 00:31:35 192.168.10.183 igfxtray.exe WARNING ERROR_NOT_ALLOWED_ON_SYSTEM_FILE	Operation is not allowed on a file system internal file.
+20.09.2018 11:09:28 192.168.5.185 explorer.exe ALARM ERROR_QUORUM_NOT_ALLOWED_IN_THIS_GROUP	Quorum resource cannot reside in the Available Storage group.
+12.11.2018 00:36:35 192.168.7.187 conhost.exe DEBUG ERROR_APP_DATA_NOT_FOUND	Fast Cache data not found.
+14.10.2018 01:45:12 192.168.3.189 spoolsv.exe TRACE ERROR_CLUSTER_INVALID_REQUEST	The cluster request is not valid for this object.
+19.01.2019 14:00:31 192.168.9.189 taskhost.exe WARNING ERROR_READ_FAULT	The system cannot read from the specified device.
+10.10.2018 07:12:18 192.168.8.180 Greenshot.exe INFO PEERDIST_ERROR_NO_MORE	No more data is available or required.
+19.02.2019 15:38:04 192.168.4.180 hkcmd.exe CRITICAL ERROR_CLUSTER_NODE_ALREADY_UP	The cluster node is already up.
+19.11.2018 00:29:25 192.168.2.184 winlogon.exe INFO ERROR_DUPLICATE_PRIVILEGES	Duplicate privileges were specified for the token.
+24.01.2019 19:28:09 192.168.4.187 VirtualBox.exe ERROR ERROR_OBJECT_IN_LIST	The object is already in the list.
+04.12.2018 21:45:28 192.168.5.185 explorer.exe TRACE ERROR_NOT_DOS_DISK	The specified disk or diskette cannot be accessed.
+04.12.2018 14:08:27 192.168.1.188 Greenshot.exe ERROR ERROR_TOO_MANY_SESS	The network BIOS session limit was exceeded.
+05.09.2018 11:33:26 192.168.7.184 wininit.exe INFO ERROR_VIRUS_DELETED	This file contains a virus or potentially unwanted software and cannot be opened. Due to the nature of this virus or potentially unwanted software, the file has been removed from this location.
+03.02.2019 16:46:51 192.168.6.185 SecUPDUtilSvc.exe ERROR ERROR_CLUSTER_JOIN_NOT_IN_PROGRESS	A cluster join operation is not in progress.
+12.01.2019 12:35:52 192.168.6.182 explorer.exe INFO ERROR_CLUSTER_USE_SHARED_VOLUMES_API	This group or resource cannot be directly manipulated. Use shared volume APIs to perform desired operation.
+01.10.2018 02:32:37 192.168.9.184 VirtualBox.exe INFO ERROR_BAD_DEVICE_PATH	An attempt was made to send down the command via an invalid path to the target device.
+14.01.2019 18:37:35 192.168.8.186 ICCProxy.exe INFO ERROR_THREAD_1_INACTIVE	The signal handler cannot be set.
+05.01.2019 16:03:21 192.168.3.189 svchost.exe INFO ERROR_INVALID_PARAMETER	The parameter is incorrect.
+06.12.2018 17:41:50 192.168.3.187 lsass.exe WARNING ERROR_PROCESS_MODE_NOT_BACKGROUND	The process is not in background processing mode.
+13.02.2019 04:28:53 192.168.3.180 lsm.exe ALARM ERROR_INVALID_SIGNAL_NUMBER	The signal being posted is not correct.
+21.09.2018 12:05:56 192.168.10.181 VCDDaemon.exe ERROR ERROR_DEVICE_FEATURE_NOT_SUPPORTED	The device does not support the command feature.
+08.09.2018 18:59:23 192.168.4.182 usp02pi.exe INFO ERROR_NOT_SUPPORTED_IN_APPCONTAINER	This functionality is not supported in the context of an app container.
+23.02.2019 05:01:40 192.168.7.189 cmd.exe DEBUG ERROR_CHECKOUT_REQUIRED	The file must be checked out before saving changes.
+13.09.2018 20:56:35 192.168.4.186 chrome.exe WARNING ERROR_DIR_NOT_ROOT	The directory is not a subdirectory of the root directory.
+19.10.2018 14:29:21 192.168.5.185 svchost.exe WARNING ERROR_EAS_DIDNT_FIT	The extended attributes did not fit in the buffer.
+19.12.2018 08:14:53 192.168.7.183 VirtualBox.exe INFO ERROR_TOO_MANY_OPEN_FILES	The system cannot open the file.
+28.09.2018 12:37:05 192.168.4.184 GoogleUpdate.exe INFO ERROR_OFFSET_ALIGNMENT_VIOLATION	The command specified a data offset that does not align to the device's granularity/alignment.
+15.02.2019 14:23:05 192.168.10.181 chrome.exe DEBUG ERROR_NOT_READY	The device is not ready.
+02.10.2018 11:43:37 192.168.0.184 chrome.exe ALARM ERROR_CURRENT_DIRECTORY	The directory cannot be removed.
+01.09.2018 09:00:39 192.168.0.185 dopus.exe INFO ERROR_SHARING_PAUSED	The remote server has been paused or is in the process of being started.
+17.02.2019 12:37:57 192.168.10.188 svchost.exe ERROR ERROR_INVALID_CATEGORY	The IOCTL call made by the application program is not correct.
+22.10.2018 17:33:38 192.168.9.185 VirtualBox.exe INFO ERROR_INVALID_MEDIA	The media identifier does not represent a valid medium.
+27.09.2018 21:10:00 192.168.1.185 svchost.exe TRACE ERROR_INC_BACKUP	The backup failed. Was a full backup done before?
+31.10.2018 00:11:44 192.168.1.184 chrome.exe TRACE ERROR_INVALID_MODULETYPE	The operating system cannot run %1.
+30.01.2019 21:33:08 192.168.10.183 SecUPDUtilSvc.exe WARNING ERROR_CANT_EVICT_ACTIVE_NODE	A cluster node cannot be evicted from the cluster unless the node is down or it is the last node.
+22.11.2018 05:16:21 192.168.4.186 spoolsv.exe ERROR ERROR_CANNOT_COPY	The copy functions cannot be used.
+22.11.2018 22:55:17 192.168.0.182 tasklist.exe ERROR ERROR_INVALID_FIELD_IN_PARAMETER_LIST	The command specified an invalid field in its parameter list.
+10.12.2018 03:50:25 192.168.9.185 services.exe INFO ERROR_NOT_EMPTY	The library, drive, or media pool must be empty to perform this operation.
+15.12.2018 07:48:35 192.168.5.187 wininit.exe INFO ERROR_OFFLOAD_READ_FILE_NOT_SUPPORTED	The copy offload read operation is not supported for the file.
+02.11.2018 03:02:03 192.168.1.186 VirtualBox.exe WARNING ERROR_SEM_USER_LIMIT	Insert the diskette for drive %1.
+11.11.2018 17:48:21 192.168.10.186 wininit.exe INFO ERROR_EXE_CANNOT_MODIFY_STRONG_SIGNED_BINARY	The image file %1 is strong signed, unable to modify.
+17.11.2018 08:20:55 192.168.7.183 usp02pi.exe ERROR ERROR_HANDLE_DISK_FULL	The disk is full.
+15.09.2018 09:00:31 192.168.2.189 VirtualBox.exe INFO ERROR_REDIR_PAUSED	The specified printer or disk device has been paused.
+13.10.2018 22:53:11 192.168.10.186 WmiPrvSE.exe TRACE ERROR_CLUSTER_CANT_DESERIALIZE_DATA	An error occurred while deserializing a stream of cluster data.
+28.12.2018 21:53:40 192.168.3.180 svchost.exe INFO ERROR_NOT_SUPPORTED_IN_APPCONTAINER	This functionality is not supported in the context of an app container.
+19.11.2018 00:09:01 192.168.4.184 csrss.exe WARNING ERROR_NOT_QUORUM_CAPABLE	The cluster could not make the specified resource a quorum resource because it is not capable of being a quorum resource.
+06.11.2018 06:00:50 192.168.9.184 VirtualBox.exe WARNING ERROR_BAD_DEV_TYPE	The network resource type is not correct.
+20.01.2019 20:44:27 192.168.6.183 VirtualBox.exe INFO ERROR_OFFLOAD_WRITE_FILE_NOT_SUPPORTED	The copy offload write operation is not supported for the file.
+02.02.2019 06:30:28 192.168.5.186 explorer.exe WARNING ERROR_DEVICE_NOT_AVAILABLE	The device is not ready for use.
+11.11.2018 00:31:08 192.168.1.189 explorer.exe INFO ERROR_CLUSTER_TOO_MANY_NODES	This cluster can not be created since the specified number of nodes exceeds the maximum allowed limit.
+03.09.2018 16:57:37 192.168.9.183 igfxpers.exe DEBUG ERROR_CLUSTER_OWNER_NOT_IN_PREFLIST	You cannot bring the group online because the owner of the group is not in the preferred list for the group. To change the owner node for the group, move the group.
+13.10.2018 22:40:14 192.168.3.187 VirtualBox.exe TRACE ERROR_RELOC_CHAIN_XEEDS_SEGLIM	The operating system cannot run %1.
+16.01.2019 16:42:46 192.168.8.189 services.exe WARNING ERROR_IS_JOIN_PATH	Not enough resources are available to process this command.
+22.01.2019 00:59:53 192.168.4.187 svchost.exe CRITICAL ERROR_BUSY	The requested resource is in use.
+28.02.2019 03:00:30 192.168.2.184 notepad++.exe ERROR ERROR_CLUSTER_EVICT_WITHOUT_CLEANUP	The cluster node was evicted from the cluster successfully, but the node was not cleaned up. To determine what cleanup steps failed and how to recover, see the Failover Clustering application event log using Event Viewer.
+04.02.2019 23:03:27 192.168.7.187 svchost.exe INFO ERROR_OFFLOAD_READ_FLT_NOT_SUPPORTED	The copy offload read operation is not supported by a filter.
+14.09.2018 14:17:47 192.168.4.189 chrome.exe INFO ERROR_CLUSTER_SHARED_VOLUMES_IN_USE	There is one or more shared volumes resources configured in the cluster. Those resources must be moved to available storage in order for operation to succeed.
+24.09.2018 03:02:50 192.168.9.187 wininit.exe TRACE ERROR_ALREADY_EXISTS	Cannot create a file when that file already exists.
+22.10.2018 02:26:37 192.168.8.186 csrss.exe INFO ERROR_INC_BACKUP	The backup failed. Was a full backup done before?
+24.10.2018 11:32:56 192.168.1.187 VirtualBox.exe INFO ERROR_DUPLICATE_PRIVILEGES	Duplicate privileges were specified for the token.
+16.12.2018 00:30:53 192.168.10.181 SecUPDUtilSvc.exe INFO ERROR_FILE_CHECKED_OUT	This file is checked out or locked for editing by another user.
+05.09.2018 02:39:51 192.168.2.187 tasklist.exe INFO ERROR_CLUSTER_GROUP_MOVING	The group is unable to accept the request since it is moving to another node.
+21.02.2019 23:56:37 192.168.2.187 VirtualBox.exe INFO ERROR_QUORUMLOG_OPEN_FAILED	The quorum log could not be created or mounted successfully.
+26.02.2019 05:59:30 192.168.6.185 wmpnetwk.exe WARNING ERROR_SECUREBOOT_POLICY_NOT_SIGNED	The Secure Boot policy is either not signed or is signed by a non-trusted signer.
+20.09.2018 05:31:49 192.168.9.188 chrome.exe WARNING ERROR_CLUSTER_DATABASE_TRANSACTION_NOT_IN_PROGRESS	An internal cluster error occurred. There was an attempt to commit a cluster database transaction while no transaction was in progress.
+11.10.2018 12:14:25 192.168.2.188 SecUPDUtilSvc.exe WARNING ERROR_CRC	Data error (cyclic redundancy check).
+30.12.2018 14:11:38 192.168.6.183 dwm.exe WARNING ERROR_TOO_MANY_POSTS	Too many posts were made to a semaphore.
+02.11.2018 12:15:23 192.168.5.185 lsass.exe INFO ERROR_RESOURCE_PROPERTY_UNCHANGEABLE	An attempt to modify a resource property failed because it conflicts with another existing property.
+02.02.2019 11:53:09 192.168.2.184 svchost.exe CRITICAL ERROR_CLUSTER_RESOURCE_LOCKED_STATUS	The requested operation can not be completed because a resource has locked status.
+07.09.2018 12:18:17 192.168.10.188 chrome.exe ERROR ERROR_CAN_NOT_DEL_LOCAL_WINS	The local WINS cannot be deleted.
+21.01.2019 12:35:39 192.168.10.186 usp02pi.exe INFO ERROR_PROC_NOT_FOUND	The specified procedure could not be found.
+05.01.2019 06:55:15 192.168.10.187 tasklist.exe INFO ERROR_SEM_NOT_FOUND	The specified system semaphore name was not found.
+08.11.2018 15:31:38 192.168.8.187 WmiPrvSE.exe DEBUG ERROR_CLUSTER_GROUP_QUEUED	The requested operation can not be completed because the group is queued for an operation.
+28.01.2019 22:17:55 192.168.8.181 svchost.exe INFO ERROR_BAD_ENVIRONMENT	The environment is incorrect.
+12.10.2018 22:52:38 192.168.1.189 services.exe INFO ERROR_OBJECT_ALREADY_EXISTS	The object already exists.
+15.12.2018 17:20:21 192.168.8.186 svchost.exe INFO ERROR_CLUSTER_GROUP_QUEUED	The requested operation can not be completed because the group is queued for an operation.
+17.11.2018 08:01:16 192.168.1.189 winlogon.exe INFO ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT	The subsystem needed to support the image type is not present.
+18.11.2018 17:57:10 192.168.5.181 svchost.exe WARNING ERROR_GEN_FAILURE	A device attached to the system is not functioning.
+08.10.2018 00:51:54 192.168.3.188 svchost.exe WARNING ERROR_CLUSTER_INTERNAL_INVALID_FUNCTION	An internal cluster error occurred. A call to an invalid function was attempted.
+15.11.2018 23:06:05 192.168.8.180 GoogleUpdate.exe DEBUG ERROR_BAD_LENGTH	The program issued a command but the command length is incorrect.
+15.09.2018 10:20:42 192.168.5.188 audiodg.exe ERROR ERROR_INVALID_MINALLOCSIZE	The operating system cannot run %1.
+15.01.2019 16:03:36 192.168.1.184 VirtualBox.exe INFO ERROR_UNABLE_TO_CLEAN	The drive cannot be cleaned or does not support cleaning.
+24.09.2018 04:33:35 192.168.8.181 spoolsv.exe TRACE ERROR_DEVICE_NOT_AVAILABLE	The device is not ready for use.
+05.11.2018 22:28:59 192.168.1.189 svchost.exe WARNING ERROR_CAN_NOT_DEL_LOCAL_WINS	The local WINS cannot be deleted.
+12.09.2018 22:39:16 192.168.10.182 services.exe INFO ERROR_INVALID_TARGET_HANDLE	The target internal file identifier is incorrect.
+28.09.2018 09:40:59 192.168.4.186 tasklist.exe INFO ERROR_EA_TABLE_FULL	The extended attribute table file is full.
+22.10.2018 10:48:02 192.168.10.185 VirtualBox.exe ERROR ERROR_CLUSTER_RESTYPE_NOT_SUPPORTED	The specified node does not support a resource of this type. This may be due to version inconsistencies or due to the absence of the resource DLL on this node.
+25.10.2018 11:01:00 192.168.8.185 SearchIndexer.exe INFO ERROR_WMI_READ_ONLY	The WMI data item or data block is read only.
+01.09.2018 00:22:57 192.168.5.187 notepad++.exe WARNING ERROR_INVALID_STARTING_CODESEG	The operating system cannot run %1.
+11.11.2018 02:11:16 192.168.7.182 VirtualBox.exe ALARM ERROR_UNABLE_TO_EJECT_MOUNTED_MEDIA	Unable to eject the medium because it is in a drive.
+27.01.2019 17:50:33 192.168.10.180 explorer.exe TRACE ERROR_BAD_PATHNAME	The specified path is invalid.
+31.01.2019 05:39:07 192.168.2.182 GoogleUpdate.exe TRACE ERROR_CLUSCFG_SYSTEM_DISK_DRIVE_LETTER_CONFLICT	The drive letter assigned to a system disk on one node conflicted with the drive letter assigned to a disk on another node.
+08.10.2018 03:05:06 192.168.2.186 chrome.exe ERROR ERROR_CLUSTER_NODE_ALREADY_DOWN	The cluster node is already down.
+01.11.2018 13:50:43 192.168.7.182 csrss.exe WARNING ERROR_CLUSTER_PARTIAL_WRITE	An error occurred while writing to a stream of data. The required number of bytes could not be written.
+30.10.2018 13:01:14 192.168.10.186 ICCProxy.exe WARNING ERROR_BAD_DEVICE_PATH	An attempt was made to send down the command via an invalid path to the target device.
+08.10.2018 02:28:47 192.168.5.184 svchost.exe DEBUG ERROR_EA_LIST_INCONSISTENT	The extended attributes are inconsistent.
+02.12.2018 06:44:14 192.168.8.186 VirtualBox.exe INFO ERROR_INVALID_LIBRARY	The library identifier does not represent a valid library.
+18.12.2018 13:02:10 192.168.3.188 spoolsv.exe INFO PEERDIST_ERROR_CANNOT_PARSE_CONTENTINFO	The supplied content information is malformed.
+18.09.2018 21:06:43 192.168.5.181 GoogleUpdate.exe WARNING ERROR_QUORUM_RESOURCE_ONLINE_FAILED	The quorum resource failed to come online.
+25.10.2018 18:52:08 192.168.9.187 cmd.exe INFO ERROR_PIPE_NOT_CONNECTED	No process is on the other end of the pipe.
+07.11.2018 07:30:19 192.168.7.188 netbeans64.exe DEBUG ERROR_INVALID_STATE	The group or resource is not in the correct state to perform the requested operation.
+25.09.2018 07:01:19 192.168.4.184 VirtualBox.exe INFO ERROR_VOLUME_CONTAINS_SYS_FILES	The volume contains system or paging files.
+24.10.2018 12:30:39 192.168.8.189 lsass.exe INFO ERROR_NO_SPOOL_SPACE	Space to store the file waiting to be printed is not available on the server.
+20.12.2018 07:12:00 192.168.1.185 netbeans64.exe WARNING ERROR_BAD_NET_RESP	The specified server cannot perform the requested operation.
+01.12.2018 13:43:03 192.168.8.189 svchost.exe ERROR ERROR_PARTIAL_COPY	Only part of a ReadProcessMemory or WriteProcessMemory request was completed.
+13.12.2018 20:49:56 192.168.1.180 GoogleUpdate.exe CRITICAL ERROR_QUORUM_NOT_ALLOWED_IN_THIS_GROUP	Quorum resource cannot reside in the Available Storage group.
+21.09.2018 13:18:44 192.168.0.183 VCDDaemon.exe ERROR ERROR_WINS_INTERNAL	WINS encountered an error while processing the command.
+14.10.2018 20:46:28 192.168.0.182 svchost.exe INFO ERROR_IS_SUBST_PATH	The path specified is being used in a substitute.
+26.10.2018 18:59:09 192.168.8.183 PUTTY.EXE WARNING ERROR_CLUSTER_NO_RPC_PACKAGES_REGISTERED	No authentication package could be registered with the RPC server.
+23.02.2019 02:03:18 192.168.0.186 notepad++.exe INFO ERROR_TOO_MANY_POSTS	Too many posts were made to a semaphore.
+24.10.2018 02:53:47 192.168.9.184 svchost.exe INFO ERROR_DIRECTORY	The directory name is invalid.
+17.10.2018 00:46:31 192.168.3.183 VCDDaemon.exe TRACE ERROR_NET_WRITE_FAULT	A write fault occurred on the network.
+14.09.2018 09:08:05 192.168.2.181 svchost.exe INFO ERROR_PIPE_LOCAL	The pipe is local.
+30.11.2018 04:13:28 192.168.7.181 chrome.exe WARNING ERROR_APP_DATA_EXPIRED	Fast Cache data expired.
+02.01.2019 17:16:17 192.168.6.187 SecUPDUtilSvc.exe INFO ERROR_CLUSTER_USE_SHARED_VOLUMES_API	This group or resource cannot be directly manipulated. Use shared volume APIs to perform desired operation.
+07.01.2019 10:22:04 192.168.8.188 svchost.exe INFO ERROR_BAD_UNIT	The system cannot find the device specified.
+12.12.2018 03:58:03 192.168.3.183 conhost.exe DEBUG ERROR_EXE_MACHINE_TYPE_MISMATCH	This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+15.09.2018 18:00:51 192.168.0.185 svchost.exe INFO ERROR_CLUSTER_PARTIAL_READ	An error occurred while reading from a stream of data. An unexpected number of bytes was returned.
+19.12.2018 08:38:05 192.168.8.186 VirtualBox.exe WARNING ERROR_BUSY_DRIVE	The system cannot perform a JOIN or SUBST at this time.
+08.11.2018 20:26:00 192.168.3.187 csrss.exe WARNING ERROR_TOO_MANY_MUXWAITERS	DosMuxSemWait did not execute; too many semaphores are already set.
+11.09.2018 08:18:14 192.168.3.189 chrome.exe WARNING ERROR_SHARING_BUFFER_EXCEEDED	Too many files opened for sharing.
+12.02.2019 22:31:00 192.168.1.184 svchost.exe INFO ERROR_FILE_TOO_LARGE	The file size exceeds the limit allowed and cannot be saved.
+20.12.2018 22:15:41 192.168.1.183 lsm.exe INFO ERROR_MESSAGE_EXCEEDS_MAX_SIZE	The message provided exceeds the maximum size allowed for this parameter.
+09.09.2018 17:53:42 192.168.10.184 VBoxSVC.exe ERROR ERROR_CURRENT_DIRECTORY	The directory cannot be removed.
+09.02.2019 10:43:44 192.168.1.183 VirtualBox.exe INFO ERROR_CLUSTER_USE_SHARED_VOLUMES_API	This group or resource cannot be directly manipulated. Use shared volume APIs to perform desired operation.
+09.02.2019 16:05:01 192.168.2.183 PUTTY.EXE INFO ERROR_RESOURCE_PROPERTY_UNCHANGEABLE	An attempt to modify a resource property failed because it conflicts with another existing property.
+20.02.2019 09:55:38 192.168.0.189 svchost.exe INFO ERROR_NOT_ENOUGH_MEMORY	Not enough storage is available to process this command.
+04.01.2019 09:26:31 192.168.10.181 csrss.exe INFO ERROR_WMI_READ_ONLY	The WMI data item or data block is read only.
+30.12.2018 12:01:25 192.168.1.185 csrss.exe ALARM ERROR_INVALID_ORDINAL	The operating system cannot run %1.
+20.09.2018 10:24:02 192.168.7.183 dwm.exe INFO ERROR_INVALID_MEDIA	The media identifier does not represent a valid medium.
+15.11.2018 15:31:11 192.168.2.188 VirtualBox.exe INFO ERROR_CLUSTER_NULL_DATA	An internal cluster error occurred. Data was not properly initialized.
+17.12.2018 11:38:07 192.168.0.189 dopusrt.exe INFO ERROR_DEVICE_SUPPORT_IN_PROGRESS	Device's command support detection is in progress.
+14.12.2018 02:18:34 192.168.1.181 VirtualBox.exe INFO ERROR_BAD_THREADID_ADDR	The address for the thread ID is not correct.
+20.10.2018 20:04:26 192.168.8.183 chrome.exe DEBUG ERROR_NO_PROC_SLOTS	The system cannot start another process at this time.
+17.09.2018 15:57:58 192.168.10.188 explorer.exe INFO ERROR_SEM_OWNER_DIED	The previous ownership of this semaphore has ended.
+04.09.2018 23:34:30 192.168.9.183 chrome.exe WARNING ERROR_RPL_NOT_ALLOWED	Replication with a nonconfigured partner is not allowed.
+13.01.2019 10:25:22 192.168.2.185 VBoxSVC.exe ERROR ERROR_CLUSTER_SHARED_VOLUMES_IN_USE	There is one or more shared volumes resources configured in the cluster. Those resources must be moved to available storage in order for operation to succeed.
+19.02.2019 21:31:42 192.168.3.180 lsm.exe INFO ERROR_TOO_MANY_MUXWAITERS	DosMuxSemWait did not execute; too many semaphores are already set.
+09.11.2018 16:15:57 192.168.3.180 VirtualBox.exe INFO ERROR_CLUSTER_NOT_INSTALLED	The Failover Clustering feature is not installed on this node.
+05.02.2019 21:30:57 192.168.2.189 VBoxSVC.exe ERROR ERROR_OPLOCK_NOT_GRANTED	The oplock request is denied.
+28.01.2019 19:29:45 192.168.8.182 svchost.exe WARNING ERROR_CLUSTER_OWNER_NOT_IN_PREFLIST	You cannot bring the group online because the owner of the group is not in the preferred list for the group. To change the owner node for the group, move the group.
+03.01.2019 11:03:42 192.168.3.180 svchost.exe TRACE ERROR_CLUSTER_NODE_UNREACHABLE	The cluster node is not reachable.
+08.10.2018 16:43:04 192.168.10.181 spoolsv.exe INFO ERROR_DISK_FULL	There is not enough space on the disk.
+05.12.2018 02:06:18 192.168.5.184 dopus.exe INFO ERROR_IEPORT_FULL	Cannot use the inject/eject port because it is not empty.
+03.12.2018 14:28:16 192.168.0.188 explorer.exe ERROR ERROR_DATABASE_FAILURE	Unable to read from or write to the database.
+31.01.2019 13:32:24 192.168.6.183 csrss.exe ALARM ERROR_CLUSTER_INSTANCE_ID_MISMATCH	The join operation failed because the cluster instance ID of the joining node does not match the cluster instance ID of the sponsor node.
+17.02.2019 03:35:55 192.168.5.181 WmiPrvSE.exe ERROR ERROR_TOO_MANY_SEM_REQUESTS	The semaphore cannot be set again.
+15.01.2019 17:27:58 192.168.10.180 chrome.exe INFO ERROR_SEM_OWNER_DIED	The previous ownership of this semaphore has ended.
+05.09.2018 14:17:03 192.168.8.186 igfxpers.exe INFO ERROR_CLUSTER_NODE_NOT_PAUSED	The cluster node is not paused.
+28.09.2018 07:44:59 192.168.9.188 smss.exe INFO ERROR_UNABLE_TO_INVENTORY_TRANSPORT	Unable to retrieve status about the transport.
+21.12.2018 10:14:31 192.168.1.181 cmd.exe INFO ERROR_CLUSTER_GROUP_BUSY	The current operation cannot be performed on this group at this time.
+22.01.2019 11:26:52 192.168.1.184 conhost.exe INFO ERROR_NO_PROC_SLOTS	The system cannot start another process at this time.
+17.09.2018 23:34:12 192.168.9.180 svchost.exe ERROR ERROR_BAD_ARGUMENTS	One or more arguments are not correct.
+28.10.2018 02:53:04 192.168.8.189 notepad++.exe INFO ERROR_INVALID_MODULETYPE	The operating system cannot run %1.
+08.01.2019 11:56:14 192.168.4.181 dopus.exe INFO ERROR_TOO_MANY_POSTS	Too many posts were made to a semaphore.
+05.10.2018 07:04:58 192.168.0.185 GoogleUpdate.exe INFO ERROR_GROUP_NOT_ONLINE	The operation could not be completed because the cluster group is not online.
+01.11.2018 20:24:41 192.168.8.188 netbeans64.exe ERROR ERROR_CSV_VOLUME_NOT_LOCAL	The cluster shared volume is not locally mounted on this node.
+11.02.2019 23:12:40 192.168.9.188 conhost.exe INFO ERROR_DATABASE_FULL	The database is full.
+07.10.2018 03:21:17 192.168.3.183 svchost.exe INFO ERROR_CLEANER_CARTRIDGE_SPENT	The cleaner cartridge has performed the maximum number of drive cleanings.
+22.11.2018 18:55:53 192.168.10.180 dopusrt.exe WARNING PEERDIST_ERROR_ALREADY_COMPLETED	Can not perform the reqested operation because it has already been carried out.
+18.02.2019 03:22:41 192.168.7.185 dwm.exe INFO ERROR_UNABLE_TO_CLEAN	The drive cannot be cleaned or does not support cleaning.
+29.09.2018 10:23:44 192.168.4.183 System INFO ERROR_FILE_EXISTS	The file exists.
+28.02.2019 04:17:26 192.168.1.189 chrome.exe INFO ERROR_CLUSTER_NOT_SHARED_VOLUME	The directory or file is not located on a cluster shared volume.
+18.11.2018 03:21:57 192.168.2.182 netbeans64.exe INFO ERROR_WMI_UNRESOLVED_INSTANCE_REF	The WMI data provider references an instance set that has not been registered.
+13.11.2018 04:20:02 192.168.9.184 explorer.exe INFO ERROR_INVALID_ACCESS	The access code is invalid.
+22.02.2019 02:13:43 192.168.4.187 Greenshot.exe CRITICAL ERROR_QUORUM_DISK_NOT_FOUND	The quorum disk could not be located by the cluster service.
+23.09.2018 01:34:33 192.168.0.182 hkcmd.exe INFO PEERDIST_ERROR_VERSION_UNSUPPORTED	The requested version is not supported.
+21.12.2018 05:58:09 192.168.0.186 dopus.exe CRITICAL ERROR_OBJECT_ALREADY_EXISTS	The object already exists.
+07.12.2018 09:15:04 192.168.3.189 chrome.exe INFO ERROR_DEVICE_NO_RESOURCES	The target device has insufficient resources to complete the operation.
+04.11.2018 20:08:04 192.168.5.183 chrome.exe DEBUG ERROR_CLUSTER_NETWORK_NOT_INTERNAL	The cluster network is not configured for internal cluster communication.
+05.02.2019 17:31:36 192.168.9.182 wmpnetwk.exe INFO ERROR_OUT_OF_PAPER	The printer is out of paper.
+25.11.2018 15:17:41 192.168.6.180 netbeans64.exe INFO ERROR_DEV_NOT_EXIST	The specified network resource or device is no longer available.
+21.10.2018 17:08:04 192.168.7.181 notepad++.exe INFO ERROR_CLUSTER_INVALID_SECURITY_DESCRIPTOR	The Security Descriptor does not meet the requirements for a cluster.
+22.12.2018 03:51:11 192.168.8.182 ICCProxy.exe WARNING ERROR_VIRUS_INFECTED	Operation did not complete successfully because the file contains a virus or potentially unwanted software.
+05.09.2018 20:06:25 192.168.10.188 svchost.exe ALARM ERROR_NETWORK_NOT_AVAILABLE	A cluster network is not available for this operation.
+30.09.2018 08:39:56 192.168.7.186 GoogleUpdate.exe INFO ERROR_BAD_NET_RESP	The specified server cannot perform the requested operation.
+16.11.2018 17:11:57 192.168.8.186 igfxtray.exe WARNING ERROR_OBJECT_ALREADY_EXISTS	The object already exists.
+12.12.2018 22:26:10 192.168.9.183 VirtualBox.exe ERROR ERROR_CLEANER_SLOT_NOT_SET	A cleaner slot is not reserved.
+25.12.2018 16:22:36 192.168.3.184 chrome.exe TRACE ERROR_ACCESS_DENIED	Access is denied.
+14.10.2018 18:04:54 192.168.10.189 wininit.exe INFO ERROR_CLUSTER_INVALID_NETWORK	The cluster network is not valid.
+26.01.2019 20:02:11 192.168.5.184 explorer.exe CRITICAL ERROR_CLUSTER_INVALID_NETWORK_PROVIDER	The cluster network provider is not valid.
+11.12.2018 06:31:15 192.168.3.185 svchost.exe ALARM ERROR_TOO_MANY_NAMES	The name limit for the local computer network adapter card was exceeded.
+14.02.2019 02:53:47 192.168.3.189 spoolsv.exe INFO ERROR_OFFLOAD_READ_FLT_NOT_SUPPORTED	The copy offload read operation is not supported by a filter.
+13.02.2019 23:41:57 192.168.7.180 svchost.exe WARNING ERROR_SUCCESS	The operation completed successfully.
+30.10.2018 19:15:33 192.168.8.189 spoolsv.exe CRITICAL ERROR_FILE_TOO_LARGE	The file size exceeds the limit allowed and cannot be saved.
+18.09.2018 20:49:19 192.168.7.188 dopus.exe INFO ERROR_QUORUM_RESOURCE	The cluster resource could not be deleted or brought offline because it is the quorum resource.
+04.11.2018 12:53:55 192.168.7.180 notepad++.exe DEBUG ERROR_CLUSTER_NETWORK_HAS_DEPENDENTS	One or more cluster resources depend on the network to provide service to clients. The client access capability cannot be removed from the network.
+05.09.2018 22:43:18 192.168.9.181 WmiPrvSE.exe INFO ERROR_IS_SUBSTED	An attempt was made to use a JOIN or SUBST command on a drive that has already been substituted.
+26.12.2018 14:53:57 192.168.0.188 VBoxSVC.exe INFO ERROR_INVALID_FIELD_IN_PARAMETER_LIST	The command specified an invalid field in its parameter list.
+03.01.2019 02:10:21 192.168.7.182 VBoxSVC.exe INFO ERROR_CANNOT_MAKE	The directory or file cannot be created.
+02.09.2018 11:49:17 192.168.1.188 chrome.exe ERROR ERROR_CLUSTER_SHARED_VOLUMES_IN_USE	There is one or more shared volumes resources configured in the cluster. Those resources must be moved to available storage in order for operation to succeed.
+14.12.2018 19:25:57 192.168.0.186 VCDDaemon.exe TRACE ERROR_CONTROLLING_IEPORT	Unable to open or close the inject/eject port.
+16.11.2018 11:55:35 192.168.10.184 ICCProxy.exe TRACE ERROR_MEDIUM_NOT_ACCESSIBLE	The transport cannot access the medium.
+22.01.2019 18:36:30 192.168.6.186 VirtualBox.exe INFO ERROR_BAD_COMMAND	The device does not recognize the command.
+18.09.2018 17:58:32 192.168.10.187 svchost.exe WARNING ERROR_CLUSTER_NODE_NOT_FOUND	The cluster node was not found.
+24.11.2018 11:36:22 192.168.7.188 svchost.exe WARNING ERROR_MEDIA_UNAVAILABLE	No media is currently available in this media pool or library.
+15.10.2018 14:06:37 192.168.0.186 cmd.exe ERROR ERROR_DATABASE_FULL	The database is full.
+09.12.2018 10:15:46 192.168.1.185 System ERROR ERROR_WMI_GUID_DISCONNECTED	The WMI data block is no longer available.
+21.12.2018 12:27:06 192.168.5.181 svchost.exe INFO ERROR_INVALID_CAP	The Central Access Policy obtained from Active Directory is invalid.
+29.10.2018 09:54:56 192.168.2.183 csrss.exe WARNING ERROR_NOT_READY	The device is not ready.
+31.01.2019 17:44:34 192.168.0.186 VirtualBox.exe INFO ERROR_IS_SUBSTED	An attempt was made to use a JOIN or SUBST command on a drive that has already been substituted.
+26.10.2018 00:54:36 192.168.6.182 notepad++.exe WARNING ERROR_CLUSTER_RESOURCE_VETOED_MOVE_INCOMPATIBLE_NODES	A resource vetoed a move between two nodes because they are incompatible.
+02.12.2018 21:44:51 192.168.0.180 services.exe INFO ERROR_CLUSTER_NETWORK_ALREADY_ONLINE	The cluster network is already online.
+23.12.2018 19:31:01 192.168.7.183 netbeans64.exe TRACE ERROR_STATIC_INIT	The importation from the file failed.
+05.10.2018 12:54:31 192.168.3.187 ICCProxy.exe INFO ERROR_PIPE_NOT_CONNECTED	No process is on the other end of the pipe.
+23.12.2018 16:51:46 192.168.2.184 svchost.exe TRACE ERROR_CLUSTER_NODE_DOWN	The cluster node is down.
+04.12.2018 19:19:07 192.168.2.183 chrome.exe INFO ERROR_CLUSTER_NULL_DATA	An internal cluster error occurred. Data was not properly initialized.
+22.01.2019 09:42:52 192.168.7.180 PUTTY.EXE ALARM ERROR_PRINTQ_FULL	The printer queue is full.
+05.01.2019 00:54:34 192.168.4.188 System INFO ERROR_CLUSTER_NO_SECURITY_CONTEXT	No cluster security context is available.
+28.11.2018 00:47:02 192.168.4.181 svchost.exe TRACE PEERDIST_ERROR_INVALIDATED	The supplied object has already been invalidated.
+15.12.2018 04:29:22 192.168.6.187 System DEBUG ERROR_RESOURCE_NOT_ONLINE	The cluster resource is not online.
+22.01.2019 17:39:07 192.168.4.189 svchost.exe INFO ERROR_DRIVE_LOCKED	The disk is in use or locked by another process.
+18.09.2018 10:40:00 192.168.0.188 services.exe DEBUG ERROR_REPARSE_TAG_MISMATCH	There is a mismatch between the tag specified in the request and the tag present in the reparse point.
+06.10.2018 04:13:42 192.168.6.180 System WARNING ERROR_INVALID_FLAG_NUMBER	The flag passed is not correct.
+23.01.2019 21:16:16 192.168.1.186 notepad++.exe INFO ERROR_CANT_DELETE_LAST_ITEM	The last remaining item in this group or resource cannot be deleted.
+14.11.2018 21:27:04 192.168.10.182 winlogon.exe TRACE ERROR_SEM_OWNER_DIED	The previous ownership of this semaphore has ended.
+31.01.2019 07:52:41 192.168.8.185 chrome.exe DEBUG ERROR_RESMON_INVALID_STATE	The resource monitor will not allow the fail operation to be performed while the resource is in its current state. This may happen if the resource is in a pending state.
+20.02.2019 10:23:48 192.168.0.188 chrome.exe INFO ERROR_CLUSTER_SYSTEM_CONFIG_CHANGED	The system configuration changed during the cluster join or form operation. The join or form operation was aborted.
+23.11.2018 16:01:56 192.168.3.184 Greenshot.exe INFO ERROR_TOO_MANY_SESS	The network BIOS session limit was exceeded.
+26.01.2019 08:16:49 192.168.1.182 explorer.exe INFO ERROR_DEVICE_NOT_AVAILABLE	The device is not ready for use.
+18.09.2018 09:47:55 192.168.4.185 svchost.exe WARNING ERROR_RPL_NOT_ALLOWED	Replication with a nonconfigured partner is not allowed.
+24.11.2018 15:24:15 192.168.4.182 wininit.exe INFO ERROR_SEM_USER_LIMIT	Insert the diskette for drive %1.
+12.02.2019 02:10:00 192.168.1.181 chrome.exe TRACE ERROR_INVALID_EXE_SIGNATURE	Cannot run %1 in Win32 mode.
+25.12.2018 06:56:08 192.168.4.185 services.exe TRACE ERROR_CLUSTER_PARAMETER_OUT_OF_BOUNDS	A parameter value is out of acceptable range.
+10.10.2018 01:12:15 192.168.8.180 explorer.exe INFO ERROR_NOT_READY	The device is not ready.
+10.09.2018 09:28:12 192.168.4.184 ICCProxy.exe ERROR ERROR_WRONG_DISK	The wrong diskette is in the drive. Insert %2 (Volume Serial Number: %3) into drive %1.
+13.09.2018 23:50:37 192.168.1.184 spoolsv.exe INFO ERROR_RESOURCE_ONLINE	The operation could not be completed because the cluster resource is online.
+21.11.2018 05:19:31 192.168.1.189 VCDDaemon.exe DEBUG ERROR_CLUSTER_RESOURCE_TYPE_BUSY	The resource type cannot accept the request since is too busy performing another operation.
+10.02.2019 15:28:53 192.168.6.183 hkcmd.exe ERROR ERROR_PIPE_LOCAL	The pipe is local.
+11.11.2018 17:27:56 192.168.9.181 SearchIndexer.exe INFO ERROR_INTERMIXED_KERNEL_EA_OPERATION	An attempt was made to modify both a KERNEL and normal Extended Attribute (EA) in the same operation.
+22.11.2018 13:16:39 192.168.4.188 cmd.exe TRACE PEERDIST_ERROR_ALREADY_EXISTS	An element already exists and was not replaced.
+01.09.2018 23:54:25 192.168.0.186 hkcmd.exe INFO ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME	The name of the corresponding computer account doesn't match the Network Name for this resource.
+11.10.2018 20:26:07 192.168.8.180 lsm.exe INFO ERROR_NONCORE_GROUPS_FOUND	This cluster cannot be destroyed. It has non-core application groups which must be deleted before the cluster can be destroyed.
+06.09.2018 06:44:38 192.168.3.185 GoogleUpdate.exe ALARM ERROR_NEGATIVE_SEEK	An attempt was made to move the file pointer before the beginning of the file.
+09.01.2019 23:20:13 192.168.2.180 PUTTY.EXE WARNING ERROR_DEVICE_NO_RESOURCES	The target device has insufficient resources to complete the operation.
+26.10.2018 20:52:04 192.168.0.188 lsass.exe INFO ERROR_CLUSTER_NETWORK_ALREADY_OFFLINE	The cluster network is already offline.
+21.12.2018 19:33:12 192.168.0.188 svchost.exe WARNING ERROR_DIR_NOT_EMPTY	The directory is not empty.
+02.10.2018 06:44:05 192.168.8.180 svchost.exe CRITICAL ERROR_SCRUB_DATA_DISABLED	Scrub is disabled on the specified file.
+26.09.2018 11:56:05 192.168.9.187 VirtualBox.exe INFO ERROR_MEDIA_UNAVAILABLE	No media is currently available in this media pool or library.
+02.02.2019 10:00:32 192.168.0.187 cmd.exe DEBUG ERROR_IMAGE_SUBSYSTEM_NOT_PRESENT	The subsystem needed to support the image type is not present.
+05.11.2018 22:50:14 192.168.2.184 svchost.exe INFO PEERDIST_ERROR_CANNOT_PARSE_CONTENTINFO	The supplied content information is malformed.
+28.02.2019 18:08:19 192.168.10.185 chrome.exe INFO ERROR_INVALID_DRIVE	The system cannot find the drive specified.
+16.09.2018 07:33:59 192.168.4.187 lsass.exe WARNING ERROR_REPARSE_TAG_MISMATCH	There is a mismatch between the tag specified in the request and the tag present in the reparse point.
+10.12.2018 09:25:38 192.168.7.185 svchost.exe INFO ERROR_RESMON_INVALID_STATE	The resource monitor will not allow the fail operation to be performed while the resource is in its current state. This may happen if the resource is in a pending state.
+09.02.2019 11:29:13 192.168.2.188 VirtualBox.exe INFO ERROR_CLUSTERLOG_CORRUPT	The cluster log is corrupt.
+14.09.2018 02:46:22 192.168.5.189 dopusrt.exe ERROR ERROR_BAD_PATHNAME	The specified path is invalid.
+07.09.2018 23:19:56 192.168.7.181 dopusrt.exe WARNING ERROR_DELETE_PENDING	The file cannot be opened because it is in the process of being deleted.
+14.12.2018 11:02:29 192.168.7.187 svchost.exe ALARM ERROR_PIPE_NOT_CONNECTED	No process is on the other end of the pipe.
+02.09.2018 02:43:23 192.168.3.180 dopus.exe ERROR ERROR_NOT_REDUNDANT_STORAGE	The storage device does not provide redundancy.
+14.11.2018 23:44:43 192.168.5.186 svchost.exe INFO ERROR_CLUSTER_NO_RPC_PACKAGES_REGISTERED	No authentication package could be registered with the RPC server.
+03.09.2018 19:53:51 192.168.3.183 conhost.exe CRITICAL ERROR_BAD_REM_ADAP	The remote adapter is not compatible.
+08.10.2018 04:51:34 192.168.9.188 svchost.exe INFO ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME	Short names are not enabled on this volume.
+19.01.2019 09:05:27 192.168.10.180 dopusrt.exe INFO ERROR_CLUSTER_RESTYPE_NOT_SUPPORTED	The specified node does not support a resource of this type. This may be due to version inconsistencies or due to the absence of the resource DLL on this node.
+11.02.2019 18:16:22 192.168.3.181 WmiPrvSE.exe DEBUG ERROR_CLUSTER_NODE_PAUSED	The cluster node is paused.
+16.11.2018 04:25:06 192.168.3.183 services.exe WARNING ERROR_RESOURCE_DISABLED	A resource required for this operation is disabled.
+18.02.2019 04:39:15 192.168.6.188 svchost.exe WARNING ERROR_RESOURCE_NOT_AVAILABLE	The cluster resource is not available.
+13.11.2018 17:29:29 192.168.8.185 svchost.exe INFO ERROR_CLUSTER_GROUP_QUEUED	The requested operation can not be completed because the group is queued for an operation.
+21.12.2018 05:16:49 192.168.10.189 VBoxSVC.exe WARNING ERROR_PIPE_LOCAL	The pipe is local.
+03.12.2018 07:01:17 192.168.4.187 VBoxSVC.exe INFO ERROR_UNEXPECTED_OMID	Unexpected on-medium identifier.
+01.12.2018 13:53:30 192.168.8.189 chrome.exe DEBUG ERROR_MEDIA_UNAVAILABLE	No media is currently available in this media pool or library.
+20.11.2018 11:07:52 192.168.9.182 spoolsv.exe INFO ERROR_CLUSTER_INVALID_NETWORK_PROVIDER	The cluster network provider is not valid.
+02.09.2018 03:37:39 192.168.6.185 dopus.exe ALARM ERROR_QUORUM_RESOURCE_ONLINE_FAILED	The quorum resource failed to come online.
+13.12.2018 16:49:39 192.168.4.186 dopus.exe INFO ERROR_PROC_NOT_FOUND	The specified procedure could not be found.
+12.02.2019 16:04:45 192.168.6.185 VCDDaemon.exe INFO ERROR_CLUSTER_NOT_SHARED_VOLUME	The directory or file is not located on a cluster shared volume.
+13.10.2018 22:32:54 192.168.8.187 svchost.exe WARNING ERROR_APP_DATA_LIMIT_EXCEEDED	Fast Cache data has exceeded its max size and cannot be updated.
+19.01.2019 15:29:26 192.168.0.184 WmiPrvSE.exe INFO ERROR_REPARSE_ATTRIBUTE_CONFLICT	The reparse point attribute cannot be set because it conflicts with an existing attribute.
+16.01.2019 14:38:57 192.168.4.182 SecUPDUtilSvc.exe TRACE ERROR_CLUSTER_INVALID_NODE_WEIGHT	The request is invalid either because node weight cannot be changed while the cluster is in disk-only quorum mode, or because changing the node weight would violate the minimum cluster quorum requirements.
+13.09.2018 12:31:49 192.168.6.183 audiodg.exe INFO ERROR_TOO_MANY_DESCRIPTORS	The command specified a number of descriptors that exceeded the maximum supported by the device.
+18.02.2019 08:08:02 192.168.0.180 Greenshot.exe WARNING ERROR_AUTODATASEG_EXCEEDS_64k	The operating system cannot run this application program.
+29.11.2018 21:12:42 192.168.9.180 svchost.exe INFO ERROR_HOST_NODE_NOT_RESOURCE_OWNER	The operation failed because either the specified cluster node is not the owner of the resource, or the node is not a possible owner of the resource.
+15.02.2019 04:49:45 192.168.9.188 taskhost.exe CRITICAL ERROR_IS_SUBSTED	An attempt was made to use a JOIN or SUBST command on a drive that has already been substituted.
+13.09.2018 18:35:00 192.168.6.186 svchost.exe DEBUG ERROR_OBJECT_NOT_FOUND	The object identifier does not represent a valid object.
+18.10.2018 02:52:11 192.168.10.181 wmpnetwk.exe ERROR ERROR_LOCK_FAILED	Unable to lock a region of a file.
+15.09.2018 07:55:04 192.168.7.182 services.exe INFO ERROR_CLUSTER_NO_QUORUM	A quorum of cluster nodes was not present to form a cluster.
+12.11.2018 23:50:38 192.168.7.188 igfxtray.exe TRACE ERROR_CLUSCFG_SYSTEM_DISK_DRIVE_LETTER_CONFLICT	The drive letter assigned to a system disk on one node conflicted with the drive letter assigned to a disk on another node.
+05.10.2018 15:31:36 192.168.9.187 tasklist.exe INFO ERROR_INVALID_CLEANER	The media identifier does not represent a valid cleaner.
+06.10.2018 08:18:35 192.168.4.181 chrome.exe ERROR ERROR_NO_SPOOL_SPACE	Space to store the file waiting to be printed is not available on the server.
+08.11.2018 21:33:15 192.168.10.180 igfxpers.exe WARNING ERROR_CLUSTER_NO_RPC_PACKAGES_REGISTERED	No authentication package could be registered with the RPC server.
+19.01.2019 06:31:14 192.168.7.185 wininit.exe ERROR ERROR_QUORUM_OWNER_ALIVE	The cluster node failed to take control of the quorum resource because the resource is owned by another active node.
+27.02.2019 00:03:40 192.168.1.184 chrome.exe WARNING ERROR_RESIDENT_FILE_NOT_SUPPORTED	An operation is not supported on a resident file.
+02.01.2019 01:22:07 192.168.9.183 taskhost.exe ALARM ERROR_SECUREBOOT_FILE_REPLACED	Secure Boot requires that certain files and drivers are not replaced by other files or drivers.
+01.09.2018 00:22:48 192.168.0.180 svchost.exe ALARM ERROR_CLUSTERLOG_RECORD_EXCEEDS_MAXSIZE	The record could not be written to the cluster log since it exceeds the maximum size.
+20.10.2018 00:49:50 192.168.2.186 svchost.exe ERROR ERROR_NOT_LOCKED	The segment is already unlocked.
+07.10.2018 20:17:33 192.168.5.188 VirtualBox.exe WARNING ERROR_REPARSE_ATTRIBUTE_CONFLICT	The reparse point attribute cannot be set because it conflicts with an existing attribute.
+28.11.2018 06:54:08 192.168.5.188 conhost.exe INFO ERROR_INVALID_FIELD_IN_PARAMETER_LIST	The command specified an invalid field in its parameter list.
+13.11.2018 12:36:55 192.168.0.182 audiodg.exe INFO ERROR_NETWORK_BUSY	The network is busy.
+18.11.2018 17:29:02 192.168.4.180 hkcmd.exe WARNING ERROR_CLUSTER_REGISTRY_INVALID_FUNCTION	An invalid cluster registry operation was attempted.
+16.10.2018 16:09:29 192.168.9.181 cmd.exe INFO ERROR_CLUSTER_LAST_INTERNAL_NETWORK	The cluster network is the only one configured for internal cluster communication between two or more active cluster nodes. The internal communication capability cannot be removed from the network.
+02.10.2018 20:18:09 192.168.4.182 wininit.exe INFO ERROR_CLUSTER_DATABASE_SEQMISMATCH	The join operation failed because the cluster database sequence number has changed or is incompatible with the locker node. This may happen during a join operation if the cluster database was changing during the join.
+08.01.2019 18:11:10 192.168.7.183 igfxpers.exe WARNING ERROR_GROUP_NOT_ONLINE	The operation could not be completed because the cluster group is not online.
+21.02.2019 14:35:56 192.168.0.187 svchost.exe ALARM ERROR_BUFFER_OVERFLOW	The file name is too long.
+25.10.2018 17:31:11 192.168.2.185 svchost.exe ERROR ERROR_IS_JOIN_TARGET	A JOIN or SUBST command cannot be used for a drive that contains previously joined drives.
+26.10.2018 15:29:22 192.168.10.180 SearchIndexer.exe DEBUG ERROR_META_EXPANSION_TOO_LONG	The global filename characters, * or ?, are entered incorrectly or too many global filename characters are specified.
+11.10.2018 03:16:47 192.168.0.187 igfxpers.exe INFO ERROR_DEPENDENCY_TREE_TOO_COMPLEX	The dependencies for this resource are nested too deeply.
+06.11.2018 07:12:04 192.168.9.186 audiodg.exe INFO ERROR_PATH_BUSY	The path specified cannot be used at this time.
+23.11.2018 15:12:34 192.168.3.182 svchost.exe WARNING ERROR_BAD_COMMAND	The device does not recognize the command.
+02.11.2018 03:07:46 192.168.9.182 cmd.exe INFO ERROR_CLUSTER_NODE_DRAIN_IN_PROGRESS	A node drain is already in progress.
+24.09.2018 14:37:41 192.168.6.189 svchost.exe TRACE ERROR_CLUSTER_GROUP_MOVING	The group is unable to accept the request since it is moving to another node.
+03.12.2018 19:58:47 192.168.2.189 svchost.exe ERROR ERROR_SEM_IS_SET	The semaphore is set and cannot be closed.
+09.10.2018 06:44:09 192.168.1.180 chrome.exe CRITICAL ERROR_INVALID_TOKEN	The token representing the data is invalid.
+08.09.2018 06:06:22 192.168.3.187 spoolsv.exe WARNING ERROR_BAD_PIPE	The pipe state is invalid.
+01.11.2018 16:24:58 192.168.9.182 VCDDaemon.exe ALARM PEERDIST_ERROR_ALREADY_EXISTS	An element already exists and was not replaced.
+19.12.2018 18:22:58 192.168.9.180 ICCProxy.exe INFO ERROR_NETWORK_BUSY	The network is busy.
+27.11.2018 02:47:29 192.168.6.182 explorer.exe DEBUG ERROR_NO_MORE_FILES	There are no more files.
+19.12.2018 11:41:31 192.168.1.181 wmpnetwk.exe DEBUG ERROR_CLUSTER_RESOURCE_VETOED_MOVE_NOT_ENOUGH_RESOURCES_ON_DESTINATION	A resource vetoed a move between two nodes because the destination currently does not have enough resources to complete the operation.
+07.09.2018 02:39:01 192.168.10.183 chrome.exe INFO ERROR_CLUSTER_NODE_ALREADY_UP	The cluster node is already up.
+27.09.2018 19:09:31 192.168.6.186 GoogleUpdate.exe INFO ERROR_INVALID_CAP	The Central Access Policy obtained from Active Directory is invalid.
+06.02.2019 11:50:38 192.168.9.183 WmiPrvSE.exe INFO ERROR_TOO_MANY_DESCRIPTORS	The command specified a number of descriptors that exceeded the maximum supported by the device.
+09.09.2018 10:14:10 192.168.9.180 svchost.exe INFO ERROR_CSV_VOLUME_NOT_LOCAL	The cluster shared volume is not locally mounted on this node.
+08.11.2018 23:30:55 192.168.10.180 igfxpers.exe WARNING ERROR_INVALID_DATA	The data is invalid.
+02.12.2018 05:30:32 192.168.6.189 chrome.exe INFO ERROR_ATOMIC_LOCKS_NOT_SUPPORTED	The file system does not support atomic changes to the lock type.
+21.12.2018 15:14:44 192.168.6.188 svchost.exe DEBUG ERROR_BAD_NET_RESP	The specified server cannot perform the requested operation.
+03.01.2019 06:18:07 192.168.8.189 System ALARM ERROR_NESTING_NOT_ALLOWED	Cannot nest calls to LoadModule.
+23.11.2018 01:32:10 192.168.9.182 Greenshot.exe INFO ERROR_EMPTY	The library, drive, or media pool is empty.
+02.12.2018 02:22:32 192.168.6.185 VCDDaemon.exe INFO ERROR_SHARING_PAUSED	The remote server has been paused or is in the process of being started.
+24.12.2018 00:05:46 192.168.6.187 wmpnetwk.exe INFO ERROR_SEM_OWNER_DIED	The previous ownership of this semaphore has ended.
+09.02.2019 09:25:24 192.168.0.187 netbeans64.exe INFO ERROR_REPARSE_TAG_INVALID	The tag present in the reparse point buffer is invalid.
+02.02.2019 14:33:03 192.168.10.184 netbeans64.exe TRACE ERROR_DISCARDED	The segment is already discarded and cannot be locked.
+17.09.2018 06:45:59 192.168.4.180 spoolsv.exe TRACE ERROR_TOO_MANY_TCBS	Cannot create another thread.
+06.02.2019 11:53:09 192.168.5.187 SearchIndexer.exe INFO ERROR_CLUSTER_QUORUMLOG_NOT_FOUND	The quorum resource does not contain the quorum log.
+04.12.2018 03:49:44 192.168.7.184 svchost.exe INFO ERROR_CLUSTER_RESOURCE_TYPE_NOT_FOUND	The specified resource type was not found.
+11.11.2018 12:28:48 192.168.2.188 services.exe TRACE ERROR_CANNOT_MAKE	The directory or file cannot be created.
+16.01.2019 07:36:45 192.168.9.180 svchost.exe WARNING ERROR_READ_FAULT	The system cannot read from the specified device.
+24.11.2018 18:05:47 192.168.7.184 Greenshot.exe INFO ERROR_MAX_SESSIONS_REACHED	The maximum number of sessions has been reached.
+19.01.2019 12:18:59 192.168.9.189 dopus.exe INFO ERROR_INVALID_BLOCK	The storage control block address is invalid.
+17.11.2018 15:02:15 192.168.8.187 chrome.exe INFO ERROR_LOCK_VIOLATION	The process cannot access the file because another process has locked a portion of the file.
+07.01.2019 01:33:10 192.168.5.182 dopusrt.exe WARNING ERROR_BAD_EXE_FORMAT	%1 is not a valid Win32 application.
+01.01.2019 05:28:59 192.168.3.181 audiodg.exe WARNING ERROR_CLUSTERLOG_CHKPOINT_NOT_FOUND	No checkpoint record was found in the cluster log.
+26.01.2019 13:45:35 192.168.0.184 svchost.exe WARNING ERROR_FAIL_RESTART	The restart operation failed.
+18.01.2019 20:11:02 192.168.3.183 VirtualBox.exe DEBUG ERROR_IEPORT_FULL	Cannot use the inject/eject port because it is not empty.
+11.01.2019 00:49:00 192.168.3.184 explorer.exe INFO PEERDIST_ERROR_VERSION_UNSUPPORTED	The requested version is not supported.
+04.12.2018 15:05:32 192.168.9.189 chrome.exe INFO ERROR_WMI_DP_NOT_FOUND	The WMI data provider could not be located.
+19.09.2018 16:09:28 192.168.1.188 svchost.exe DEBUG ERROR_INVALID_LOCK_RANGE	A requested file lock operation cannot be processed due to an invalid byte range.
+26.02.2019 08:32:56 192.168.7.184 dwm.exe INFO ERROR_CLUSTER_GROUP_BUSY	The current operation cannot be performed on this group at this time.
+10.02.2019 16:45:19 192.168.8.182 svchost.exe WARNING ERROR_WAIT_NO_CHILDREN	There are no child processes to wait for.
+07.02.2019 17:19:03 192.168.2.185 SecUPDUtilSvc.exe ERROR ERROR_OBJECT_ALREADY_EXISTS	The object already exists.
+31.01.2019 11:37:51 192.168.2.186 chrome.exe INFO ERROR_WRONG_DISK	The wrong diskette is in the drive. Insert %2 (Volume Serial Number: %3) into drive %1.
+01.11.2018 05:23:31 192.168.1.181 svchost.exe INFO ERROR_ADAP_HDW_ERR	A network adapter hardware error occurred.
+16.12.2018 09:04:47 192.168.3.187 System ALARM ERROR_CLUSTER_NETWORK_ALREADY_ONLINE	The cluster network is already online.
+22.02.2019 12:44:00 192.168.7.185 svchost.exe DEBUG ERROR_UNEXP_NET_ERR	An unexpected network error occurred.
+20.11.2018 05:57:33 192.168.8.183 conhost.exe INFO ERROR_FILE_NOT_FOUND	The system cannot find the file specified.
+29.12.2018 13:07:26 192.168.10.182 svchost.exe ALARM ERROR_TOO_MANY_TCBS	Cannot create another thread.
+31.10.2018 16:51:55 192.168.1.183 Greenshot.exe INFO ERROR_INVALID_STATE	The group or resource is not in the correct state to perform the requested operation.
+22.12.2018 11:29:19 192.168.10.180 SearchIndexer.exe DEBUG ERROR_CLUSTER_EVICT_WITHOUT_CLEANUP	The cluster node was evicted from the cluster successfully, but the node was not cleaned up. To determine what cleanup steps failed and how to recover, see the Failover Clustering application event log using Event Viewer.
+10.10.2018 20:03:10 192.168.9.185 chrome.exe INFO PEERDIST_ERROR_CANNOT_PARSE_CONTENTINFO	The supplied content information is malformed.
+12.02.2019 01:33:19 192.168.6.183 svchost.exe WARNING ERROR_COMPRESSED_FILE_NOT_SUPPORTED	An operation is not supported on a compressed file.
+13.10.2018 01:21:29 192.168.2.184 dwm.exe INFO ERROR_LABEL_TOO_LONG	The volume label you entered exceeds the label character limit of the target file system.
+03.01.2019 01:04:16 192.168.8.183 csrss.exe INFO ERROR_RESOURCE_NOT_AVAILABLE	The cluster resource is not available.
+20.01.2019 22:22:37 192.168.10.186 chrome.exe INFO ERROR_WMI_INSTANCE_NOT_FOUND	The instance name passed was not recognized as valid by a WMI data provider.
+12.01.2019 11:38:59 192.168.6.184 spoolsv.exe INFO ERROR_WMI_SERVER_UNAVAILABLE	The WMI data service is not available.
+21.01.2019 02:24:17 192.168.3.181 csrss.exe WARNING ERROR_NOT_A_REPARSE_POINT	The file or directory is not a reparse point.
+07.12.2018 15:53:09 192.168.8.188 WmiPrvSE.exe INFO ERROR_RING2SEG_MUST_BE_MOVABLE	The code segment cannot be greater than or equal to 64K.
+10.10.2018 00:59:36 192.168.9.180 ICCProxy.exe TRACE ERROR_DEVICE_NO_RESOURCES	The target device has insufficient resources to complete the operation.
+22.10.2018 20:57:11 192.168.8.183 chrome.exe WARNING ERROR_CLUSTERLOG_RECORD_EXCEEDS_MAXSIZE	The record could not be written to the cluster log since it exceeds the maximum size.
+16.11.2018 15:07:22 192.168.3.183 chrome.exe WARNING ERROR_INVALID_STATE	The group or resource is not in the correct state to perform the requested operation.
+05.11.2018 18:22:40 192.168.4.180 igfxtray.exe WARNING ERROR_EMPTY	The library, drive, or media pool is empty.
+23.09.2018 10:58:36 192.168.0.183 conhost.exe INFO ERROR_WMI_READ_ONLY	The WMI data item or data block is read only.
+18.10.2018 13:08:01 192.168.2.184 svchost.exe CRITICAL ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME	Short names are not enabled on this volume.
+21.01.2019 13:46:12 192.168.1.181 svchost.exe INFO ERROR_NOT_QUORUM_CAPABLE	The cluster could not make the specified resource a quorum resource because it is not capable of being a quorum resource.
+13.02.2019 09:18:24 192.168.4.180 svchost.exe INFO ERROR_HOST_NODE_NOT_AVAILABLE	A cluster node is not available for this operation.
+24.02.2019 19:13:17 192.168.6.181 System INFO ERROR_CLEANER_CARTRIDGE_SPENT	The cleaner cartridge has performed the maximum number of drive cleanings.
+15.12.2018 21:45:58 192.168.2.186 notepad++.exe INFO ERROR_RESOURCE_NOT_ONLINE	The cluster resource is not online.
+24.11.2018 19:17:35 192.168.5.189 notepad++.exe ALARM ERROR_CLUSTER_JOIN_IN_PROGRESS	A node is in the process of joining the cluster.
+26.10.2018 13:06:06 192.168.6.188 taskhost.exe ALARM ERROR_CLUSTER_RESOURCE_TYPE_BUSY	The resource type cannot accept the request since is too busy performing another operation.
+30.09.2018 04:08:37 192.168.7.183 svchost.exe DEBUG ERROR_REQUEST_REFUSED	The operator or administrator has refused the request.
+15.02.2019 03:49:34 192.168.9.182 csrss.exe DEBUG ERROR_FILE_CHECKED_OUT	This file is checked out or locked for editing by another user.
+29.12.2018 19:11:37 192.168.5.185 SecUPDUtilSvc.exe INFO ERROR_QUORUM_OWNER_ALIVE	The cluster node failed to take control of the quorum resource because the resource is owned by another active node.
+05.09.2018 18:00:02 192.168.9.182 conhost.exe ALARM ERROR_BAD_ENVIRONMENT	The environment is incorrect.
+10.01.2019 19:22:13 192.168.1.186 VCDDaemon.exe WARNING ERROR_INCOMPATIBLE_WITH_GLOBAL_SHORT_NAME_REGISTRY_SETTING	Short name settings may not be changed on this volume due to the global registry setting.
+01.12.2018 16:05:14 192.168.7.180 chrome.exe DEBUG ERROR_FILE_NOT_FOUND	The system cannot find the file specified.
+19.11.2018 09:31:41 192.168.9.189 VirtualBox.exe DEBUG ERROR_CLUSTER_MAXNUM_OF_RESOURCES_EXCEEDED	This resource cannot be created because the cluster has reached the limit on the number of resources it can monitor.
+28.02.2019 02:09:54 192.168.6.183 dopusrt.exe DEBUG ERROR_CLUSTER_NODE_EXISTS	The cluster node already exists.
+26.10.2018 13:44:17 192.168.10.186 igfxpers.exe CRITICAL ERROR_THREAD_MODE_NOT_BACKGROUND	The thread is not in background processing mode.
+06.12.2018 17:52:08 192.168.6.185 winlogon.exe INFO ERROR_INVALID_PARAMETER	The parameter is incorrect.
+09.12.2018 14:55:59 192.168.7.188 wmpnetwk.exe WARNING ERROR_CLUSTER_NETINTERFACE_EXISTS	The cluster network interface already exists.
+24.12.2018 12:21:49 192.168.0.186 Greenshot.exe ERROR ERROR_WMI_GUID_DISCONNECTED	The WMI data block is no longer available.
+08.11.2018 01:39:21 192.168.7.180 VirtualBox.exe INFO ERROR_RESMON_SYSTEM_RESOURCES_LACKING	Resource could not start or run because it could not reserve sufficient system resources.
+26.11.2018 09:12:29 192.168.5.189 lsm.exe INFO ERROR_CLUSTER_NODE_UNREACHABLE	The cluster node is not reachable.
+19.12.2018 03:22:53 192.168.6.183 svchost.exe ERROR ERROR_CONTROLLING_IEPORT	Unable to open or close the inject/eject port.
+28.10.2018 03:44:54 192.168.3.183 winlogon.exe DEBUG ERROR_CLUSTER_PARTIAL_SEND	A network error occurred while sending data to another node in the cluster. The number of bytes transmitted was less than required.
+17.02.2019 01:01:30 192.168.5.189 dopus.exe INFO ERROR_INVALID_CLEANER	The media identifier does not represent a valid cleaner.
+20.09.2018 04:51:30 192.168.5.182 svchost.exe INFO ERROR_MAX_SESSIONS_REACHED	The maximum number of sessions has been reached.
+05.10.2018 09:56:58 192.168.7.189 services.exe ALARM ERROR_OUTOFMEMORY	Not enough storage is available to complete this operation.
+07.02.2019 19:40:57 192.168.4.186 svchost.exe WARNING ERROR_CHECKOUT_REQUIRED	The file must be checked out before saving changes.
+09.02.2019 15:13:56 192.168.9.186 svchost.exe INFO ERROR_WMI_INSTANCE_NOT_FOUND	The instance name passed was not recognized as valid by a WMI data provider.
+26.09.2018 02:59:05 192.168.10.180 csrss.exe WARNING ERROR_DISK_CHANGE	The program stopped because an alternate diskette was not inserted.
+23.12.2018 18:39:38 192.168.7.186 chrome.exe CRITICAL ERROR_CLUSTER_NODE_NOT_MEMBER	The cluster node is not a member of the cluster.
+31.10.2018 09:16:53 192.168.0.184 svchost.exe INFO ERROR_IS_SUBST_TARGET	An attempt was made to join or substitute a drive for which a directory on the drive is the target of a previous substitute.
+03.11.2018 02:44:24 192.168.0.186 conhost.exe INFO ERROR_IS_JOIN_TARGET	A JOIN or SUBST command cannot be used for a drive that contains previously joined drives.
+22.10.2018 03:29:43 192.168.2.180 chrome.exe INFO ERROR_EXCL_SEM_ALREADY_OWNED	The exclusive semaphore is owned by another process.
+16.11.2018 02:11:23 192.168.6.181 igfxtray.exe WARNING ERROR_SECUREBOOT_NOT_ENABLED	Secure Boot is not enabled on this machine.
+25.12.2018 02:05:29 192.168.2.183 svchost.exe INFO ERROR_IS_JOIN_TARGET	A JOIN or SUBST command cannot be used for a drive that contains previously joined drives.
+07.09.2018 11:37:42 192.168.5.182 igfxtray.exe ALARM ERROR_SECURITY_STREAM_IS_INCONSISTENT	The security stream for the given volume is in an inconsistent state. Please run CHKDSK on the volume.
+06.01.2019 12:39:16 192.168.1.184 svchost.exe INFO ERROR_CORE_RESOURCE	The cluster resource could not be deleted since it is a core resource.
+04.12.2018 08:58:30 192.168.3.189 VCDDaemon.exe INFO ERROR_INVALID_EA_HANDLE	The specified extended attribute handle is invalid.
+14.01.2019 09:59:14 192.168.7.189 chrome.exe INFO ERROR_MEDIA_UNAVAILABLE	No media is currently available in this media pool or library.
+08.12.2018 09:09:46 192.168.8.188 PUTTY.EXE INFO ERROR_NONCORE_GROUPS_FOUND	This cluster cannot be destroyed. It has non-core application groups which must be deleted before the cluster can be destroyed.
+14.09.2018 08:53:42 192.168.0.184 svchost.exe WARNING ERROR_WAIT_NO_CHILDREN	There are no child processes to wait for.
+09.01.2019 00:35:54 192.168.2.183 winlogon.exe WARNING ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME	Short names are not enabled on this volume.
+07.02.2019 21:38:06 192.168.1.187 chrome.exe ERROR ERROR_ACCESS_DENIED	Access is denied.
+07.10.2018 02:50:59 192.168.5.186 winlogon.exe INFO ERROR_QUORUM_DISK_NOT_FOUND	The quorum disk could not be located by the cluster service.
+10.01.2019 02:08:37 192.168.9.186 dopusrt.exe ERROR ERROR_RESOURCE_NOT_AVAILABLE	The cluster resource is not available.
+30.11.2018 19:36:48 192.168.9.187 notepad++.exe INFO ERROR_VIRUS_INFECTED	Operation did not complete successfully because the file contains a virus or potentially unwanted software.
+18.09.2018 18:00:27 192.168.9.186 SearchIndexer.exe INFO ERROR_DIRECT_ACCESS_HANDLE	Attempt to use a file handle to an open disk partition for an operation other than raw disk I/O.
+25.01.2019 02:11:52 192.168.9.183 dopusrt.exe ERROR ERROR_BAD_ENVIRONMENT	The environment is incorrect.
+13.12.2018 13:34:09 192.168.10.184 svchost.exe INFO ERROR_CLUSTER_NODE_SHUTTING_DOWN	The cluster node is shutting down.
+21.09.2018 12:36:52 192.168.8.187 netbeans64.exe INFO ERROR_THREAD_MODE_NOT_BACKGROUND	The thread is not in background processing mode.
+23.11.2018 17:55:01 192.168.9.182 svchost.exe ERROR ERROR_DIRECTORY_NOT_SUPPORTED	An operation is not supported on a directory.
+15.12.2018 16:38:12 192.168.9.183 svchost.exe INFO ERROR_PIPE_LOCAL	The pipe is local.
+08.11.2018 15:20:19 192.168.0.182 VBoxSVC.exe WARNING ERROR_CLUSTER_USE_SHARED_VOLUMES_API	This group or resource cannot be directly manipulated. Use shared volume APIs to perform desired operation.
+06.01.2019 00:55:49 192.168.2.188 svchost.exe WARNING ERROR_CLUSTER_USE_SHARED_VOLUMES_API	This group or resource cannot be directly manipulated. Use shared volume APIs to perform desired operation.
+04.09.2018 04:18:35 192.168.6.187 VirtualBox.exe INFO ERROR_CANNOT_MAKE	The directory or file cannot be created.
+05.10.2018 09:17:13 192.168.8.189 igfxtray.exe INFO ERROR_NOT_QUORUM_CLASS	The cluster could not make the specified resource a quorum resource because it does not belong to a shared storage class.
+18.02.2019 01:30:23 192.168.7.185 svchost.exe CRITICAL ERROR_CLUSTER_EVICT_WITHOUT_CLEANUP	The cluster node was evicted from the cluster successfully, but the node was not cleaned up. To determine what cleanup steps failed and how to recover, see the Failover Clustering application event log using Event Viewer.
+19.12.2018 22:01:47 192.168.2.189 chrome.exe DEBUG ERROR_MEDIA_NOT_AVAILABLE	The media is not mounted or ready for use.
+28.01.2019 01:05:45 192.168.6.188 VirtualBox.exe ALARM ERROR_BAD_EXE_FORMAT	%1 is not a valid Win32 application.
+04.01.2019 02:03:26 192.168.8.188 explorer.exe WARNING ERROR_IS_SUBST_TARGET	An attempt was made to join or substitute a drive for which a directory on the drive is the target of a previous substitute.
+15.12.2018 14:08:08 192.168.7.180 dopusrt.exe INFO ERROR_NETWORK_ACCESS_DENIED	Network access is denied.
+24.10.2018 00:34:45 192.168.1.187 PUTTY.EXE INFO ERROR_UNABLE_TO_CLEAN	The drive cannot be cleaned or does not support cleaning.
+16.01.2019 15:24:04 192.168.0.187 VirtualBox.exe CRITICAL ERROR_OFFLOAD_READ_FILE_NOT_SUPPORTED	The copy offload read operation is not supported for the file.
+26.10.2018 15:17:50 192.168.7.182 lsass.exe INFO ERROR_GEN_FAILURE	A device attached to the system is not functioning.
+12.11.2018 16:16:05 192.168.1.188 svchost.exe WARNING ERROR_DISK_TOO_FRAGMENTED	The volume is too fragmented to complete this operation.
+01.12.2018 03:13:48 192.168.1.181 dopusrt.exe ERROR ERROR_FILENAME_EXCED_RANGE	The filename or extension is too long.
+28.12.2018 00:32:28 192.168.10.184 SearchIndexer.exe DEBUG ERROR_CLUSTER_QUORUMLOG_NOT_FOUND	The quorum resource does not contain the quorum log.
+25.02.2019 12:30:38 192.168.7.188 netbeans64.exe INFO ERROR_CLUSTERLOG_RECORD_EXCEEDS_MAXSIZE	The record could not be written to the cluster log since it exceeds the maximum size.
+22.11.2018 05:25:05 192.168.7.184 VirtualBox.exe ALARM ERROR_RESMON_INVALID_STATE	The resource monitor will not allow the fail operation to be performed while the resource is in its current state. This may happen if the resource is in a pending state.
+22.01.2019 01:30:34 192.168.2.189 usp02pi.exe INFO PEERDIST_ERROR_INVALID_CONFIGURATION	A configuration value is invalid.
+08.09.2018 13:40:03 192.168.10.186 winlogon.exe WARNING ERROR_CANNOT_COPY	The copy functions cannot be used.
+22.11.2018 19:07:46 192.168.1.183 notepad++.exe WARNING ERROR_BAD_ARGUMENTS	One or more arguments are not correct.
+18.01.2019 22:06:17 192.168.6.188 usp02pi.exe INFO ERROR_MAX_THRDS_REACHED	No more threads can be created in the system.
+11.11.2018 11:25:07 192.168.8.189 chrome.exe WARNING ERROR_OBJECT_ALREADY_EXISTS	The object already exists.
+01.01.2019 16:33:17 192.168.3.188 wmpnetwk.exe TRACE ERROR_MORE_DATA	More data is available.
+26.09.2018 06:11:26 192.168.10.183 chrome.exe INFO ERROR_CLUSTER_INCOMPATIBLE_VERSIONS	The cluster join operation failed due to incompatible software versions between the joining node and its sponsor.
+30.09.2018 16:52:03 192.168.6.189 igfxpers.exe WARNING ERROR_INVALID_MEDIA	The media identifier does not represent a valid medium.
+19.01.2019 02:20:23 192.168.3.181 VirtualBox.exe DEBUG ERROR_INVALID_CAP	The Central Access Policy obtained from Active Directory is invalid.
+15.02.2019 10:22:09 192.168.3.181 chrome.exe INFO ERROR_HOST_NODE_NOT_AVAILABLE	A cluster node is not available for this operation.
+10.12.2018 09:06:37 192.168.9.189 dwm.exe INFO ERROR_DEPENDENCY_TREE_TOO_COMPLEX	The dependencies for this resource are nested too deeply.
+23.01.2019 19:22:53 192.168.6.189 lsass.exe INFO ERROR_OUT_OF_PAPER	The printer is out of paper.
+19.02.2019 15:00:53 192.168.6.186 cmd.exe INFO ERROR_DISK_CHANGE	The program stopped because an alternate diskette was not inserted.
+30.11.2018 22:21:12 192.168.9.184 VCDDaemon.exe WARNING ERROR_MORE_DATA	More data is available.
+06.09.2018 12:52:54 192.168.4.186 svchost.exe INFO ERROR_CLUSTER_NODE_SHUTTING_DOWN	The cluster node is shutting down.
+14.02.2019 21:03:32 192.168.9.186 notepad++.exe INFO ERROR_SHARING_PAUSED	The remote server has been paused or is in the process of being started.
+31.01.2019 23:05:11 192.168.1.187 netbeans64.exe INFO ERROR_BAD_DEV_TYPE	The network resource type is not correct.
+27.01.2019 17:16:34 192.168.1.186 explorer.exe INFO ERROR_CLUSTERLOG_NOT_ENOUGH_SPACE	The minimum required disk space needed for logging is not available.
+22.12.2018 03:14:51 192.168.6.186 csrss.exe INFO ERROR_EXCL_SEM_ALREADY_OWNED	The exclusive semaphore is owned by another process.
+12.11.2018 05:54:57 192.168.2.185 csrss.exe WARNING ERROR_CLUSTER_RESOURCE_TYPE_BUSY	The resource type cannot accept the request since is too busy performing another operation.
+10.02.2019 19:05:54 192.168.4.187 dopusrt.exe INFO ERROR_OUT_OF_PAPER	The printer is out of paper.
+30.12.2018 23:01:00 192.168.1.181 GoogleUpdate.exe DEBUG ERROR_TOO_MANY_POSTS	Too many posts were made to a semaphore.
+27.11.2018 06:03:40 192.168.8.185 winlogon.exe INFO ERROR_APP_DATA_REBOOT_REQUIRED	Fast Cache has been ReArmed and requires a reboot until it can be updated.
+10.02.2019 10:23:50 192.168.9.182 hkcmd.exe CRITICAL PEERDIST_ERROR_INVALIDATED	The supplied object has already been invalidated.
+27.12.2018 03:11:54 192.168.3.187 svchost.exe INFO ERROR_TOO_MANY_MUXWAITERS	DosMuxSemWait did not execute; too many semaphores are already set.
+25.09.2018 18:39:19 192.168.2.186 PUTTY.EXE ALARM ERROR_CLUSTER_MAX_NODES_IN_CLUSTER	A new node can not be added since this cluster is already at its maximum number of nodes.
+19.02.2019 04:26:12 192.168.5.181 services.exe CRITICAL ERROR_INVALID_ACCESS	The access code is invalid.
+28.11.2018 02:16:50 192.168.3.187 csrss.exe WARNING ERROR_CLUSTER_RESOURCE_VETOED_MOVE_INCOMPATIBLE_NODES	A resource vetoed a move between two nodes because they are incompatible.
+05.01.2019 21:34:40 192.168.4.188 WmiPrvSE.exe DEBUG ERROR_DEPENDENCY_ALREADY_EXISTS	The cluster resource cannot be made dependent on the specified resource because it is already dependent.
+26.11.2018 22:59:17 192.168.5.189 svchost.exe ALARM ERROR_NESTING_NOT_ALLOWED	Cannot nest calls to LoadModule.
+24.11.2018 13:55:36 192.168.10.185 services.exe ALARM ERROR_TOO_MANY_POSTS	Too many posts were made to a semaphore.
+09.09.2018 04:01:07 192.168.8.188 winlogon.exe CRITICAL ERROR_OBJECT_IN_LIST	The object is already in the list.
+01.10.2018 19:34:03 192.168.3.180 cmd.exe INFO ERROR_WMI_GUID_NOT_FOUND	The GUID passed was not recognized as valid by a WMI data provider.
+14.02.2019 13:31:55 192.168.0.189 VirtualBox.exe INFO ERROR_CLUSTER_NODE_NOT_MEMBER	The cluster node is not a member of the cluster.
+17.11.2018 14:03:10 192.168.5.183 SearchIndexer.exe ALARM ERROR_BAD_REM_ADAP	The remote adapter is not compatible.
+10.01.2019 02:32:22 192.168.2.180 spoolsv.exe INFO ERROR_CLUSTER_NODE_ALREADY_DOWN	The cluster node is already down.
+02.01.2019 01:58:01 192.168.4.185 Greenshot.exe WARNING ERROR_INVALID_EXCEPTION_HANDLER	An invalid exception handler routine has been detected.
+15.10.2018 02:49:21 192.168.7.187 svchost.exe WARNING ERROR_FILE_EXISTS	The file exists.
+25.01.2019 08:22:24 192.168.6.181 VirtualBox.exe INFO ERROR_SIGNAL_PENDING	A signal is already pending.
+29.11.2018 23:27:45 192.168.7.187 chrome.exe INFO ERROR_INVALID_MEDIA_POOL	The media pool identifier does not represent a valid media pool.
+13.02.2019 02:26:33 192.168.9.188 notepad++.exe INFO ERROR_SEM_IS_SET	The semaphore is set and cannot be closed.
+10.01.2019 00:45:09 192.168.9.185 svchost.exe INFO ERROR_WRITE_FAULT	The system cannot write to the specified device.
+02.01.2019 05:42:15 192.168.6.187 taskhost.exe DEBUG ERROR_INVALID_LOCK_RANGE	A requested file lock operation cannot be processed due to an invalid byte range.
+08.12.2018 06:52:05 192.168.7.189 VirtualBox.exe INFO ERROR_SIGNAL_PENDING	A signal is already pending.
+27.02.2019 16:37:34 192.168.9.189 chrome.exe ERROR ERROR_PRINT_CANCELLED	Your file waiting to be printed was deleted.
+02.11.2018 12:56:39 192.168.7.189 winlogon.exe WARNING ERROR_NO_SPOOL_SPACE	Space to store the file waiting to be printed is not available on the server.
+23.10.2018 02:25:04 192.168.3.189 chrome.exe WARNING ERROR_ITERATED_DATA_EXCEEDS_64k	The operating system cannot run %1.
+05.02.2019 12:05:54 192.168.2.188 wmpnetwk.exe ERROR ERROR_CLUSTER_NODE_NOT_MEMBER	The cluster node is not a member of the cluster.
+05.09.2018 16:42:14 192.168.2.184 tasklist.exe TRACE ERROR_INVALID_CLUSTER_IPV6_ADDRESS	The address is not valid for an IPv6 Address resource. A global IPv6 address is required, and it must match a cluster network. Compatibility addresses are not permitted.
+13.10.2018 19:48:30 192.168.10.188 svchost.exe ERROR ERROR_WMI_GUID_DISCONNECTED	The WMI data block is no longer available.
+27.10.2018 18:42:31 192.168.0.181 svchost.exe INFO ERROR_CLUSTER_SHUTTING_DOWN	The cluster software is shutting down.
+05.11.2018 03:50:39 192.168.5.180 svchost.exe INFO ERROR_DRIVE_MEDIA_MISMATCH	The drive and medium are not compatible or exist in different libraries.
+13.12.2018 15:06:41 192.168.2.188 explorer.exe ALARM ERROR_THREAD_MODE_ALREADY_BACKGROUND	The thread is already in background processing mode.
+17.10.2018 07:26:28 192.168.9.186 VirtualBox.exe ALARM ERROR_UNABLE_TO_INVENTORY_TRANSPORT	Unable to retrieve status about the transport.
+26.12.2018 23:06:56 192.168.0.185 explorer.exe INFO ERROR_INVALID_SEGMENT_NUMBER	The system detected a segment number that was not correct.
+27.02.2019 06:51:13 192.168.6.183 svchost.exe CRITICAL ERROR_WMI_INVALID_REGINFO	The WMI registration information is not valid.
+09.02.2019 14:53:23 192.168.2.180 chrome.exe WARNING ERROR_INVALID_EA_NAME	The specified extended attribute name was invalid.
+24.11.2018 13:03:36 192.168.0.185 svchost.exe WARNING ERROR_PIPE_NOT_CONNECTED	No process is on the other end of the pipe.
+11.01.2019 15:22:26 192.168.8.181 SearchIndexer.exe WARNING ERROR_ACCESS_DENIED	Access is denied.
+03.09.2018 00:01:35 192.168.1.180 dopusrt.exe WARNING ERROR_VIRUS_INFECTED	Operation did not complete successfully because the file contains a virus or potentially unwanted software.
+28.01.2019 07:29:55 192.168.6.189 winlogon.exe ALARM ERROR_CLUSTER_NETWORK_EXISTS	The cluster network already exists.
+05.01.2019 18:38:05 192.168.7.189 VirtualBox.exe WARNING ERROR_INVALID_ADDRESS	Attempt to access invalid address.
+19.09.2018 05:50:55 192.168.0.185 usp02pi.exe INFO ERROR_HANDLE_EOF	Reached the end of the file.
+27.02.2019 18:08:00 192.168.0.188 svchost.exe INFO ERROR_INCOMPATIBLE_WITH_GLOBAL_SHORT_NAME_REGISTRY_SETTING	Short name settings may not be changed on this volume due to the global registry setting.
+06.10.2018 01:26:23 192.168.5.185 svchost.exe INFO ERROR_SUBST_TO_SUBST	The system tried to substitute a drive to a directory on a substituted drive.
+19.12.2018 02:04:49 192.168.9.188 Greenshot.exe INFO ERROR_CLEANER_CARTRIDGE_SPENT	The cleaner cartridge has performed the maximum number of drive cleanings.
+25.10.2018 06:27:47 192.168.7.183 svchost.exe INFO ERROR_CLUSTER_NO_NET_ADAPTERS	No network adapters are available.
+15.01.2019 05:02:15 192.168.6.189 svchost.exe INFO ERROR_CANCEL_VIOLATION	A lock request was not outstanding for the supplied cancel region.
+05.11.2018 02:58:59 192.168.2.183 svchost.exe INFO ERROR_CLUSTER_NETWORK_EXISTS	The cluster network already exists.
+20.12.2018 11:32:38 192.168.6.182 svchost.exe CRITICAL ERROR_DEVICE_SUPPORT_IN_PROGRESS	Device's command support detection is in progress.
+10.11.2018 15:45:31 192.168.4.181 svchost.exe TRACE ERROR_SHARING_PAUSED	The remote server has been paused or is in the process of being started.
+01.02.2019 09:25:19 192.168.2.188 winlogon.exe WARNING ERROR_INVALID_ORDINAL	The operating system cannot run %1.
+09.09.2018 00:19:52 192.168.3.188 tasklist.exe WARNING ERROR_ACCESS_DENIED	Access is denied.
+16.10.2018 06:19:46 192.168.10.181 dopus.exe INFO ERROR_INVALID_LIBRARY	The library identifier does not represent a valid library.
+01.11.2018 08:38:53 192.168.8.181 dopus.exe TRACE ERROR_CLUSTER_TOO_MANY_NODES	This cluster can not be created since the specified number of nodes exceeds the maximum allowed limit.
+30.01.2019 06:49:14 192.168.3.183 cmd.exe WARNING ERROR_EXE_CANNOT_MODIFY_SIGNED_BINARY	The image file %1 is signed, unable to modify.
+11.09.2018 10:50:07 192.168.4.185 PUTTY.EXE WARNING ERROR_SHARING_PAUSED	The remote server has been paused or is in the process of being started.
+27.09.2018 05:54:56 192.168.6.183 conhost.exe WARNING ERROR_CLUSTER_BACKUP_IN_PROGRESS	Back up is in progress. Please wait for backup completion before trying this operation again.
+24.02.2019 04:31:16 192.168.9.189 svchost.exe INFO ERROR_LOCK_VIOLATION	The process cannot access the file because another process has locked a portion of the file.
+10.01.2019 23:51:03 192.168.8.188 chrome.exe INFO ERROR_CLUSTER_NETINTERFACE_EXISTS	The cluster network interface already exists.
+23.01.2019 08:37:08 192.168.1.181 svchost.exe INFO ERROR_SECUREBOOT_POLICY_NOT_SIGNED	The Secure Boot policy is either not signed or is signed by a non-trusted signer.
+29.11.2018 16:53:42 192.168.1.180 csrss.exe INFO ERROR_NOT_A_REPARSE_POINT	The file or directory is not a reparse point.
+04.10.2018 23:27:46 192.168.2.182 ICCProxy.exe INFO ERROR_CLUSTER_DATABASE_SEQMISMATCH	The join operation failed because the cluster database sequence number has changed or is incompatible with the locker node. This may happen during a join operation if the cluster database was changing during the join.
+11.12.2018 14:35:07 192.168.1.186 explorer.exe INFO ERROR_PRINT_CANCELLED	Your file waiting to be printed was deleted.
+07.12.2018 01:40:37 192.168.0.188 GoogleUpdate.exe CRITICAL ERROR_INSUFFICIENT_BUFFER	The data area passed to a system call is too small.
+26.09.2018 11:05:00 192.168.7.183 svchost.exe CRITICAL ERROR_TOO_MANY_DESCRIPTORS	The command specified a number of descriptors that exceeded the maximum supported by the device.
+15.02.2019 23:17:56 192.168.3.186 System INFO ERROR_NOT_A_REPARSE_POINT	The file or directory is not a reparse point.
+28.12.2018 21:15:41 192.168.6.188 notepad++.exe INFO ERROR_CLUSTER_WATCHDOG_TERMINATING	The cluster watchdog is terminating.
+15.01.2019 14:51:45 192.168.8.181 dwm.exe INFO ERROR_INCOMPATIBLE_WITH_GLOBAL_SHORT_NAME_REGISTRY_SETTING	Short name settings may not be changed on this volume due to the global registry setting.
+08.12.2018 10:06:57 192.168.8.184 svchost.exe INFO ERROR_INVALID_EXE_SIGNATURE	Cannot run %1 in Win32 mode.
+12.12.2018 23:35:45 192.168.2.189 chrome.exe WARNING ERROR_CLUSTER_NODE_NOT_MEMBER	The cluster node is not a member of the cluster.
+03.11.2018 01:01:10 192.168.4.181 conhost.exe INFO ERROR_WMI_DP_NOT_FOUND	The WMI data provider could not be located.
+18.12.2018 15:40:30 192.168.1.181 taskhost.exe INFO ERROR_FILENAME_EXCED_RANGE	The filename or extension is too long.
+14.11.2018 10:34:34 192.168.8.180 igfxpers.exe INFO ERROR_INVALID_ORDINAL	The operating system cannot run %1.
+11.02.2019 18:48:46 192.168.8.180 svchost.exe INFO ERROR_EXCL_SEM_ALREADY_OWNED	The exclusive semaphore is owned by another process.
+18.12.2018 01:58:15 192.168.7.183 dopusrt.exe WARNING ERROR_CLUSTER_REGISTRY_INVALID_FUNCTION	An invalid cluster registry operation was attempted.
+31.10.2018 13:32:41 192.168.10.183 explorer.exe DEBUG ERROR_CLUSTER_NO_SECURITY_CONTEXT	No cluster security context is available.
+26.02.2019 10:36:20 192.168.5.189 lsass.exe TRACE ERROR_CLUSTER_CANT_DESERIALIZE_DATA	An error occurred while deserializing a stream of cluster data.
+16.11.2018 04:45:27 192.168.4.186 igfxtray.exe DEBUG ERROR_CLUSTER_INVALID_STRING_FORMAT	An input string of characters is not in a valid format for the data it represents.
+13.01.2019 13:25:15 192.168.8.186 netbeans64.exe INFO ERROR_CLUSTER_NODE_NOT_READY	The cluster node is not ready to perform the requested operation.
+11.02.2019 15:22:15 192.168.7.185 spoolsv.exe INFO ERROR_SEM_TIMEOUT	The semaphore timeout period has expired.
+09.10.2018 00:13:17 192.168.6.181 dopusrt.exe INFO ERROR_BAD_NETPATH	The network path was not found.
+04.11.2018 19:21:17 192.168.0.186 svchost.exe INFO ERROR_NOT_EMPTY	The library, drive, or media pool must be empty to perform this operation.
+05.10.2018 07:16:02 192.168.6.189 PUTTY.EXE INFO ERROR_CLUSTER_MAXNUM_OF_RESOURCES_EXCEEDED	This resource cannot be created because the cluster has reached the limit on the number of resources it can monitor.
+23.01.2019 05:59:13 192.168.8.186 explorer.exe WARNING ERROR_CLUSTER_SHUTTING_DOWN	The cluster software is shutting down.
+23.10.2018 18:34:52 192.168.4.184 chrome.exe ERROR ERROR_OFFLOAD_WRITE_FILE_NOT_SUPPORTED	The copy offload write operation is not supported for the file.
+02.09.2018 21:40:37 192.168.10.182 winlogon.exe WARNING ERROR_RING2_STACK_IN_USE	The ring 2 stack is in use.
+14.10.2018 07:25:10 192.168.9.183 chrome.exe INFO ERROR_INC_BACKUP	The backup failed. Was a full backup done before?
+16.11.2018 05:48:48 192.168.3.180 GoogleUpdate.exe INFO ERROR_NOT_SUPPORTED	The request is not supported.
+06.10.2018 20:11:09 192.168.0.188 chrome.exe WARNING ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME	Short names are not enabled on this volume.
+09.12.2018 16:25:00 192.168.8.188 tasklist.exe WARNING ERROR_RESOURCE_NOT_PRESENT	The resource required for this operation does not exist.
+31.12.2018 04:34:32 192.168.6.185 cmd.exe ALARM ERROR_LOCK_VIOLATION	The process cannot access the file because another process has locked a portion of the file.
+16.10.2018 14:46:04 192.168.0.189 ICCProxy.exe CRITICAL ERROR_BAD_NETPATH	The network path was not found.
+13.09.2018 17:10:45 192.168.3.184 lsass.exe ERROR ERROR_UNEXPECTED_OMID	Unexpected on-medium identifier.
+04.10.2018 04:09:04 192.168.9.186 smss.exe ERROR ERROR_REDIR_PAUSED	The specified printer or disk device has been paused.
+17.11.2018 19:23:59 192.168.2.188 svchost.exe INFO PEERDIST_ERROR_ALREADY_INITIALIZED	The supplied object has already been initialized.
+04.02.2019 01:04:33 192.168.9.181 SearchIndexer.exe ALARM ERROR_CLUSTER_RESOURCE_TYPE_BUSY	The resource type cannot accept the request since is too busy performing another operation.
+26.11.2018 04:32:53 192.168.0.189 SearchIndexer.exe ERROR ERROR_CLUSTER_INVALID_NETWORK_PROVIDER	The cluster network provider is not valid.
+29.11.2018 23:38:56 192.168.8.180 chrome.exe CRITICAL ERROR_QUORUM_RESOURCE	The cluster resource could not be deleted or brought offline because it is the quorum resource.
+06.12.2018 11:33:16 192.168.0.185 svchost.exe INFO ERROR_SIGNAL_PENDING	A signal is already pending.
+23.10.2018 04:50:05 192.168.5.184 svchost.exe ERROR ERROR_DEPENDENT_RESOURCE_EXISTS	The operation cannot be completed because other resources are dependent on this resource.
+01.01.2019 06:32:47 192.168.6.185 chrome.exe INFO ERROR_INVALID_OPLOCK_PROTOCOL	An invalid oplock acknowledgment was received by the system.
+03.01.2019 16:56:00 192.168.5.184 VCDDaemon.exe DEBUG ERROR_CANNOT_MAKE	The directory or file cannot be created.
+09.11.2018 19:32:35 192.168.4.188 explorer.exe INFO ERROR_RESOURCE_NOT_ONLINE	The cluster resource is not online.
+04.10.2018 02:40:14 192.168.9.187 audiodg.exe INFO ERROR_CLUSTER_INVALID_NETWORK_PROVIDER	The cluster network provider is not valid.
+03.09.2018 21:52:15 192.168.3.182 hkcmd.exe WARNING ERROR_NOT_SAME_DEVICE	The system cannot move the file to a different disk drive.
+04.10.2018 01:59:14 192.168.1.186 audiodg.exe TRACE ERROR_RESOURCE_NOT_ONLINE	The cluster resource is not online.
+25.09.2018 16:51:01 192.168.7.182 ICCProxy.exe INFO ERROR_NO_PROC_SLOTS	The system cannot start another process at this time.
+08.01.2019 06:49:22 192.168.7.185 dopus.exe INFO ERROR_CLUSTER_POISONED	The cluster node has been poisoned.
+18.10.2018 13:16:26 192.168.3.187 tasklist.exe INFO ERROR_CLUSTER_NODE_UP	The cluster node is up.
+17.01.2019 12:53:24 192.168.0.181 csrss.exe WARNING ERROR_CLEANER_SLOT_NOT_SET	A cleaner slot is not reserved.
+14.09.2018 01:44:33 192.168.8.187 VirtualBox.exe WARNING ERROR_CLUSTER_LOCAL_NODE_NOT_FOUND	The cluster local node information was not found.
+17.11.2018 01:18:24 192.168.6.184 wmpnetwk.exe INFO ERROR_DEPENDENCY_ALREADY_EXISTS	The cluster resource cannot be made dependent on the specified resource because it is already dependent.
+17.01.2019 12:22:33 192.168.10.183 svchost.exe WARNING ERROR_NOT_REDUNDANT_STORAGE	The storage device does not provide redundancy.
+10.10.2018 01:12:23 192.168.8.187 WmiPrvSE.exe ERROR ERROR_CLUSTER_NODE_NOT_MEMBER	The cluster node is not a member of the cluster.
+17.01.2019 18:24:38 192.168.5.188 PUTTY.EXE WARNING ERROR_DEVICE_FEATURE_NOT_SUPPORTED	The device does not support the command feature.
+01.12.2018 14:41:11 192.168.6.181 spoolsv.exe INFO ERROR_REPARSE_TAG_MISMATCH	There is a mismatch between the tag specified in the request and the tag present in the reparse point.
+14.09.2018 12:39:32 192.168.8.182 hkcmd.exe INFO PEERDIST_ERROR_VERSION_UNSUPPORTED	The requested version is not supported.
+06.10.2018 14:26:26 192.168.2.184 Greenshot.exe WARNING ERROR_CLUSTER_SINGLETON_RESOURCE	Only one instance of this resource type is allowed in the cluster.
+26.02.2019 08:58:11 192.168.7.187 VirtualBox.exe ERROR ERROR_INC_BACKUP	The backup failed. Was a full backup done before?
+01.12.2018 23:32:27 192.168.5.189 svchost.exe INFO ERROR_NOT_SUPPORTED_IN_APPCONTAINER	This functionality is not supported in the context of an app container.
+19.01.2019 19:08:18 192.168.9.181 cmd.exe INFO ERROR_WMI_INVALID_REGINFO	The WMI registration information is not valid.
+17.12.2018 08:00:14 192.168.2.183 PUTTY.EXE ERROR ERROR_CLUSTERLOG_RECORD_EXCEEDS_MAXSIZE	The record could not be written to the cluster log since it exceeds the maximum size.
+10.11.2018 13:58:56 192.168.10.189 chrome.exe WARNING ERROR_OFFSET_ALIGNMENT_VIOLATION	The command specified a data offset that does not align to the device's granularity/alignment.
+23.01.2019 08:53:23 192.168.5.181 igfxpers.exe INFO ERROR_QUORUM_DISK_NOT_FOUND	The quorum disk could not be located by the cluster service.
+01.09.2018 18:09:59 192.168.7.183 System INFO ERROR_APP_DATA_CORRUPT	Fast Cache data corrupt.
+10.12.2018 21:06:01 192.168.9.185 VirtualBox.exe ALARM ERROR_SECUREBOOT_POLICY_PUBLISHER_NOT_FOUND	A new Secure Boot policy did not contain the current publisher on its update list.
+22.10.2018 07:00:10 192.168.3.189 VCDDaemon.exe INFO ERROR_REMOTE_STORAGE_NOT_ACTIVE	The remote storage service is not operational at this time.
+04.11.2018 15:44:53 192.168.6.185 svchost.exe INFO ERROR_BAD_LENGTH	The program issued a command but the command length is incorrect.
+09.01.2019 03:51:08 192.168.2.185 PUTTY.EXE ALARM ERROR_OFFLOAD_WRITE_FILE_NOT_SUPPORTED	The copy offload write operation is not supported for the file.
+10.01.2019 14:51:36 192.168.8.183 csrss.exe ALARM ERROR_UNDEFINED_SCOPE	The Central Access Policy specified is not defined on the target machine.
+05.01.2019 22:28:59 192.168.3.182 svchost.exe INFO ERROR_INVALID_HANDLE	The handle is invalid.
+08.02.2019 14:12:24 192.168.4.183 chrome.exe TRACE ERROR_UNABLE_TO_INVENTORY_SLOT	Unable to retrieve the slot status.
+18.11.2018 16:17:25 192.168.3.182 System WARNING ERROR_CANT_EVICT_ACTIVE_NODE	A cluster node cannot be evicted from the cluster unless the node is down or it is the last node.
+11.09.2018 16:14:20 192.168.3.189 dopus.exe INFO ERROR_ALL_NODES_NOT_AVAILABLE	All cluster nodes must be running to perform this operation.
+16.10.2018 03:25:17 192.168.10.185 wmpnetwk.exe TRACE ERROR_PIPE_BUSY	All pipe instances are busy.
+08.09.2018 14:53:32 192.168.7.187 svchost.exe DEBUG ERROR_CLUSTER_IPADDR_IN_USE	The cluster IP address is already in use.
+25.10.2018 22:33:02 192.168.8.181 VBoxSVC.exe WARNING ERROR_INVALID_TARGET_HANDLE	The target internal file identifier is incorrect.
+22.10.2018 09:32:47 192.168.0.185 igfxpers.exe INFO ERROR_SEM_IS_SET	The semaphore is set and cannot be closed.
+11.10.2018 10:36:12 192.168.1.184 svchost.exe ERROR ERROR_HOST_NODE_NOT_GROUP_OWNER	The operation failed because either the specified cluster node is not the owner of the group, or the node is not a possible owner of the group.
+20.02.2019 00:17:52 192.168.9.186 hkcmd.exe WARNING ERROR_SECUREBOOT_ROLLBACK_DETECTED	Secure Boot detected that rollback of protected data has been attempted.
+01.02.2019 22:17:51 192.168.6.183 dopusrt.exe CRITICAL ERROR_ALREADY_EXISTS	Cannot create a file when that file already exists.
+03.11.2018 01:16:50 192.168.1.180 igfxpers.exe CRITICAL ERROR_APP_DATA_EXPIRED	Fast Cache data expired.
+02.01.2019 22:46:20 192.168.1.186 svchost.exe WARNING ERROR_HOST_NODE_NOT_GROUP_OWNER	The operation failed because either the specified cluster node is not the owner of the group, or the node is not a possible owner of the group.
+31.10.2018 15:38:32 192.168.9.188 chrome.exe INFO ERROR_INVALID_ADDRESS	Attempt to access invalid address.
+08.12.2018 11:42:24 192.168.0.183 svchost.exe WARNING ERROR_CLUSTER_INVALID_STRING_FORMAT	An input string of characters is not in a valid format for the data it represents.
+07.02.2019 06:14:26 192.168.3.184 svchost.exe DEBUG ERROR_BAD_PIPE	The pipe state is invalid.
+02.12.2018 10:32:52 192.168.2.185 dopus.exe ALARM ERROR_PIPE_NOT_CONNECTED	No process is on the other end of the pipe.
+13.10.2018 23:29:30 192.168.5.184 notepad++.exe ERROR ERROR_CANNOT_MAKE	The directory or file cannot be created.
+25.12.2018 17:40:06 192.168.0.189 dwm.exe CRITICAL ERROR_SEEK	The drive cannot locate a specific area or track on the disk.
+15.02.2019 12:03:44 192.168.4.180 spoolsv.exe WARNING ERROR_NOT_EMPTY	The library, drive, or media pool must be empty to perform this operation.
+10.10.2018 11:13:17 192.168.5.189 VirtualBox.exe ERROR ERROR_QUORUM_DISK_NOT_FOUND	The quorum disk could not be located by the cluster service.
+09.09.2018 10:28:57 192.168.2.181 dopusrt.exe ALARM ERROR_CLUSTER_INTERNAL_INVALID_FUNCTION	An internal cluster error occurred. A call to an invalid function was attempted.
+12.02.2019 14:56:18 192.168.0.183 svchost.exe TRACE ERROR_WRITE_PROTECT	The media is write protected.
+01.12.2018 20:57:03 192.168.6.180 hkcmd.exe INFO ERROR_CLUSTER_INSTANCE_ID_MISMATCH	The join operation failed because the cluster instance ID of the joining node does not match the cluster instance ID of the sponsor node.
+09.12.2018 00:07:22 192.168.10.182 VCDDaemon.exe INFO ERROR_CLUSTER_NODE_PAUSED	The cluster node is paused.
+03.10.2018 17:36:47 192.168.5.182 lsass.exe INFO ERROR_CLUSTER_RESOURCE_VETOED_MOVE_NOT_ENOUGH_RESOURCES_ON_SOURCE	A resource vetoed a move between two nodes because the source currently does not have enough resources to complete the operation.
+23.02.2019 12:54:11 192.168.2.182 csrss.exe ALARM ERROR_FILE_NOT_FOUND	The system cannot find the file specified.
+26.02.2019 21:16:27 192.168.7.180 svchost.exe INFO ERROR_CLUSTER_RESOURCE_VETOED_MOVE_NOT_ENOUGH_RESOURCES_ON_SOURCE	A resource vetoed a move between two nodes because the source currently does not have enough resources to complete the operation.
+12.11.2018 05:40:11 192.168.6.185 dwm.exe INFO ERROR_MESSAGE_EXCEEDS_MAX_SIZE	The message provided exceeds the maximum size allowed for this parameter.
+25.10.2018 13:20:23 192.168.7.186 Greenshot.exe INFO ERROR_CLUSTER_CANT_CREATE_DUP_CLUSTER_NAME	A cluster cannot be created with the specified cluster name because that cluster name is already in use. Specify a different name for the cluster.
+04.11.2018 16:40:08 192.168.4.183 usp02pi.exe WARNING ERROR_EMPTY	The library, drive, or media pool is empty.
+25.12.2018 02:59:47 192.168.5.188 chrome.exe WARNING ERROR_UNABLE_TO_EJECT_MOUNTED_MEDIA	Unable to eject the medium because it is in a drive.
+01.02.2019 14:17:46 192.168.6.183 PUTTY.EXE TRACE ERROR_DEVICE_UNREACHABLE	The device is unreachable.
+06.02.2019 12:54:18 192.168.3.180 explorer.exe ALARM ERROR_NET_WRITE_FAULT	A write fault occurred on the network.
+17.09.2018 00:03:19 192.168.1.187 VBoxSVC.exe WARNING ERROR_WRITE_PROTECT	The media is write protected.
+12.12.2018 14:52:40 192.168.10.184 cmd.exe WARNING ERROR_INVALID_DRIVE	The system cannot find the drive specified.
+02.12.2018 19:43:04 192.168.2.185 SecUPDUtilSvc.exe INFO ERROR_INVALID_CATEGORY	The IOCTL call made by the application program is not correct.
+19.02.2019 02:27:53 192.168.10.187 svchost.exe CRITICAL ERROR_RESOURCE_ONLINE	The operation could not be completed because the cluster resource is online.
+05.01.2019 11:15:36 192.168.7.180 VirtualBox.exe INFO ERROR_CLUSCFG_ALREADY_COMMITTED	The cluster configuration action has already been committed.
+03.02.2019 20:17:21 192.168.3.189 usp02pi.exe TRACE ERROR_TRANSPORT_FULL	Cannot use the transport because it is already in use.
+02.01.2019 00:29:15 192.168.5.186 winlogon.exe WARNING ERROR_TOO_MANY_TCBS	Cannot create another thread.
+04.10.2018 08:04:38 192.168.10.185 VirtualBox.exe INFO ERROR_MESSAGE_EXCEEDS_MAX_SIZE	The message provided exceeds the maximum size allowed for this parameter.
+11.02.2019 12:58:58 192.168.2.185 VirtualBox.exe WARNING ERROR_TOO_MANY_DESCRIPTORS	The command specified a number of descriptors that exceeded the maximum supported by the device.
+10.11.2018 23:25:34 192.168.2.181 igfxtray.exe TRACE ERROR_VC_DISCONNECTED	The session was canceled.
+04.11.2018 11:36:58 192.168.9.186 SecUPDUtilSvc.exe INFO ERROR_INVALID_OPERATION	The operation identifier is not valid.
+19.02.2019 08:38:13 192.168.1.181 dopusrt.exe INFO ERROR_INVALID_OPERATION	The operation identifier is not valid.
+22.01.2019 03:25:19 192.168.5.185 spoolsv.exe INFO ERROR_CLUSTER_MISMATCHED_COMPUTER_ACCT_NAME	The name of the corresponding computer account doesn't match the Network Name for this resource.
+16.02.2019 09:50:01 192.168.1.181 igfxpers.exe ALARM ERROR_SECUREBOOT_FILE_REPLACED	Secure Boot requires that certain files and drivers are not replaced by other files or drivers.
+22.02.2019 23:07:56 192.168.1.189 lsm.exe ERROR ERROR_CLUSTER_MEMBERSHIP_HALT	The membership engine requested shutdown of the cluster service on this node.
+28.11.2018 23:00:24 192.168.0.186 lsass.exe INFO ERROR_INVALID_AT_INTERRUPT_TIME	Cannot request exclusive semaphores at interrupt time.
+07.01.2019 23:39:36 192.168.3.182 chrome.exe CRITICAL ERROR_OBJECT_NOT_FOUND	The object identifier does not represent a valid object.
+17.11.2018 05:41:29 192.168.7.180 System DEBUG ERROR_INVALID_MODULETYPE	The operating system cannot run %1.
+09.02.2019 07:38:46 192.168.9.184 csrss.exe INFO ERROR_DIRECT_ACCESS_HANDLE	Attempt to use a file handle to an open disk partition for an operation other than raw disk I/O.
+08.01.2019 02:41:11 192.168.3.183 wmpnetwk.exe WARNING ERROR_CURRENT_DIRECTORY	The directory cannot be removed.
+27.11.2018 12:15:08 192.168.10.180 svchost.exe INFO ERROR_SHORT_NAMES_NOT_ENABLED_ON_VOLUME	Short names are not enabled on this volume.
+27.10.2018 12:43:14 192.168.9.186 ICCProxy.exe ERROR ERROR_WMI_ALREADY_ENABLED	The WMI data block or event notification has already been enabled.
+03.10.2018 17:12:23 192.168.0.181 svchost.exe INFO ERROR_TOO_MANY_SESS	The network BIOS session limit was exceeded.
+04.12.2018 16:03:03 192.168.10.189 notepad++.exe INFO ERROR_EA_TABLE_FULL	The extended attribute table file is full.
+22.09.2018 04:34:42 192.168.7.187 igfxtray.exe INFO ERROR_SYSTEM_TRACE	System trace information was not specified in your CONFIG.SYS file, or tracing is disallowed.
+04.12.2018 10:58:54 192.168.9.182 dopus.exe TRACE ERROR_EXE_MACHINE_TYPE_MISMATCH	This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+21.02.2019 21:09:01 192.168.3.181 usp02pi.exe DEBUG ERROR_CLUSTER_NETWORK_NOT_INTERNAL	The cluster network is not configured for internal cluster communication.
+04.10.2018 06:48:22 192.168.0.188 svchost.exe INFO ERROR_CLUSTER_INVALID_SECURITY_DESCRIPTOR	The Security Descriptor does not meet the requirements for a cluster.
+24.11.2018 08:45:04 192.168.9.189 dwm.exe ALARM ERROR_CLUSTER_SINGLETON_RESOURCE	Only one instance of this resource type is allowed in the cluster.
+27.01.2019 11:07:31 192.168.9.186 dopusrt.exe INFO ERROR_OUTOFMEMORY	Not enough storage is available to complete this operation.
+20.01.2019 17:17:39 192.168.9.188 tasklist.exe WARNING ERROR_DATABASE_BACKUP_CORRUPT	The backed up cluster database is possibly corrupt.
+29.10.2018 19:36:58 192.168.4.181 explorer.exe INFO ERROR_SHARING_BUFFER_EXCEEDED	Too many files opened for sharing.
+20.10.2018 04:56:32 192.168.2.181 winlogon.exe WARNING PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED	The version of the supplied content information is not supported.
+23.09.2018 02:27:30 192.168.0.183 wininit.exe WARNING ERROR_FILE_EXISTS	The file exists.
+04.09.2018 23:53:13 192.168.3.180 VirtualBox.exe DEBUG ERROR_NOTIFICATION_GUID_ALREADY_DEFINED	The specified file already has a notification GUID associated with it.
+11.01.2019 15:53:50 192.168.7.183 ICCProxy.exe ERROR ERROR_CLUSTER_NODE_UNREACHABLE	The cluster node is not reachable.
+20.11.2018 05:39:52 192.168.0.182 VCDDaemon.exe WARNING ERROR_NO_SIGNAL_SENT	No process in the command subtree has a signal handler.
+31.12.2018 22:30:16 192.168.8.185 chrome.exe DEBUG ERROR_NOT_JOINED	The system tried to delete the JOIN of a drive that is not joined.
+28.10.2018 11:10:27 192.168.0.182 VirtualBox.exe INFO ERROR_CLUSTER_INCOMPATIBLE_VERSIONS	The cluster join operation failed due to incompatible software versions between the joining node and its sponsor.
+19.01.2019 19:22:27 192.168.1.181 chrome.exe CRITICAL ERROR_PRINT_CANCELLED	Your file waiting to be printed was deleted.
+06.10.2018 10:06:10 192.168.6.187 hkcmd.exe INFO PEERDIST_ERROR_CONTENTINFO_VERSION_UNSUPPORTED	The version of the supplied content information is not supported.
+23.10.2018 22:01:24 192.168.6.185 igfxpers.exe INFO ERROR_CLUSTER_SHARED_VOLUME_FAILOVER_NOT_ALLOWED	The resource cannot move to another node because a cluster shared volume vetoed the operation.
+27.01.2019 20:38:12 192.168.9.187 svchost.exe ERROR ERROR_SECUREBOOT_NOT_ENABLED	Secure Boot is not enabled on this machine.
+18.12.2018 20:30:07 192.168.0.187 chrome.exe ERROR ERROR_INVALID_OPERATION_ON_QUORUM	This operation cannot be performed on the cluster resource as it the quorum resource. You may not bring the quorum resource offline or modify its possible owners list.
+10.01.2019 01:34:18 192.168.5.189 notepad++.exe INFO ERROR_CLUSTER_NETWORK_NOT_FOUND	The cluster network was not found.
+02.09.2018 23:13:52 192.168.4.183 chrome.exe TRACE PEERDIST_ERROR_NO_MORE	No more data is available or required.
+23.10.2018 18:30:06 192.168.2.180 chrome.exe ERROR ERROR_DYNLINK_FROM_INVALID_RING	The operating system cannot run this application program.
+22.01.2019 19:19:39 192.168.6.181 dopusrt.exe TRACE ERROR_NODE_CANNOT_BE_CLUSTERED	This computer cannot be made a member of a cluster.
+12.10.2018 04:17:09 192.168.6.188 cmd.exe WARNING ERROR_UNABLE_TO_CLEAN	The drive cannot be cleaned or does not support cleaning.
+16.01.2019 05:39:31 192.168.2.180 VirtualBox.exe INFO ERROR_IOPL_NOT_ENABLED	The operating system is not presently configured to run this application.
+26.11.2018 06:22:15 192.168.1.187 chrome.exe DEBUG ERROR_RESOURCE_NOT_AVAILABLE	The cluster resource is not available.
+26.10.2018 17:50:00 192.168.2.189 svchost.exe INFO ERROR_OBJECT_IN_LIST	The object is already in the list.
+03.01.2019 22:32:50 192.168.8.182 chrome.exe INFO ERROR_INVALID_STACKSEG	The operating system cannot run %1.
+11.01.2019 16:04:25 192.168.6.188 wmpnetwk.exe WARNING ERROR_PIPE_LOCAL	The pipe is local.
+09.10.2018 06:31:04 192.168.3.185 svchost.exe TRACE ERROR_APP_DATA_REBOOT_REQUIRED	Fast Cache has been ReArmed and requires a reboot until it can be updated.
+08.12.2018 17:03:09 192.168.5.187 svchost.exe INFO ERROR_RESMON_ONLINE_FAILED	The cluster resource could not be brought online by the resource monitor.
+26.02.2019 14:01:25 192.168.6.189 cmd.exe TRACE ERROR_CLUSTER_GROUP_BUSY	The current operation cannot be performed on this group at this time.
+26.12.2018 02:55:36 192.168.7.187 cmd.exe WARNING ERROR_SEM_USER_LIMIT	Insert the diskette for drive %1.
+09.10.2018 14:26:02 192.168.3.187 csrss.exe DEBUG ERROR_INVALID_STACKSEG	The operating system cannot run %1.
+16.11.2018 05:34:49 192.168.1.185 WmiPrvSE.exe INFO ERROR_LIBRARY_OFFLINE	The operation cannot be performed on an offline library.
+24.12.2018 13:55:30 192.168.10.180 taskhost.exe INFO ERROR_FILE_CHECKED_OUT	This file is checked out or locked for editing by another user.
+27.09.2018 07:17:31 192.168.2.189 csrss.exe INFO ERROR_CLUSTER_PARTIAL_READ	An error occurred while reading from a stream of data. An unexpected number of bytes was returned.
+10.09.2018 18:46:15 192.168.8.186 chrome.exe ERROR ERROR_SEM_USER_LIMIT	Insert the diskette for drive %1.
+25.02.2019 14:16:15 192.168.10.184 VirtualBox.exe TRACE ERROR_FILE_CHECKED_OUT	This file is checked out or locked for editing by another user.
+01.09.2018 12:37:09 192.168.4.184 dopus.exe INFO ERROR_DEPENDENCY_NOT_ALLOWED	The cluster quorum resource is not allowed to have any dependencies.
+27.09.2018 08:13:34 192.168.0.187 svchost.exe INFO ERROR_CLUSTER_RHS_FAILED_INITIALIZATION	The RHS process failed to initialize.
+03.12.2018 18:31:52 192.168.6.181 dwm.exe ERROR ERROR_BAD_PATHNAME	The specified path is invalid.
+06.11.2018 00:56:27 192.168.7.180 WmiPrvSE.exe WARNING ERROR_HOST_NODE_NOT_RESOURCE_OWNER	The operation failed because either the specified cluster node is not the owner of the resource, or the node is not a possible owner of the resource.
+22.09.2018 04:54:33 192.168.5.186 Greenshot.exe INFO ERROR_CLEANER_SLOT_NOT_SET	A cleaner slot is not reserved.
+05.02.2019 15:08:50 192.168.2.180 svchost.exe CRITICAL ERROR_INVALID_TOKEN	The token representing the data is invalid.
+26.09.2018 02:17:00 192.168.10.184 PUTTY.EXE INFO ERROR_CLUSTER_MEMBERSHIP_HALT	The membership engine requested shutdown of the cluster service on this node.
+25.01.2019 19:46:18 192.168.7.184 cmd.exe INFO ERROR_FILE_EXISTS	The file exists.
+05.10.2018 15:52:49 192.168.5.188 svchost.exe WARNING ERROR_DUPLICATE_PRIVILEGES	Duplicate privileges were specified for the token.
+15.02.2019 08:51:15 192.168.6.189 dopusrt.exe INFO ERROR_SUBST_TO_JOIN	The system tried to SUBST a drive to a directory on a joined drive.
+02.10.2018 15:39:03 192.168.0.184 svchost.exe INFO ERROR_EXE_MACHINE_TYPE_MISMATCH	This version of %1 is not compatible with the version of Windows you're running. Check your computer's system information and then contact the software publisher.
+22.12.2018 04:11:31 192.168.5.183 csrss.exe INFO PEERDIST_ERROR_NO_MORE	No more data is available or required.
+12.02.2019 20:25:06 192.168.1.181 svchost.exe INFO ERROR_EXE_CANNOT_MODIFY_STRONG_SIGNED_BINARY	The image file %1 is strong signed, unable to modify.
+26.11.2018 10:26:02 192.168.3.188 svchost.exe WARNING ERROR_NO_SIGNAL_SENT	No process in the command subtree has a signal handler.
+11.01.2019 00:46:31 192.168.4.188 VBoxSVC.exe TRACE ERROR_CURRENT_DIRECTORY	The directory cannot be removed.
+08.02.2019 22:53:41 192.168.1.180 GoogleUpdate.exe INFO ERROR_INVALID_EA_NAME	The specified extended attribute name was invalid.
+04.01.2019 18:42:29 192.168.10.188 System INFO ERROR_BROKEN_PIPE	The pipe has been ended.
+30.11.2018 21:10:59 192.168.10.182 VBoxSVC.exe INFO ERROR_OPLOCK_NOT_GRANTED	The oplock request is denied.
+04.09.2018 07:47:33 192.168.8.186 chrome.exe INFO ERROR_SEM_OWNER_DIED	The previous ownership of this semaphore has ended.
+29.09.2018 19:47:33 192.168.8.185 wininit.exe WARNING ERROR_DHCP_ADDRESS_CONFLICT	The DHCP client has obtained an IP address that is already in use on the network. The local interface will be disabled until the DHCP client can obtain a new address.
+17.09.2018 08:35:39 192.168.4.186 lsass.exe ERROR ERROR_PATH_NOT_FOUND	The system cannot find the path specified.
+27.11.2018 09:25:01 192.168.4.189 spoolsv.exe INFO ERROR_CLUSTER_INVALID_NODE_WEIGHT	The request is invalid either because node weight cannot be changed while the cluster is in disk-only quorum mode, or because changing the node weight would violate the minimum cluster quorum requirements.
+22.11.2018 11:18:27 192.168.10.189 audiodg.exe WARNING ERROR_WAIT_NO_CHILDREN	There are no child processes to wait for.
+26.09.2018 07:29:05 192.168.7.189 chrome.exe WARNING ERROR_OUTOFMEMORY	Not enough storage is available to complete this operation.
+19.02.2019 15:42:05 192.168.7.188 hkcmd.exe ERROR ERROR_EXE_CANNOT_MODIFY_STRONG_SIGNED_BINARY	The image file %1 is strong signed, unable to modify.
+05.09.2018 15:16:34 192.168.9.187 VBoxSVC.exe TRACE ERROR_DIRECTORY_NOT_SUPPORTED	An operation is not supported on a directory.
+04.01.2019 03:24:12 192.168.4.188 VirtualBox.exe ERROR ERROR_PIPE_BUSY	All pipe instances are busy.
+27.12.2018 02:27:39 192.168.2.183 dopusrt.exe TRACE ERROR_CLUSTER_TOO_MANY_NODES	This cluster can not be created since the specified number of nodes exceeds the maximum allowed limit.
+13.01.2019 06:38:04 192.168.0.186 VBoxSVC.exe DEBUG ERROR_FAIL_I24	Fail on INT 24.
+08.01.2019 18:08:03 192.168.9.187 dopusrt.exe INFO ERROR_WMI_TRY_AGAIN	The WMI request could not be completed and should be retried.
+08.02.2019 04:45:03 192.168.3.183 ICCProxy.exe INFO ERROR_RING2SEG_MUST_BE_MOVABLE	The code segment cannot be greater than or equal to 64K.
+08.09.2018 22:01:20 192.168.8.187 cmd.exe INFO ERROR_MAX_SESSIONS_REACHED	The maximum number of sessions has been reached.
+22.10.2018 20:12:46 192.168.0.186 ICCProxy.exe WARNING ERROR_INVALID_OPERATION	The operation identifier is not valid.
+06.12.2018 14:22:06 192.168.3.186 lsm.exe INFO ERROR_INVALID_LIBRARY	The library identifier does not represent a valid library.
+18.10.2018 22:33:06 192.168.8.183 wininit.exe INFO ERROR_INVALID_STATE	The group or resource is not in the correct state to perform the requested operation.
+16.12.2018 16:00:48 192.168.2.180 cmd.exe ALARM ERROR_INVALID_AT_INTERRUPT_TIME	Cannot request exclusive semaphores at interrupt time.
+14.10.2018 05:03:00 192.168.9.188 WmiPrvSE.exe ALARM ERROR_ITERATED_DATA_EXCEEDS_64k	The operating system cannot run %1.
+17.11.2018 17:38:11 192.168.0.183 csrss.exe WARNING ERROR_CLUSTER_RESOURCES_MUST_BE_ONLINE_ON_THE_SAME_NODE	The resources must be online on the same node for this operation.
+31.12.2018 16:13:26 192.168.1.182 svchost.exe INFO ERROR_NESTING_NOT_ALLOWED	Cannot nest calls to LoadModule.
+12.02.2019 12:13:04 192.168.6.180 spoolsv.exe WARNING ERROR_PARTIAL_COPY	Only part of a ReadProcessMemory or WriteProcessMemory request was completed.
+07.09.2018 03:38:57 192.168.2.185 lsm.exe INFO ERROR_EA_LIST_INCONSISTENT	The extended attributes are inconsistent.
+20.10.2018 09:13:46 192.168.4.181 winlogon.exe INFO ERROR_CLUSTER_EVICT_INVALID_REQUEST	Eviction of this node is invalid at this time. Due to quorum requirements node eviction will result in cluster shutdown. If it is the last node in the cluster, destroy cluster command should be used.
+20.11.2018 12:07:18 192.168.8.180 chrome.exe DEBUG ERROR_INVALID_REPARSE_DATA	The data present in the reparse point buffer is invalid.
+10.01.2019 06:18:56 192.168.6.188 System DEBUG ERROR_SEM_IS_SET	The semaphore is set and cannot be closed.
+31.10.2018 22:58:23 192.168.8.187 SearchIndexer.exe INFO ERROR_CANNOT_COPY	The copy functions cannot be used.
+22.01.2019 16:56:36 192.168.1.185 GoogleUpdate.exe INFO ERROR_CLUSTER_LOCAL_NODE_NOT_FOUND	The cluster local node information was not found.
+11.01.2019 03:53:39 192.168.6.181 notepad++.exe ERROR ERROR_INVALID_LIBRARY	The library identifier does not represent a valid library.
+06.02.2019 00:10:09 192.168.1.183 PUTTY.EXE DEBUG ERROR_LOCK_FAILED	Unable to lock a region of a file.
+06.12.2018 00:16:24 192.168.7.188 svchost.exe ERROR ERROR_QUORUM_RESOURCE	The cluster resource could not be deleted or brought offline because it is the quorum resource.
+29.11.2018 18:38:06 192.168.0.185 svchost.exe INFO ERROR_APP_DATA_LIMIT_EXCEEDED	Fast Cache data has exceeded its max size and cannot be updated.
+15.12.2018 23:05:38 192.168.2.188 svchost.exe WARNING ERROR_NO_SPOOL_SPACE	Space to store the file waiting to be printed is not available on the server.
+20.02.2019 19:25:39 192.168.3.186 lsm.exe INFO ERROR_DIRECTORY	The directory name is invalid.
+05.01.2019 07:22:45 192.168.1.185 wininit.exe TRACE ERROR_THREAD_MODE_ALREADY_BACKGROUND	The thread is already in background processing mode.
+29.10.2018 18:10:27 192.168.5.181 lsm.exe CRITICAL ERROR_CLUSTER_NETWORK_ALREADY_OFFLINE	The cluster network is already offline.
+04.02.2019 23:54:47 192.168.4.188 SearchIndexer.exe WARNING ERROR_BAD_PATHNAME	The specified path is invalid.
+14.09.2018 02:02:58 192.168.1.184 PUTTY.EXE INFO ERROR_SHARING_VIOLATION	The process cannot access the file because it is being used by another process.
+26.02.2019 14:11:32 192.168.3.183 usp02pi.exe INFO ERROR_UNEXPECTED_OMID	Unexpected on-medium identifier.
+02.09.2018 06:25:09 192.168.1.187 Greenshot.exe INFO ERROR_CLUSTER_SHUTTING_DOWN	The cluster software is shutting down.
+28.02.2019 00:22:48 192.168.5.182 lsass.exe ERROR ERROR_NET_WRITE_FAULT	A write fault occurred on the network.
+16.02.2019 16:50:45 192.168.6.185 audiodg.exe TRACE ERROR_NETNAME_DELETED	The specified network name is no longer available.
+02.09.2018 08:25:14 192.168.0.182 igfxtray.exe DEBUG ERROR_REMOTE_STORAGE_NOT_ACTIVE	The remote storage service is not operational at this time.
+08.12.2018 07:27:44 192.168.10.189 cmd.exe WARNING ERROR_DEVICE_FEATURE_NOT_SUPPORTED	The device does not support the command feature.
+09.12.2018 21:14:38 192.168.6.185 svchost.exe INFO ERROR_CLUSTER_NODE_NOT_MEMBER	The cluster node is not a member of the cluster.
+04.09.2018 06:46:54 192.168.0.183 svchost.exe INFO ERROR_INVALID_BLOCK	The storage control block address is invalid.
+13.11.2018 04:25:23 192.168.1.185 notepad++.exe DEBUG ERROR_WMI_GUID_DISCONNECTED	The WMI data block is no longer available.
+03.09.2018 05:04:33 192.168.9.185 spoolsv.exe INFO PEERDIST_ERROR_ALREADY_INITIALIZED	The supplied object has already been initialized.
