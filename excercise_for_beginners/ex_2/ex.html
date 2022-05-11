@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 2</title>
+</head>
+<body>
+	<h2>Đề bài:</h2>
+	<p>Tính số lần chữ số đã cho xuất hiện trong mười chữ số đầu tiên của phần phân số của một số thực được nhập từ bàn phím.</p>
+	<p><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-family: times new roman,times,serif; font-size: large;"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Định dạng đầu vào</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> : số thực dương </font></font><strong><span style="font-family: courier new,courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"></font></font></span></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">và chữ số cần kiểm tra (số chữ số thập phân của số thực ít nhất là 10).</font></font><br></span></span></p>
+	<p><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-family: times new roman,times,serif; font-size: large;"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Dạng kết quả</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> :</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> số lần xuất hiện của một chữ số cho trước (phù hợp với điều kiện của bài toán).</font></font><br></span></span></p>
+	<p><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-family: times new roman,times,serif; font-size: large;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ví dụ (dòng đầu tiên </font></font><span style="font-family: courier new,courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">là</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> đầu vào của dữ liệu ban đầu, dòng thứ hai </font></font><span style="font-family: courier new,courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">là</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> đầu ra của kết quả):</font></font><br><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAO0AAABoCAIAAACSUuCzAAAH7ElEQVR4nO2da2/bVByH+3HyHfYBKkSBkU3AhFYq8gZQFQkJEYRYMpjQunXZ2E2khQ7WsYvKWEm2apesTdIxKLuIZSyDEQ2WVtoEza1pWRvyIrzIzY7tYx8f28c5+z36vWhjn7+P7ScnJydb0zc8lkSQXk/feyd/CS/UEMRgftq82Q2RdgkeI9ThbjA8RiwId4PhMWJBuBsMjxELwt1geIxYEO4G03m89/v07lMpI9kzfWffj1Xu1xehjYeIVivuBtN5/O30+Vt3Mrfu3FMkczuduZ3OxC7Pxy6lYpdSp6bO7br8N/e7gtDGYY/r9Xq9Xic/Yr3HV5M/bFSr6xs62ahW43Op0IVFrdMOhrySixPwdzbFBzzewShtK2nYK9TCC7VwJCC7gb44cU/NI4YXsoP9noGIft9cEoKsNo3HUnFZJKbwODl//fc/lkYm5vZ8Nbv3+NXRb+Lh01fu3/+zWMgv5nKLuVyhkB+P3hyP3tT2ODvYL3coEmjd5lp4oeb3eTaFsuqt+seDciM7DSOB9lb2Cs1fCe52n466nX5f81nQPopG31wU5z1u68soMYXHidS1B9nHb+2PvX0oOhw55584++7kVDqdLeb/kXo8cfFnLY+DIa9MF2Wi45sUO/h9HmWrYMjbeT5ILWSv0NhkwONgyOvxBdRH2UjA4wn4F+ID0meLWt9cFS4es4/EdB5fuZp4kH28Y/LyO5Gz2w9/ve3o2LaxI+l0tphfzuVyudyjQiE/OX/t9M05DY/lN7VL36YN0hdicqvm4+1hrzUBYK9gzOPo+KamqYTZQtehlX1zV56J8bjh8ZbRiedGDr9w4LPNR/dtGR9pjMe53KPGePzdrxejv8XUPW4OUWSPFQ41dVFp1XmZJo+m5iroTI7bRlJ5bHSkpzKP6j2Z2zzmMD9uePz86KEXD+5/+fPRrV/ufm3yk8Z43J5XZJ5kMk8y1B53Oy2bQGu18vtaknXNbtkryEVUmtdpSOkx4UnlEo8JWO4xn/WKhscvHQlvGdvzyrFPt534ePuZj9LpbEEyP65urFc31pk8Xqj5ffJ3YJSjqSUVSN2W7UzpcVffhAjjvMKqSLuk7/HWL3a/enzX6ydDb0x9+Oa599PpbH655XE+v7a2Wi6V1D2WTB500i0KaXarbiF7BVm3pR431igUqM8W1A5NOFZvhrvBlB7PJu/ee7h3emo0eiZ8/uSBmRMHLx6/ceNu2+P88nJlpVwoFDTe52UH+4lrsbLb3zGedrXBogoS7UgvI9TjcU8sJFOFu8F0Hl+KJ2q1/yorxUq5WCkXVyuV1Up5daW0/vTfjfWna2urKysrpVKxVCpqrx/HBzyerpXagYjKUB0MeSVLrd2tgiGvbNVWTTWGCtlBn2QVz9Oae6i/nkikVNlB/aWg07d2E+UPvO0U1uNjZ2LxuZQys8lrifnrs4n59iPHTk3vnFnSOG3563LDLeXNU7wfkq2OeTzyTx9aNYnLFIYryHooW/21yONO3+Cx8x6PpCo7Z5ZCFxZ1s3NmaSRVYbs6Okut7aUx7X3YK9gXty8kU4W7wXQeOxz2pVbLF2tddXYIIS7yGEFMBx4jIgQeIyIEHiMiBB4jIgQeIyJExeMPpu4jiMuzI/aXvsd9ADhOvV4vGwYeA5dii8dJDah6RmiiW1N1k5FematspK19lbXa2n0XXIVD4zHt5dAVglyWcF91D2qism5b+yqTHze3G2MTLrjOY/LgQVaEfCxyH6ytbFxrlsrktkaqWbs/R1znMblJ14OqugvsMdX5GumntftzRNXjoaEhKz02dzkc9tjI/uaMcYnHJu5CT3s81MLtHjd+UL3ThIJSqDpAdRaEtlQispwvuUuW78+XLo+H5AjlsfH6qqLrViY/SXQ36XYSHhOQeizVV1VlMx6bvhzkW57UGN6kO+gel7yPhZW7dExqPEPIm1h6ZeIuUJ0vd5Qea/3aAx6TdTF4CNWtLJUJdhrfk/F8ae8C7flyp8tj5VzZjR4n1QYkws9Uh7C8MrvH7Of7THmsC7XHLJfAco+N++S2yubOl9A9XQxWdg896bHWI0kNjLftxcpabQkXTReDld0DT4/NbSXfZnJzWkXcX5ncVneTEVxucAPXeZzUQGsfquK6bXuxMrkteZMRGJs7Q71ev20MMx4D4AzwGIgAPAYiAI+BCNjosZF3JwBYgl0eS/WFysBubPFYa6WMyxmCZwF4DETAofd58BjYCjwGIuDQegUkBraC8RiIADwGIgCPgQhg3Q2IgI1/p1B6GHgMbMWuf0ePz6WBk9j4/0Gw6AYcA3/HG4gAPAYiAI+BCMBjIALwGIgAPAYiAI+BCMBjIALwGIgAPAYiAI+BCNj+9+gBcADbvx8EAAew/fuaAHAAJ74/DwC7ceL7TAGwGye+XxoAu8G6GxABeAxEAB4DEbDe4zoAjmNcYqMeU1U0+DdgnIGq56B3gcdABOAxEAHzHmt9uMJbXRn2X0BgHsLnc7SY9JjQA97qymC/QMBWrFLZjMfkY/NWVwbj1QEOwKJyIpFIJBJlEx7rHpW3ujJMXBrgPKZVNu+x7lF5qyvDxDUFDmPJ1ALzY8ATcxK3h2Gm8ZjcA97qyjB1bYFDsE8nLPBYC97qyqC9QKBHgcegZ1AOwxiPQe/hqMcAOI8hjxHE5dH3GEF6LvAYESHwGBEh8BgRIcNjyb7hsSSC9Hr+B5WOSfxR4M5qAAAAAElFTkSuQmCC" alt=""><br></span></span></span></p>
+	<h2>Code:</h2>
+	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="File52.cpp.1"></a>    1 </span><span class="vpl_m">#include&lt;iostream&gt;</span>
+<span class="vpl_ln"><a name="File52.cpp.2"></a>    2 </span>
+<span class="vpl_ln"><a name="File52.cpp.3"></a>    3 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span> std;
+<span class="vpl_ln"><a name="File52.cpp.4"></a>    4 </span><span class="vpl_r">typedef</span> <span class="vpl_r">unsigned</span> <span class="vpl_r">long</span> <span class="vpl_r">long</span> LONG;
+<span class="vpl_ln"><a name="File52.cpp.5"></a>    5 </span>LONG Pow<span class="vpl_h0">(<span class="vpl_r">int</span> i)</span>
+<span class="vpl_ln"><a name="File52.cpp.6"></a>    6 </span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="File52.cpp.7"></a>    7 </span>   LONG s=1;
+<span class="vpl_ln"><a name="File52.cpp.8"></a>    8 </span>   <span class="vpl_r">for</span><span class="vpl_h1">(<span class="vpl_r">int</span> j=1;j&lt;=i;j++)</span>
+<span class="vpl_ln"><a name="File52.cpp.9"></a>    9 </span>	 <span class="vpl_h1">{
+<span class="vpl_ln"><a name="File52.cpp.10"></a>   10 </span>		s =s*10;
+<span class="vpl_ln"><a name="File52.cpp.11"></a>   11 </span>	 }</span>
+<span class="vpl_ln"><a name="File52.cpp.12"></a>   12 </span>   <span class="vpl_r">return</span>  s;
+<span class="vpl_ln"><a name="File52.cpp.13"></a>   13 </span>}</span>
+<span class="vpl_ln"><a name="File52.cpp.14"></a>   14 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span>
+<span class="vpl_ln"><a name="File52.cpp.15"></a>   15 </span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="File52.cpp.16"></a>   16 </span>  <span class="vpl_r">double</span> x;
+<span class="vpl_ln"><a name="File52.cpp.17"></a>   17 </span>  cin&gt;&gt;x;
+<span class="vpl_ln"><a name="File52.cpp.18"></a>   18 </span>  <span class="vpl_r">int</span> m;
+<span class="vpl_ln"><a name="File52.cpp.19"></a>   19 </span>  cin&gt;&gt;m;
+<span class="vpl_ln"><a name="File52.cpp.20"></a>   20 </span>  LONG a;
+<span class="vpl_ln"><a name="File52.cpp.21"></a>   21 </span>  <span class="vpl_r">int</span>  r;
+<span class="vpl_ln"><a name="File52.cpp.22"></a>   22 </span>  <span class="vpl_r">int</span> d=0;
+<span class="vpl_ln"><a name="File52.cpp.23"></a>   23 </span>  <span class="vpl_r">int</span> i=1;
+<span class="vpl_ln"><a name="File52.cpp.24"></a>   24 </span>  <span class="vpl_r">while</span><span class="vpl_h1">(i&lt;=10)</span>
+<span class="vpl_ln"><a name="File52.cpp.25"></a>   25 </span>	<span class="vpl_h1">{
+<span class="vpl_ln"><a name="File52.cpp.26"></a>   26 </span>	   a=x*Pow<span class="vpl_h2">(i)</span>;
+<span class="vpl_ln"><a name="File52.cpp.27"></a>   27 </span>	   r=a%10;
+<span class="vpl_ln"><a name="File52.cpp.28"></a>   28 </span>	   <span class="vpl_r">if</span><span class="vpl_h2">(r==m)</span>
+<span class="vpl_ln"><a name="File52.cpp.29"></a>   29 </span>		 <span class="vpl_h2">{
+<span class="vpl_ln"><a name="File52.cpp.30"></a>   30 </span>		   d++;
+<span class="vpl_ln"><a name="File52.cpp.31"></a>   31 </span>		 }</span>
+<span class="vpl_ln"><a name="File52.cpp.32"></a>   32 </span>	   i++;
+<span class="vpl_ln"><a name="File52.cpp.33"></a>   33 </span>	}</span>
+<span class="vpl_ln"><a name="File52.cpp.34"></a>   34 </span>  cout&lt;&lt;d&lt;&lt;endl;
+<span class="vpl_ln"><a name="File52.cpp.35"></a>   35 </span>  <span class="vpl_r">return</span> 0;
+<span class="vpl_ln"><a name="File52.cpp.36"></a>   36 </span>}</span>
+	<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
