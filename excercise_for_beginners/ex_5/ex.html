@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 5</title>
+</head>
+<body>
+	<h2>Đề bài:</h2>
+	<p>Viết chương trình đếm số phần tử đó của mảng số nguyên mà chữ số thập phân có nghĩa nhỏ nhất là bội của một số đã cho.Nhập dữ liệu được thực hiện từ bàn phím, đầu ra trên màn hình console.</p>
+	<p><strong> Định dạng đầu vào:</strong></p>
+	<ul>
+		<li>Số phần tử của mảng.</li>
+		<li>Giá trị phần tử của mảng (số nguyên 4 byte).</li>
+		<li>một số có giá trị được kiểm tra cho tính đa dạng của chữ số cuối cùng của các phần tử mảng.</li>
+	</ul>
+	<p><strong>Dạng đầu ra:</strong> số phần tử của mảng thỏa mãn điều kiện bài toán.</p>
+	<p>Ví dụ (ba dòng đầu tiên - đầu vào của dữ liệu ban đầu, sau đó - đầu ra của kết quả):</p>
+	<p><img src="data:image/png;base64,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" alt=""></p>
+	<h2>Code :</h2>
+	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="File112.cpp.1"></a>    1 </span><span class="vpl_m">#include&lt;iostream&gt;</span>
+<span class="vpl_ln"><a name="File112.cpp.2"></a>    2 </span><span class="vpl_m">#include&lt;ctime&gt;</span>
+<span class="vpl_ln"><a name="File112.cpp.3"></a>    3 </span><span class="vpl_m">#include&lt;iomanip&gt;</span>
+<span class="vpl_ln"><a name="File112.cpp.4"></a>    4 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span> std;
+<span class="vpl_ln"><a name="File112.cpp.5"></a>    5 </span>
+<span class="vpl_ln"><a name="File112.cpp.6"></a>    6 </span><span class="vpl_r">void</span> Input<span class="vpl_h0">(<span class="vpl_r">int</span> *a, <span class="vpl_r">int</span> n)</span> <span class="vpl_h0">{
+<span class="vpl_ln"><a name="File112.cpp.7"></a>    7 </span>	<span class="vpl_r">for</span> <span class="vpl_h1">(<span class="vpl_r">int</span> i = 0; i &lt; n; i++)</span> <span class="vpl_h1">{
+<span class="vpl_ln"><a name="File112.cpp.8"></a>    8 </span>	   cin&gt;&gt;a<span class="vpl_h2">[i]</span>;
+<span class="vpl_ln"><a name="File112.cpp.9"></a>    9 </span>	}</span>
+<span class="vpl_ln"><a name="File112.cpp.10"></a>   10 </span>}</span>
+<span class="vpl_ln"><a name="File112.cpp.11"></a>   11 </span><span class="vpl_r">int</span> Count<span class="vpl_h0">(<span class="vpl_r">int</span> *a,<span class="vpl_r">int</span> n,<span class="vpl_r">int</span> x)</span>
+<span class="vpl_ln"><a name="File112.cpp.12"></a>   12 </span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="File112.cpp.13"></a>   13 </span>  <span class="vpl_r">int</span> count=0;
+<span class="vpl_ln"><a name="File112.cpp.14"></a>   14 </span>  <span class="vpl_r">for</span><span class="vpl_h1">(<span class="vpl_r">int</span> i=0;i&lt;n;i++)</span>
+<span class="vpl_ln"><a name="File112.cpp.15"></a>   15 </span>   <span class="vpl_h1">{
+<span class="vpl_ln"><a name="File112.cpp.16"></a>   16 </span>	 <span class="vpl_r">if</span><span class="vpl_h2">(<span class="vpl_h3">(a<span class="vpl_h4">[i]</span>%10)</span>% x ==0 )</span>
+<span class="vpl_ln"><a name="File112.cpp.17"></a>   17 </span>	   <span class="vpl_h2">{
+<span class="vpl_ln"><a name="File112.cpp.18"></a>   18 </span>		 count++;
+<span class="vpl_ln"><a name="File112.cpp.19"></a>   19 </span>	   }</span>
+<span class="vpl_ln"><a name="File112.cpp.20"></a>   20 </span>   }</span>
+<span class="vpl_ln"><a name="File112.cpp.21"></a>   21 </span>   <span class="vpl_r">return</span> count;
+<span class="vpl_ln"><a name="File112.cpp.22"></a>   22 </span>}</span>
+<span class="vpl_ln"><a name="File112.cpp.23"></a>   23 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span>
+<span class="vpl_ln"><a name="File112.cpp.24"></a>   24 </span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="File112.cpp.25"></a>   25 </span>	<span class="vpl_r">int</span> n,x;
+<span class="vpl_ln"><a name="File112.cpp.26"></a>   26 </span>	cin&gt;&gt;n;
+<span class="vpl_ln"><a name="File112.cpp.27"></a>   27 </span>	<span class="vpl_r">int</span> *a=<span class="vpl_r">new</span> <span class="vpl_r">int</span> <span class="vpl_h1">[n]</span>;
+<span class="vpl_ln"><a name="File112.cpp.28"></a>   28 </span>	Input<span class="vpl_h1">(a,n)</span>;
+<span class="vpl_ln"><a name="File112.cpp.29"></a>   29 </span>	cin&gt;&gt;x;
+<span class="vpl_ln"><a name="File112.cpp.30"></a>   30 </span>	cout&lt;&lt;Count<span class="vpl_h1">(a,n,x)</span>;
+<span class="vpl_ln"><a name="File112.cpp.31"></a>   31 </span>	<span class="vpl_r">delete</span><span class="vpl_h1">[]</span>a;
+<span class="vpl_ln"><a name="File112.cpp.32"></a>   32 </span>	<span class="vpl_c">//system("pause");</span>
+<span class="vpl_ln"><a name="File112.cpp.33"></a>   33 </span>	<span class="vpl_r">return</span> 0;
+<span class="vpl_ln"><a name="File112.cpp.34"></a>   34 </span>}</span>
+<span class="vpl_ln"><a name="File112.cpp.35"></a>   35 </span></pre></div>
+	<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
