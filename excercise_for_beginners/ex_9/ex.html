@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 9</title>
+</head>
+<body>
+	<h2>Đề bài:</h2>
+	<p>Dòng đầu vào chứa các số nguyên dương, biểu thị giá bằng tiền rúp(đơn vị tiền Nga). Viết chương trình tạo một chuỗi biểu thị giá bằng rúp và kopecks</p>
+	<p><strong>Định dạng đầu vào:</strong>chuỗi ký tự chứa số nguyên dương.</p>
+	<p><strong>Định dạng đầu ra:</strong>chuỗi ký tự chứa các số của chuỗi đầu vào, được viết ở định dạng sau:</p>
+	<ul>
+		<li>các số biểu thị rúp và kopecks phải được phân tách bằng ký hiệu dấu hai chấm.</li>
+		<li>số lượng kopecks phải luôn được hiển thị dưới dạng hai ký tự số.</li>
+	</ul>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<p><span style="font-size: large; font-family: times new roman,times,serif;"><span style="font-family: times new roman,times,serif; font-size: large;"><span style="color: #000000;"><img src="data:image/png;base64,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" alt=""></span></span></span></p>
+	<h2>Code :</h2>
+	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="main.cpp.1"></a>    1 </span><span class="vpl_m">#include&lt;iostream&gt;</span>
+<span class="vpl_ln"><a name="main.cpp.2"></a>    2 </span><span class="vpl_m">#include&lt;string&gt;</span>
+<span class="vpl_ln"><a name="main.cpp.3"></a>    3 </span><span class="vpl_m">#include&lt;sstream&gt;</span>
+<span class="vpl_ln"><a name="main.cpp.4"></a>    4 </span><span class="vpl_m">#include&lt;iomanip&gt;</span>
+<span class="vpl_ln"><a name="main.cpp.5"></a>    5 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span>  std;
+<span class="vpl_ln"><a name="main.cpp.6"></a>    6 </span>
+<span class="vpl_ln"><a name="main.cpp.7"></a>    7 </span>
+<span class="vpl_ln"><a name="main.cpp.8"></a>    8 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="main.cpp.9"></a>    9 </span>    string s;
+<span class="vpl_ln"><a name="main.cpp.10"></a>   10 </span>    getline<span class="vpl_h1">(cin,s)</span>;
+<span class="vpl_ln"><a name="main.cpp.11"></a>   11 </span>    string s0;
+<span class="vpl_ln"><a name="main.cpp.12"></a>   12 </span>    istringstream s1<span class="vpl_h1">(s)</span>;
+<span class="vpl_ln"><a name="main.cpp.13"></a>   13 </span>    <span class="vpl_r">while</span><span class="vpl_h1">( s1 &gt;&gt; s0)</span><span class="vpl_h1">{
+<span class="vpl_ln"><a name="main.cpp.14"></a>   14 </span>        <span class="vpl_r">int</span> v= stoi<span class="vpl_h2">(s0)</span>;
+<span class="vpl_ln"><a name="main.cpp.15"></a>   15 </span>        cout&lt;&lt;v / 100&lt;&lt;<span class="vpl_s">":"</span>&lt;&lt;setw<span class="vpl_h2">(2)</span>&lt;&lt;setfill<span class="vpl_h2">(<span class="vpl_s">'0'</span>)</span>&lt;&lt;v % 100&lt;&lt;<span class="vpl_s">" "</span>;
+<span class="vpl_ln"><a name="main.cpp.16"></a>   16 </span>    }</span>
+<span class="vpl_ln"><a name="main.cpp.17"></a>   17 </span>    <span class="vpl_r">return</span> 0;
+<span class="vpl_ln"><a name="main.cpp.18"></a>   18 </span>}</span>
+	<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
