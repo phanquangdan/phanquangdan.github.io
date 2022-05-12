@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 10</title>
+</head>
+<body>
+	<h2>Đề bài:</h2>
+	<p>Viết chương trình tạo một chuỗi mới từ các ký tự số của một chuỗi cho trước theo thuật toán sau: mỗi chữ số được thay bằng (+) cho một chữ số chẵn và  [-] cho một chữ số lẻ, trong khi số + hoặc - các ký tự phải bằng giá trị của chữ số.</p>
+	<p><strong style="color:red;">Lưu ý:</strong>ký tự 0 được thay thế bằng chuỗi ().</p>
+	<p><strong>Định dạng đầu vào:</strong>chuỗi ký tự.</p>
+	<p><strong>Định dạng đầu ra:</strong>nội dung của dòng được tạo theo thuật toán được mô tả.</p>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<img src="data:image/png;base64,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" alt="">
+	<h2>Code :</h2>
+	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="main.cpp.1"></a>    1 </span><span class="vpl_m">#include &lt;iostream&gt;</span>
+<span class="vpl_ln"><a name="main.cpp.2"></a>    2 </span>
+<span class="vpl_ln"><a name="main.cpp.3"></a>    3 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span> std;
+<span class="vpl_ln"><a name="main.cpp.4"></a>    4 </span>
+<span class="vpl_ln"><a name="main.cpp.5"></a>    5 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span>
+<span class="vpl_ln"><a name="main.cpp.6"></a>    6 </span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="main.cpp.7"></a>    7 </span>    string s;
+<span class="vpl_ln"><a name="main.cpp.8"></a>    8 </span>    getline<span class="vpl_h1">(cin,s)</span>;
+<span class="vpl_ln"><a name="main.cpp.9"></a>    9 </span>    string a =<span class="vpl_s">""</span>;
+<span class="vpl_ln"><a name="main.cpp.10"></a>   10 </span>    <span class="vpl_r">for</span><span class="vpl_h1">(<span class="vpl_r">int</span> i=0;i&lt;s.size<span class="vpl_h2">()</span>;i++)</span><span class="vpl_h1">{
+<span class="vpl_ln"><a name="main.cpp.11"></a>   11 </span>        <span class="vpl_r">if</span><span class="vpl_h2">(<span class="vpl_h3">(s<span class="vpl_h4">[i]</span> &gt;= <span class="vpl_s">'0'</span> &amp;&amp; s<span class="vpl_h4">[i]</span> &lt;= <span class="vpl_s">'9'</span>)</span>)</span><span class="vpl_h2">{
+<span class="vpl_ln"><a name="main.cpp.12"></a>   12 </span>            <span class="vpl_r">if</span><span class="vpl_h3">(<span class="vpl_r">int</span><span class="vpl_h4">(s<span class="vpl_h5">[i]</span> - 48)</span> % 2 == 0)</span><span class="vpl_h3">{
+<span class="vpl_ln"><a name="main.cpp.13"></a>   13 </span>                a+=<span class="vpl_s">'('</span>;
+<span class="vpl_ln"><a name="main.cpp.14"></a>   14 </span>                <span class="vpl_r">for</span><span class="vpl_h4">(<span class="vpl_r">int</span> j = 0;j &lt; <span class="vpl_r">int</span><span class="vpl_h5">(s<span class="vpl_h6">[i]</span> - 48)</span>;j++)</span><span class="vpl_h4">{
+<span class="vpl_ln"><a name="main.cpp.15"></a>   15 </span>                    a+=<span class="vpl_s">'+'</span>;
+<span class="vpl_ln"><a name="main.cpp.16"></a>   16 </span>                }</span>
+<span class="vpl_ln"><a name="main.cpp.17"></a>   17 </span>                a+=<span class="vpl_s">')'</span>;
+<span class="vpl_ln"><a name="main.cpp.18"></a>   18 </span>            }</span>
+<span class="vpl_ln"><a name="main.cpp.19"></a>   19 </span>            <span class="vpl_r">else</span> <span class="vpl_r">if</span><span class="vpl_h3">(<span class="vpl_r">int</span><span class="vpl_h4">(s<span class="vpl_h5">[i]</span> - 48)</span> % 2 != 0)</span><span class="vpl_h3">{
+<span class="vpl_ln"><a name="main.cpp.20"></a>   20 </span>                a+=<span class="vpl_s">'['</span>;
+<span class="vpl_ln"><a name="main.cpp.21"></a>   21 </span>                <span class="vpl_r">for</span><span class="vpl_h4">(<span class="vpl_r">int</span> j = 0;j &lt; <span class="vpl_r">int</span><span class="vpl_h5">(s<span class="vpl_h6">[i]</span> - 48)</span>;j++)</span><span class="vpl_h4">{
+<span class="vpl_ln"><a name="main.cpp.22"></a>   22 </span>                    a+=<span class="vpl_s">'-'</span>;
+<span class="vpl_ln"><a name="main.cpp.23"></a>   23 </span>                }</span>
+<span class="vpl_ln"><a name="main.cpp.24"></a>   24 </span>                a+=<span class="vpl_s">']'</span>;
+<span class="vpl_ln"><a name="main.cpp.25"></a>   25 </span>            }</span>
+<span class="vpl_ln"><a name="main.cpp.26"></a>   26 </span>        }</span>
+<span class="vpl_ln"><a name="main.cpp.27"></a>   27 </span>    }</span>
+<span class="vpl_ln"><a name="main.cpp.28"></a>   28 </span>    cout&lt;&lt;a;
+<span class="vpl_ln"><a name="main.cpp.29"></a>   29 </span>    <span class="vpl_r">return</span>  0;
+<span class="vpl_ln"><a name="main.cpp.30"></a>   30 </span>}</span>
+	<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
