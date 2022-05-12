@@ -84,4 +84,20 @@ footer a{
 		width: 100%;
 		flex-wrap: wrap;
 	}
+	#menu_text{
+		background-color: black;
+		color: greenyellow;
+		font-weight: bold;
+		text-align: center;
+		padding: 25px;
+		width: 85%;
+		margin: 0px;
+	}
+	
+	#left_side{
+		width: 200px;
+	}
+	#myImage,#ki{
+		width: 300px;
+	}
 }
