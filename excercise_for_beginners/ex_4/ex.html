@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 4</title>
+</head>
+<body>
+	<h2>Đề bài:</h2>
+	<p>Viết chương trình tìm phần tử lớn nhất trong một mảng các số nguyên và đếm số của chúng. Nhập dữ liệu được thực hiện từ bàn phím, đầu ra trên màn hình console.</p>
+	<p><strong>Định dạng đầu vào:</strong></p>
+	<ul>
+		<li>Số phần tử của mảng.</li>
+		<li>Giá trị phần tử mảng.(4 byte)</li>
+	</ul>
+	<p><strong style="color:red">Chỉ số</strong> của phần tử lớn nhất của mảng(là chỉ số đầu tiên) <strong>số lượng</strong> của phần tử đó, được phân tách bằng dấu cách.</p>
+	<p>Ví dụ(hai dòng đầu tiên, đầu vào dữ liệu ban đầu, dòng cuối, đầu ra của kết quả.)</p>
+	<p><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-family: times new roman,times,serif; font-size: large;"><span style="font-size: large; font-family: times new roman,times,serif;"><img src="data:image/png;base64,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" alt=""></span></span></span></p>
+	<h2>Code :</h2>
+	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="File111.cpp.1"></a>    1 </span><span class="vpl_m">#include&lt;iostream&gt;</span>
+<span class="vpl_ln"><a name="File111.cpp.2"></a>    2 </span><span class="vpl_m">#include&lt;ctime&gt;</span>
+<span class="vpl_ln"><a name="File111.cpp.3"></a>    3 </span><span class="vpl_m">#include&lt;iomanip&gt;</span>
+<span class="vpl_ln"><a name="File111.cpp.4"></a>    4 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span> std;
+<span class="vpl_ln"><a name="File111.cpp.5"></a>    5 </span>
+<span class="vpl_ln"><a name="File111.cpp.6"></a>    6 </span><span class="vpl_r">void</span> Input<span class="vpl_h0">(<span class="vpl_r">int</span> *a, <span class="vpl_r">int</span> n)</span> <span class="vpl_h0">{
+<span class="vpl_ln"><a name="File111.cpp.7"></a>    7 </span>	<span class="vpl_r">for</span> <span class="vpl_h1">(<span class="vpl_r">int</span> i = 0; i &lt; n; i++)</span> <span class="vpl_h1">{
+<span class="vpl_ln"><a name="File111.cpp.8"></a>    8 </span>	   cin&gt;&gt;a<span class="vpl_h2">[i]</span>;
+<span class="vpl_ln"><a name="File111.cpp.9"></a>    9 </span>	}</span>
+<span class="vpl_ln"><a name="File111.cpp.10"></a>   10 </span>}</span>
+<span class="vpl_ln"><a name="File111.cpp.11"></a>   11 </span><span class="vpl_r">int</span> Timmax<span class="vpl_h0">(<span class="vpl_r">int</span> *a,<span class="vpl_r">int</span> n)</span>
+<span class="vpl_ln"><a name="File111.cpp.12"></a>   12 </span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="File111.cpp.13"></a>   13 </span>   <span class="vpl_r">int</span> max=a<span class="vpl_h1">[0]</span>,dem=0,l=0;
+<span class="vpl_ln"><a name="File111.cpp.14"></a>   14 </span>   <span class="vpl_r">for</span><span class="vpl_h1">(<span class="vpl_r">int</span> i=0;i&lt;n;i++)</span>
+<span class="vpl_ln"><a name="File111.cpp.15"></a>   15 </span>	 <span class="vpl_h1">{
+<span class="vpl_ln"><a name="File111.cpp.16"></a>   16 </span>	   <span class="vpl_r">if</span><span class="vpl_h2">(a<span class="vpl_h3">[i]</span>&gt;max)</span>
+<span class="vpl_ln"><a name="File111.cpp.17"></a>   17 </span>		 <span class="vpl_h2">{
+<span class="vpl_ln"><a name="File111.cpp.18"></a>   18 </span>		   max=a<span class="vpl_h3">[i]</span>;
+<span class="vpl_ln"><a name="File111.cpp.19"></a>   19 </span>		   l=i;
+<span class="vpl_ln"><a name="File111.cpp.20"></a>   20 </span>		 }</span>
+<span class="vpl_ln"><a name="File111.cpp.21"></a>   21 </span>	 }</span>
+<span class="vpl_ln"><a name="File111.cpp.22"></a>   22 </span>    <span class="vpl_r">for</span><span class="vpl_h1">(<span class="vpl_r">int</span> i=0;i&lt;n;i++)</span>
+<span class="vpl_ln"><a name="File111.cpp.23"></a>   23 </span>	 <span class="vpl_h1">{
+<span class="vpl_ln"><a name="File111.cpp.24"></a>   24 </span>	   <span class="vpl_r">if</span><span class="vpl_h2">(a<span class="vpl_h3">[i]</span>==max)</span>
+<span class="vpl_ln"><a name="File111.cpp.25"></a>   25 </span>		 <span class="vpl_h2">{
+<span class="vpl_ln"><a name="File111.cpp.26"></a>   26 </span>		   dem++;
+<span class="vpl_ln"><a name="File111.cpp.27"></a>   27 </span>		 }</span>
+<span class="vpl_ln"><a name="File111.cpp.28"></a>   28 </span>	 }</span>
+<span class="vpl_ln"><a name="File111.cpp.29"></a>   29 </span>	cout&lt;&lt;l&lt;&lt;<span class="vpl_s">" "</span>&lt;&lt;dem&lt;&lt;endl;
+<span class="vpl_ln"><a name="File111.cpp.30"></a>   30 </span>}</span>
+<span class="vpl_ln"><a name="File111.cpp.31"></a>   31 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span>
+<span class="vpl_ln"><a name="File111.cpp.32"></a>   32 </span><span class="vpl_h0">{
+<span class="vpl_ln"><a name="File111.cpp.33"></a>   33 </span>	<span class="vpl_r">int</span> n;
+<span class="vpl_ln"><a name="File111.cpp.34"></a>   34 </span>	cin&gt;&gt;n;
+<span class="vpl_ln"><a name="File111.cpp.35"></a>   35 </span>	<span class="vpl_r">int</span> *a=<span class="vpl_r">new</span> <span class="vpl_r">int</span> <span class="vpl_h1">[n]</span>;
+<span class="vpl_ln"><a name="File111.cpp.36"></a>   36 </span>	Input<span class="vpl_h1">(a,n)</span>;
+<span class="vpl_ln"><a name="File111.cpp.37"></a>   37 </span>	Timmax<span class="vpl_h1">(a,n)</span>;
+<span class="vpl_ln"><a name="File111.cpp.38"></a>   38 </span>	<span class="vpl_r">delete</span><span class="vpl_h1">[]</span>a;
+<span class="vpl_ln"><a name="File111.cpp.39"></a>   39 </span>	<span class="vpl_r">return</span> 0;
+<span class="vpl_ln"><a name="File111.cpp.40"></a>   40 </span>}</span>
+	<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
