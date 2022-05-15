@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="graph.css">
+	<title>Graph</title>
+</head>
+<body>
+	<h1 style="color: green;">1.Phương pháp xác định đồ thị.</h1>
+	<p><strong>Đồ thị</strong> là tập hợp các đỉnh không rỗng và có sự liên kết giữa các đỉnh.</p>
+	<p>Có các loại đồ thị sau:</p>
+	<ol >
+		<li>Đồ thị vô hướng:<img class="graph" src="vohuong.png" style="width: 400px;height: 200px;"></li>
+		<li>Đồ thị có hướng:<img class="graph" src="cohuong.png" style="width: 400px;height: 200px;"></li>
+		<li>Đồ thị trọng số:<img class="graph" src="trongso.png" style="width: 400px;height: 200px;"></li>
+	</ol>
+	<p>Thông tin về đồ thị có thể lưu theo một số cách sau:</p>
+	<ol>
+		<li> Ở dạng <strong>ma trận kề.</strong></li>
+		<li> Ở dạng <strong>ma trận liên thuộc.</strong></li>
+		<li> Ở dạng <strong>danh sách các cạnh.</strong></li>
+		<li> Ở dạng <strong>danh sách kề.</strong></li>
+	</ol>
+	<h2>Ma trận kề</h2>
+	<p>Ma trận kề của đồ thị G có hữu hạn n đỉnh(đánh dấu từ 1 đến n) là ma trận vuông A kích thước n, trong đó giá trị của phần tử aij bằng số cạnh từ đỉnh thứ của đồ thị đến đỉnh thứ j.</p>
+	<p>Đặc biệt trong trường hợp đồ thị vô hướng, một cạnh từ đỉnh i đến chính nó được tính là 2 cạnh.</p>
+	<p>Ví dụ về ma trận liền kề (Đồ thị vô hướng bên trên):</p>
+	<table border="1">
+<tbody>
+<tr>
+<td></td>
+<td><span><strong>1</strong></span></td>
+<td><span><strong>2</strong></span></td>
+<td><span><strong>3</strong></span></td>
+<td><span><strong>4</strong></span></td>
+<td><span><strong>5</strong></span></td>
+<td><span><strong>6</strong></span></td>
+</tr>
+<tr>
+<td><span><strong>1</strong></span></td>
+<td><span>0</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td>∞</td>
+<td><span>∞</span></td>
+<td><span>∞</span></td>
+</tr>
+<tr>
+<td><span><strong>2</strong></span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span>0</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span>∞</span></td>
+<td><span>∞</span></td>
+</tr>
+<tr>
+<td><span><strong>3</strong></span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span>0</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span>∞</span></td>
+</tr>
+<tr>
+<td><span><strong>4</strong></span></td>
+<td><span>∞</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span>0</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+</tr>
+<tr>
+<td><span><strong>5</strong></span></td>
+<td><span>∞</span></td>
+<td><span>∞</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span>0</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+</tr>
+<tr>
+<td><span><strong>6</strong></span></td>
+<td><span>∞</span></td>
+<td><span>∞</span></td>
+<td><span>∞</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span style="background-color: #ccffcc;">1</span></td>
+<td><span>0</span></td>
+</tr>
+</tbody>
+</table>
+	<p>Ma trận kề cung cấp khả năng truy cập nhanh vào thông tin về các cạnh của đồ thị, nhưng nếu có ít cạch trong đồ thị, ma trận này sẽ chứa nhiều ô trống dẫn đến bộ nhớ sẽ sử dụng không được hiệu quả.Kích thước bộ nhớ cần thiết là (N^2).</p>
+	<h2>Ma trận liên thuộc</h2>
+	<p>Ma trận liên thuộc là một dạng biểu diễn đồ thị để nói lên mối liên hệ giữa các đỉnh và các cạnh.Nó là một mảng 2 chiều, mỗi hàng tương ứng với một đỉnh nhất định và các cột thì ứng với các cạnh.Giá trị của aij xác định như sau:</p>
+	<ul>
+		<li> 1, nếu cạnh j hướng ra khỏi đỉnh i.</li>
+		<li> -1, nếu cạnh j hướng vào đỉnh i.</li>
+		<li> 0, nếu cạnh j không kề đỉnh i.</li>
+	</ul>
+	<p>Ví dụ về ma trận liên thuộc (Đồ thị có hướng bên trên):</p>
+	<table border="1">
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td><span><strong>1</strong></span></td>
+<td><span><strong>2</strong></span></td>
+<td><span><strong>3</strong></span></td>
+<td><span><strong>4</strong></span></td>
+<td><span><strong>5</strong></span></td>
+<td><span><strong>6</strong></span></td>
+<td><span><strong>7</strong></span></td>
+<td><span><b>8</b></span></td>
+<td><span><strong>9</strong></span></td>
+</tr>
+<tr>
+<td><span><strong>1</strong></span></td>
+<td><span>-1</span></td>
+<td><span>1</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+</tr>
+<tr>
+<td><span><strong>2</strong></span></td>
+<td><span>1</span></td>
+<td><span>0</span></td>
+<td><span>1</span></td>
+<td><span>1</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+</tr>
+<tr>
+<td><span><strong>3</strong></span></td>
+<td><span>0</span></td>
+<td><span>-1</span></td>
+<td><span>-1</span></td>
+<td><span>0</span></td>
+<td><span>1</span></td>
+<td><span>1</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+</tr>
+<tr>
+<td><span><strong>4</strong></span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>-1</span></td>
+<td><span>-1</span></td>
+<td><span>0</span></td>
+<td><span>1</span></td>
+<td><span>-1</span></td>
+<td><span>0</span></td>
+</tr>
+<tr>
+<td><span><strong>5</strong></span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>-1</span></td>
+<td><span>-1</span></td>
+<td><span>0</span></td>
+<td><span>1</span></td>
+</tr>
+<tr>
+<td><span><strong>6</strong></span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>0</span></td>
+<td><span>1</span></td>
+<td><span>-1</span></td>
+</tr>
+</tbody>
+</table>
+	<p> Phương thức này yêu cầu |E|*|V| các ô nhớ và hầu hết các ô này bị chiếm bởi các số không.</p>
+	<h2>Danh sách cạnh</h2>
+	<p>Danh sách cạch là một loại biểu diễn đồ thị, mỗi cạnh được biểu diễn bằng hai số- đó là số đỉnh của các cạnh này.Đối với đồ thị có trọng số thì số thứ ba là trọng số của cạnh.</p>
+	<p>Ví dụ về danh sách cạnh (Đồ thị trọng số bên trên):</p>
+	<td>
+<table border="1">
+<tbody>
+<tr>
+<td>2</td>
+<td>1</td>
+<td>12</td>
+</tr>
+<tr>
+<td><span>1</span></td>
+<td>3</td>
+<td>14</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>3</td>
+</tr>
+<tr>
+<td>2</td>
+<td>4</td>
+<td>18</td>
+</tr>
+<tr>
+<td>3</td>
+<td><span>4</span></td>
+<td><span>3</span></td>
+</tr>
+<tr>
+<td>3</td>
+<td>5</td>
+<td>2</td>
+</tr>
+<tr>
+<td><span>4</span></td>
+<td><span>5</span></td>
+<td><span>6</span></td>
+</tr>
+<tr>
+<td>6</td>
+<td>4</td>
+<td>3</td>
+</tr>
+<tr>
+<td>5</td>
+<td>6</td>
+<td>8</td>
+</tr>
+</tbody>
+</table>
+<br></td>
+	<p>	Rõ ràng, dung lượng bộ nhớ trong trường hợp này là 2|E|.Rõ ràng là khi biểu đồ được biểu diễn dưới dạng danh sách các cạnh, thông tin về các đỉnh có thể khó truy cập. Đây sẽ là trường hợp khi số cạnh lớn hơn nhiều so với số đỉnh.</p>
+	<h2>Danh sách liền kề.</h2>
+	<p>Biểu diễn một đồ thị bằng ma trận kề thường không thuận tiện, vì phải biết trước số đỉnh.Nếu một đồ thị được tạo hoặc thay đổi trong quá trình thực hiện chương trình, thì đối với mỗi lần thêm hoặc bớt một đỉnh, một ma trận mới phải được xây dựng. Ngoài ra, ngay cả khi đồ thị chứa một số lượng nhỏ các cạnh (cung) và ma trận kề chủ yếu bao gồm các số không, bộ nhớ phải được cấp phát cho tất cả các cung có thể có, bất kể chúng có tồn tại hay không. Nếu đồ thị chứa n đỉnh, thì bộ nhớ phải được cấp phát cho n^2 phần tử.</p>
+	<p>Một giải pháp khả thi là sử dụng một cấu trúc động được gọi là  danh sách kề để biểu diễn một đồ thị .</p>
+	<p>Mỗi đỉnh v thuộc V sẽ chứa danh sách các đỉnh liền kề của nó.</p>
+	<p>Ví dụ về danh sách kề:</p>
+	<td>
+	<table border="1">
+	<tbody>
+	<tr>
+	<td><span><strong>1</strong></span></td>
+	<td><span>→</span></td>
+	<td><span>3;14</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	<td></td>
+	<td></td>
+	</tr>
+	<tr>
+	<td><span><strong>2</strong></span></td>
+	<td><span>→</span></td>
+	<td><span>1;12</span></td>
+	<td><span>→</span></td>
+	<td><span>3;3</span></td>
+	<td><span>→</span></td>
+	<td><span>4;18</span></td>
+	</tr>
+	<tr>
+	<td><span><strong>3</strong></span></td>
+	<td><span>→</span></td>
+	<td><span>4;3</span></td>
+	<td><span>→</span></td>
+	<td><span>5;2</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	</tr>
+	<tr>
+	<td><span><strong>4</strong></span></td>
+	<td><span>→</span></td>
+	<td><span>5;6</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	</tr>
+	<tr>
+	<td><span><strong>5</strong></span></td>
+	<td><span>→</span></td>
+	<td><span>6;8</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	<td><span>&nbsp;</span></td>
+	</tr>
+	<tr>
+	<td><span><strong>6</strong></span></td>
+	<td><span>→</span></td>
+	<td><span>4;3</span></td>
+	<td><span>&nbsp;</span></td>
+	<td></td>
+	<td></td>
+	<td></td>
+	</tr>
+	</tbody>
+	</table>
+	</td>
+	<h1 style="color:green;">Thuật toán tìm kiếm theo chiều rộng(chiều sâu).</h1>
+	<p><strong style="color:red">Ý tưởng:</strong> <p style="text-align: justify;">Giải thuật tìm kiếm theo chiều rộng duyệt qua một đồ thị theo chiều rộng và sử dụng hàng đợi (<strong>queue</strong>) để ghi nhớ đỉnh liền kề để bắt đầu việc tìm kiếm khi không gặp được đỉnh liền kề trong bất kỳ vòng lặp nào.</p></p>
+	<p>Chương trình triển khai thuật toán BFS:</p>
+	<img class="graph" src="bfs.png">
+	<p><strong style="color:red">Ý tưởng:</strong> <p style="text-align: justify;">Giải thuật tìm kiếm theo chiều sâu còn được gọi là giải thuật tìm kiếm ưu tiên chiều sâu, là giải thuật duyệt hoặc tìm kiếm trên một cây hoặc một đồ thị và sử dụng <strong>stack</strong> (ngăn xếp) để ghi nhớ đỉnh liền kề để bắt đầu việc tìm kiếm khi không gặp được đỉnh liền kề trong bất kỳ vòng lặp nào.</p></p>
+	<p>Chương trình triển khai thuật toán DFS:</p>
+	<img class="graph" src="dfs.png">
+	<hr>
+	<a href="../structure.html">Back Page</a>
+</body>
+</html>
