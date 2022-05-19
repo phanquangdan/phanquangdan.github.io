@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 2</title>
+	<style type="text/css">
+		@media (max-width : 800px){
+	       .cod{
+	       	  width: 100%;
+	       }
+		}
+}
+	</style>
+</head>
+<body>
+	<h2 style="color:green;">Đề bài:</h2>
+	<p>Nhập một số nguyên từ bàn phím.Nếu bit thứ 3 của byte cao của số này bằng 1 và bit thứ 4 của byte này được bằng 0, hãy đặt lại byte thấp của số đã nhập bằng 0, nếu không, hãy giữ nguyên số đã nhập không thay đổi. Hiển thị kết quả trên màn hình.</p>
+	<p><strong>Định dạng đầu vào:</strong>Số nguyên dương giá trị 2 byte(hệ thập lục phân)</p>
+	<p><strong>Định dạng đầu ra:</strong>Số thập lục phân.</p>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<img src="bit_1.png" width="220" height="110">
+	<img src="bit_2.png" width="220" height="110">
+	<h2>Code :</h2>
+	<pre class="cod">
+<span style="color:red;">#include &lt;iostream&gt;</span>
+<span style="color:blue;">using namespace </span><span style="color: red">std</span><span>;</span>
+<span style="color:red;">typedef unsigned char </span><span>uchar;</span>
+<span style="color:red;">int </span><span>main() {</span>
+	<span style="color:red;">unsigned short </span><span>x</span><span>;</span>
+	<span style="color:red;">uchar </span><span>*p = (</span><span style="color:red">uchar</span><span>*)</span><span style="color:red;">&</span><span>x;</span>
+	<span style="color:gray;">cin </span><span>>> hex >> </span><span>x;</span>
+	<span style="color:blue;">if </span><span>(((x & (1 << 12)) == 0) && (x & (1 << 11)))</span>
+		<span>*p = 0;</span>
+	<span style="color:gray;">cout </span><span><< hex << </span><span>x << endl;</span>
+	<span style="color:blue;">return </span><span>0;</span>
+<span>}</span>
+	</pre>
+<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
