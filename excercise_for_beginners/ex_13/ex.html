@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 1</title>
+</head>
+<body>
+	<h2 style="color:green;">Đề bài:</h2>
+	<p>Nhập một số từ bàn phím, tính giá trị của bit có số được nhập từ bàn phím và đưa nó ra màn hình.</p>
+	<p><strong>Định dạng đầu vào:</strong>Số nguyên dương giá trị 2 byte(hệ thập lục phân) và số bit(hệ thập phân).</p>
+	<p><strong>Định dạng đầu ra:</strong>Giá trị bit</p>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<img src="e13.png">
+	<h2>Code :</h2>
+	<pre>
+<span style="color:red;">#include &lt;iostream&gt;</span>
+<span style="color:blue;">using namespace </span><span style="color: red">std</span><span>;</span>
+<span style="color:red;">int </span><span>main() {</span>
+	<span style="color:red;">unsigned short </span><span>x</span><span>;</span>
+	<span style="color:red;">int </span><span>n;</span>
+	<span style="color:gray;">cin </span><span>>> hex >> </span><span>x;</span>
+	<span style="color:gray;">cin </span><span>>> dec >> </span><span>n;</span>
+	<span style="color:blue;">if </span><span>((x & (1 << n))!=0)</span>
+		<span style="color:gray;">cout </span><span><< 1 << </span><span>endl;</span>
+	<span style="color:blue;">else </span>
+		<span style="color:gray;">cout </span><span><< 0 <<</span><span>endl;</span>
+	<span style="color:blue;">return </span><span>0;</span>
+<span>}</span>
+	</pre>
+<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
