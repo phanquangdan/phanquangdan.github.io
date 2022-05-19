@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 5</title>
+</head>
+<body>
+	<h2 style="color:green;">Đề bài:</h2>
+	<p>Nhập một số nguyên từ bàn phím. Đảo các bit của byte đó của số gốc, số được nhập từ bàn phím và hiển thị số kết quả trên màn hình. Đánh số byte bắt đầu từ 0 (0 - byte thấp, v.v.).</p>
+	<p><strong>Định dạng đầu vào:</strong>số nguyên dương 4 byte (thập lục phân) và số byte (thập phân).</p>
+	<p><strong>Định dạng đầu ra:</strong>số nhận được (với các bit của byte được chỉ định đảo ngược) ở dạng thập lục phân.</p>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<img src="bit.png">
+	<h2>Code :</h2>
+	<pre class="cod">
+<span style="color:red;">#include &lt;iostream&gt;</span>
+<span style="color:blue;">using namespace </span><span style="color: red">std</span><span>;</span>
+<span style="color:red;">typedef unsigned char </span><span>uchar;</span>
+<span style="color:red;">int </span><span>main() {</span>
+	<span style="color:red;">unsigned int </span><span>x</span><span>;</span>
+	<span style="color:red;">int </span><span>n</span><span>;</span>
+	<span style="color:red;">uchar </span><span>*p = (</span><span style="color:red">uchar</span><span>*)</span><span style="color:red;">&</span><span>x;</span>
+	<span style="color:gray;">cin </span><span>>> hex >> </span><span>x;</span>
+	<span style="color:gray;">cin </span><span>>> dec >> </span><span>n;</span>
+	<span style="color:red;">unsigned int </span><span>mask = 0xff</span><span>;</span>
+	<span>mask = mask << (n * 8)</span><span>;</span>
+	<span style="color:gray;">cout </span><span><< hex << </span><span>(x^mask) << endl;</span>
+	<span style="color:blue;">return </span><span>0;</span>
+<span>}</span>
+	</pre>
+<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
