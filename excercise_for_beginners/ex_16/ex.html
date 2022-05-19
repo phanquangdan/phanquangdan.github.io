@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 4</title>
+</head>
+<body>
+	<h2 style="color:green;">Đề bài:</h2>
+	<p>Nhập một số nguyên từ bàn phím. Hiển thị ở dạng biểu diễn nhị phân nội dung của byte có số được nhập từ bàn phím.</p>
+	<p><strong>Định dạng đầu vào:</strong>số nguyên dương giá trị tám byte(ở dạng thập lục phân ) và số byte (đánh số byte bắt đầu từ giá trị nhỏ nhất, giá trị ban đầu là 0).</p>
+	<p><strong>Định dạng đầu ra:</strong>nội dung của byte được chỉ định trong biểu diễn nhị phân.</p>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<img src="bit.png">
+	<h2>Code :</h2>
+	<pre>
+<span style="color:red;">#include &lt;iostream&gt;</span>
+<span style="color:blue;">using namespace </span><span style="color: red">std</span><span>;</span>
+<span style="color:red;">typedef unsigned long long </span><span>ulong;</span>
+<span style="color:red;">int </span><span>main() {</span>
+	<span style="color:red;">ulong </span><span>x,z</span><span>;</span>
+	<span style="color:red;">int </span><span>n</span><span>;</span>
+	<span style="color:red;">unsigned char </span><span>*p = (</span><span style="color:red">unsigned char </span><span>*)</span><span style="color:red;">&</span><span>x;</span>
+	<span style="color:gray;">cin </span><span>>> hex >> </span><span>x;</span>
+	<span style="color:gray;">cin </span><span>>> dec >> </span><span>n;</span>
+	<span>z = </span><span style="color:red">int</span><span>(*(p+n));</span>
+	<span style="color:blue;">for</span><span>(</span><span style="color: red">int</span><span> i=7;i>=0;i--)</span>
+		<span style="color:blue;">if </span><span>((z & (1 << i))!=0)</span>
+			<span style="color:gray;">cout << </span><span>1;</span>
+		<span style="color:blue;">else</span>
+			<span style="color:gray;">cout << </span><span>0;</span>
+	<span style="color:gray;">cout << </span><span>endl;</span>
+	<span style="color:blue;">return </span><span>0;</span>
+<span>}</span>
+	</pre>
+<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
