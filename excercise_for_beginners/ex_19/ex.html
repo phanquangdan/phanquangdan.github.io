@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 7</title>
+	<style type="text/css">
+		@media (max-width : 800px){
+	       .cod{
+	       	  width: 100%;
+	       }
+		}
+}
+	</style>
+</head>
+<body>
+	<h2 style="color:green;">Đề bài:</h2>
+	<p>Nhập một số nguyên từ bàn phím.Nếu byte cao của số này lớn hơn byte thấp, hãy đặt lại 4 bit cao của mỗi byte bằng 0.Nếu không, hãy đặt lại 4 bit thấp của mỗi byte bằng 0.Hiển thị kết quả trên màn hình.</p>
+	<p><strong>Định dạng đầu vào:</strong>Số nguyên dương giá trị 4 byte(hệ thập lục phân)</p>
+	<p><strong>Định dạng đầu ra:</strong>Số thập lục phân.</p>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<img src="bit_1.png" width="220" height="110">
+	<img src="bit_2.png" width="220" height="110">
+	<h2>Code :</h2>
+	<pre class="cod">
+<span style="color:red;">#include &lt;iostream&gt;</span>
+<span style="color:blue;">using namespace </span><span style="color: red">std</span><span>;</span>
+<span style="color:red;">typedef unsigned char </span><span>uchar;</span>
+<span style="color:red;">typedef unsigned int </span><span>uint;</span>
+<span style="color:red;">int </span><span>main() {</span>
+	<span style="color:red;">uint </span><span>x</span><span>;</span>
+	<span style="color:red;">uchar </span><span>*p = (</span><span style="color:red">uchar</span><span>*)</span><span style="color:red;">&</span><span>x;</span>
+	<span style="color:gray;">cin </span><span>>> hex >> </span><span>x;</span>
+	<span style="color:red;">uint </span><span>mask_1 = 0x0f0f0f0f, mask_2 = 0xf0f0f0f0</span><span>;</span>
+	<span style="color:blue;">if </span><span>((int(*(p+3)))>(int(*p)))</span>
+		<span>x=(x& mask_1);</span>
+	<span style="color:blue;">else </span>
+		<span>x=(x& mask_2);</span>
+	<span style="color:gray;">cout </span><span><< hex << </span><span>x << endl;</span>
+	<span style="color:blue;">return </span><span>0;</span>
+<span>}</span>
+	</pre>
+<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
