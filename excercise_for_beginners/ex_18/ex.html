@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Excercise 6</title>
+</head>
+<body>
+	<h2 style="color:green;">Đề bài:</h2>
+	<p>Nhập một số nguyên từ bàn phím.Đổi chỗ giá trị của 4 bit cao của byte cao và 4 bit thấp của byte thấp của số đã nhập.</p>
+	<p><strong>Định dạng đầu vào:</strong>số nguyên dương 2 byte (thập lục phân) </p>
+	<p><strong>Định dạng đầu ra:</strong>số nhận được ở dạng thập lục phân.</p>
+	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
+	<img src="bit.png">
+	<h2>Code :</h2>
+	<pre class="cod">
+<span style="color:red;">#include &lt;iostream&gt;</span>
+<span style="color:blue;">using namespace </span><span style="color: red">std</span><span>;</span>
+<span style="color:red;">typedef unsigned short </span><span>ushort;</span>
+<span style="color:red;">int </span><span>main() {</span>
+	<span style="color:red;">ushort </span><span>x</span><span>;</span>
+	<span style="color:red;">ushort </span><span>mask_1 = 0x0f, mask_2 = 0xf0</span><span>;</span>
+	<span style="color:gray;">cin </span><span>>> hex >> </span><span>x;</span>
+	<span>x=(x<<12)|(x>>12)|(x&(mask_1<<8))|(x & mask_2);</span><span>;</span>
+	<span style="color:gray;">cout </span><span><< hex << </span><span>x<< endl;</span>
+	<span style="color:blue;">return </span><span>0;</span>
+<span>}</span>
+	</pre>
+<hr>
+<a href="../excercise_for_beginners.html">Back Page.</a>
+</body>
+</html>
