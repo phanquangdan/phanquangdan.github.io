@@ -114,7 +114,8 @@ extern "C" __declspec(dllexport) int Max(int,int);
 <p><span style="font-family: courier new,courier,monospace;"><span style="color: #808000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">typedef </font></font></span><font style="vertical-align: inherit;"><span style="color: #808000;"><font style="vertical-align: inherit;">int</font></span><font style="vertical-align: inherit;">(* </font><span style="color: #800080;"><font style="vertical-align: inherit;">PtrF_Max</font></span><font style="vertical-align: inherit;">) (</font><span style="color: #808000;"><font style="vertical-align: inherit;">int</font></span><font style="vertical-align: inherit;">,</font><span style="color: #808000;"><font style="vertical-align: inherit;">int</font></span><font style="vertical-align: inherit;">);</font></font><span style="color: #c0c0c0;"> </span><span style="color: #808000;"><font style="vertical-align: inherit;"></font></span><span style="color: #c0c0c0;"> </span><font style="vertical-align: inherit;"></font><span style="color: #800080;"><font style="vertical-align: inherit;"></font></span><font style="vertical-align: inherit;"></font><span style="color: #808000;"><font style="vertical-align: inherit;"></font></span><font style="vertical-align: inherit;"></font><span style="color: #c0c0c0;"> </span><span style="color: #808000;"><font style="vertical-align: inherit;"></font></span><font style="vertical-align: inherit;"></font></span></p>
 <p>Tên PtrF_Max là tên mà do lập trình viên nghĩ ra.</p>
 <p>Dưới đây là mã ví dụ để tải và sử dụng thư viện mylib bằng lớp QLibrary.</p>
-<pre>
+<div style="border: 1px solid;overflow: auto;">
+    <pre>
 void MainWindow::on_pushButton_Dinamic_clicked()
 {
     QLibrary lib("C:/Temp/build-myLib-Desktop_Qt_5_12_9_MinGW_32_bit-Debug/debug/myLib.dll");
@@ -129,6 +130,7 @@ void MainWindow::on_pushButton_Dinamic_clicked()
         lib.unload();
     }
 }</pre>
+</div>
 <hr>
 	<a href="../homelibraries.html">Back Home</a>
 </body>
