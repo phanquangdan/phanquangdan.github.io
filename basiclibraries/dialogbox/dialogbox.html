@@ -73,21 +73,23 @@
 <h1 style="color:green"><strong>Hộp thoại chọn tên tệp QFileDialog</strong></h1>
 <p>Hộp thoại chọn tệp được thiết kế để chọn một hoặc nhiều tệp, cũng như các tệp nằm trên máy tính từ xa và hỗ trợ khả năng đổi tên tệp và tạo thư mục. Lớp QFileDialog cung cấp việc triển khai hộp thoại chọn tệp và chịu trách nhiệm tạo và chạy ba hộp thoại cùng một lúc. Một trong số chúng cho phép bạn chọn một tệp để mở, thứ hai là để chọn đường dẫn và tên của tệp để lưu nó, và thứ ba là để chọn một thư mục. Lớp QFileDialog có nguồn gốc từ lớp QDialog . Định nghĩa của nó  nằm trong tệp <QFileDialog> .</p>
 <p>Ví dụ:</p>
-<pre id="pre">
-void MainWindowNodePad::on_actionOpen_triggered()
-{
-    QString filter = "All file (*.*) ;; File (*.txt*);;File (*.cpp*)";
-    QString file_name = QFileDialog::getOpenFileName(this,"Open File","C:/Users/PHANQUANGDAN/Desktop/HTG Locker/QT_WebEngine/NodePadDemo",filter);
-    QFile file(file_name);
-    if(!file.open(QFile::ReadOnly | QFile::Text)){
-        QMessageBox::warning(this,"My Warning","File is not open !!!");
-        return;
-    }
-    QTextStream in(&file);
-    QString text = in.readAll();
-    ui->textEdit->setText(text);
-    file.close();
-}
+<div id="pre" style="border: 2px solid;overflow: auto;">
+ <pre>
+<span>void </span><span style="color:red">MainWindowNodePad</span><span>::on_actionOpen_triggered(){</span>
+<span style="color:green;">     QString </span>filter = "All file (*.*) ;; File (*.txt*);;File (*.cpp*)";<span></span>
+<span style="color:green;">     QString </span>file_name = QFileDialog::getOpenFileName(this,"Open File","C:/Users/PHANQUANGDAN/Desktop/HTG Locker/QT_WebEngine/NodePadDemo",filter);<span></span>
+<span style="color:green;">     QFile </span>file(file_name);<span></span>
+<span style="color:green;">     if </span>(!file.<span><span style="color:red;">open</span><span>(</span><span style="color: green;">QFile</span><span>::</span><span style="color: blue;">ReadOnly</span><span>)){</span></span>
+<span style="color:green;">         QMessageBox </span>warning(this,"My Warning","File is not open !!!");<span></span>
+<span style="color:blue;">         reuturn;</span>
+<span>      { </span>
+<span style="color:green;">     QTextStream </span>read(&file);<span></span>
+<span style="color:green;">     QString </span>text = read.readAll();<span></span>
+<span>     ui->textEdit->setText(text);</span>
+<span>     file.close();</span>
+<span>}</span>
+ </pre>   
+</div>
 </pre>
 <p>Hộp thoại sẽ hiển thị:</p>
 <img id="box" src="box.png" alt="box">
