@@ -7,36 +7,36 @@
 	<link rel="stylesheet" type="text/css" href="plaintext.css">
 </head>
 <body id="plaintext1">
-	<h1 style="color:green;">Các lớp trực quan hóa dữ liệu văn bản. Dòng và văn bản (Label và PlainText).</h1>
+	<h1 style="color:green;">Các lớp trực quan hóa dữ liệu văn bản. Dòng và văn bản (Label và PlainTextEdit).</h1>
 	<p>Thường thì lập trình viên cần hiển thị cho người dùng một số văn bản trên biểu mẫu. Cách dễ nhất để hoàn thành tác vụ này là sử dụng tiện ích QLabel và phương thức setText của nó.</p>
 	<div class="rj_insertcode">
 <div class="rj_insertcode_cpp" style="overflow: auto; width: 95%; height: auto; border: 1px solid #054b6e; background: #f8f8f8;">
-<div class="cpp" style="border-collapse: collapse; width: 100%;">
+<div class="cpp" style="border-collapse: collapse; width: 100%;border: 1px solid;overflow: auto;">
 <pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><span style="color: #000000;"><span style="color: #c0c0c0;"> </span><span style="color: #800000;">ui</span><span style="color: #000000;">-&gt;</span><span style="color: #800000;">label</span><span style="color: #000000;">-&gt;</span><span style="color: #000000;">setText</span><span style="color: #000000;">(</span><span style="color: #008000;">"Hello,</span><span style="color: #c0c0c0;"> </span><span style="color: #008000;">world!"</span><span style="color: #000000;">);</span></span></span></pre>
 </div>
 </div>
 </div>
 	<p>Tiện ích QLabel trong Qt là một công cụ trực quan hóa mạnh mẽ. Nó cho phép bạn hiển thị không chỉ văn bản mà còn hiển thị hình ảnh (phương pháp setPixmap)</p>
-	<div class="cpp" style="border-collapse: collapse; width: 100%;">
+<div class="cpp" style="border-collapse: collapse; width: 100%;border: 1px solid;overflow: auto;">
 <pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><span style="color: #000000;"><span style="color: #c0c0c0;"> </span><span style="color: #800000;">ui</span><span style="color: #000000;">-&gt;</span><span style="color: #800000;">label</span><span style="color: #000000;">-&gt;</span><span style="color: #000000;">setPixmap</span><span style="color: #000000;">(</span><span style="color: #800080;">QPixmap</span><span style="color: #000000;">(</span><span style="color: #008000;">"C:/Users/Public/Pictures/Sample/</span><span style="color: #c0c0c0;"> </span><span style="color: #008000;">Pictures/dog.jpg"</span><span style="color: #000000;">));</span></span></span></pre>
 <pre style="-qt-paragraph-type: empty; -qt-block-indent: 0; text-indent: 0px; margin: 0px;"></pre>
 </div>
 	<p>Ngoài ra, QLabel hỗ trợ một tập hợp con của ngôn ngữ HTML và cho phép bạn sử dụng các thẻ để định dạng văn bản.</p>
-	<div class="cpp" style="border-collapse: collapse; width: 100%;">
+	<div class="cpp" style="border-collapse: collapse; width: 100%;border: 1px solid;overflow: auto;">
 <pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><span style="color: #000000;"><span style="color: #c0c0c0;"> </span><span style="color: #800000;">ui</span><span style="color: #000000;">-&gt;</span><span style="color: #800000;">label</span><span style="color: #000000;">-&gt;</span><span style="color: #000000;">setText</span><span style="color: #000000;">(</span><span style="color: #008000;">"&lt;b&gt;Hello&lt;/b&gt;,</span><span style="color: #c0c0c0;"> </span><span style="color: #008000;">&lt;i&gt;world!&lt;/i&gt;"</span><span style="color: #000000;">);</span></span></span></pre>
 </div>
 	<hr>
 	<p>Một thành phần khác cho phép bạn hiển thị dữ liệu văn bản là tiện ích QPlainTextEdit.</p>
 	<p>Nó cho phép bạn hiển thị văn bản thuần túy mà không cần định dạng. Văn bản có thể được đặt bằng phương thức setPlainText</p>
-    <div class="cpp" style="border-collapse: collapse; width: 100%;">
+    <div class="cpp" style="border-collapse: collapse; width: 100%;border: 1px solid;overflow: auto;">
 <pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><span style="color: #000000;"><span style="color: #800000;">ui</span><span style="color: #000000;">-&gt;</span><span style="color: #800000;">plainTextEdit</span><span style="color: #000000;">-&gt;</span><span style="color: #000000;">setPlainText</span><span style="color: #000000;">(</span><span style="color: #008000;">"Hello,</span><span style="color: #c0c0c0;"> </span><span style="color: #008000;">wolrd!"</span><span style="color: #000000;">);</span></span></span></pre>
 </div>
 	<p>Nếu bạn cần chỉ định nhiều dòng trong văn bản:</p>
-<div class="cpp" style="border-collapse: collapse; width: 100%;border: 1px solid;">
+<div class="cpp" style="border-collapse: collapse; width: 100%;border: 1px solid; overflow: auto;">
 <pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><span style="color: #000000;"><span style="color: #c0c0c0;"> </span><span style="color: #800000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">ui </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt; </font></font></span><span style="color: #800000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">trơnTextEdit </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-&gt; </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">setPlainText </font></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">(</font></font></span><span style="color: #008000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">"Xin chào,</font></font></span><font style="vertical-align: inherit;"><span style="color: #008000;"><font style="vertical-align: inherit;">wolrd! \nBạn có thể </font></span><span style="color: #008000;"><font style="vertical-align: inherit;">đặt văn bản </font></span><span style="color: #008000;"><font style="vertical-align: inherit;">nhiều dòng</font></span><span style="color: #008000;"><font style="vertical-align: inherit;">." </font></span><span style="color: #000000;"><font style="vertical-align: inherit;">);</font></span></font><span style="color: #c0c0c0;"> </span><span style="color: #008000;"><font style="vertical-align: inherit;"></font></span><span style="color: #c0c0c0;"> </span><span style="color: #008000;"><font style="vertical-align: inherit;"></font></span><span style="color: #c0c0c0;"> </span><span style="color: #008000;"><font style="vertical-align: inherit;"></font></span><span style="color: #c0c0c0;"> </span><span style="color: #008000;"><font style="vertical-align: inherit;"></font></span><span style="color: #000000;"><font style="vertical-align: inherit;"></font></span></span></span></pre>
 </div>
 	<p>Bạn có thể thêm các dòng vào văn bản hiện có:</p>
-	<div class="cpp" style="border-collapse: collapse; width: 100%;border:1px solid;">
+	<div class="cpp" style="border-collapse: collapse; width: 100%;border:1px solid;overflow: auto;">
 <pre style="margin: 0; background: none; vertical-align: top; padding: 0px 4px; font-family: courier new, courier, monospace; font-size: 16px;"><span style="vertical-align: top;"><span style="color: #000000;"><span style="color: #c0c0c0;"> </span><span style="color: #800000;">ui</span><span style="color: #000000;">-&gt;</span><span style="color: #800000;">plainTextEdit</span><span style="color: #000000;">-&gt;</span><span style="color: #000000;">appendPlainText</span><span style="color: #000000;">(</span><span style="color: #008000;">"Thêm</span><span style="color: #c0c0c0;"> </span><span style="color: #008000;">dòng"</span><span style="color: #000000;">);</span></span></span></pre>
 <pre style="-qt-paragraph-type: empty; -qt-block-indent: 0; text-indent: 0px; margin: 0px;"></pre>
 </div>
