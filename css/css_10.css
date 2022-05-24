@@ -42,13 +42,13 @@ nav a:hover {
 }
 
 #left_side{
-	flex: 20%;
+	flex: 30%;
 	padding: 10px 7px;
 	background-color:grey;
 }
 
 #right_side{
-	flex: 80%;
+	flex: 70%;
 	padding: 10px 20px;
 	background-color: black;
 }
@@ -83,7 +83,6 @@ footer a{
 		width: 100%;
 		flex-wrap: wrap;
 	}
-/* 	 */
 	#menu_text{
 		background-color: black;
 		color: greenyellow;
