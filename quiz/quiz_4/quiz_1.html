@@ -10,14 +10,17 @@
 </head>
 <body>
   <a id="homepage" href="../../index.html">&#127984 Home Page</a>
-  <div style='transform: scale(0.9); position: relative;background-color: powderblue;'>
-  <h1>Giá trị của *p sau khi thực hiện xong chương trình là ?</h1>
+  <div style='transform: scale(0.9); position: relative;background-color: black;'>
+  <div style="color: greenyellow;">
+    <h1>Giá trị của *p sau khi thực hiện xong chương trình là ?</h1>
   <pre style="font-size: 25px;overflow: auto;">
-    long n = 0x69291413;
-    char *p = (char *)&n;
-    *p = *(p+2) - (*p >> 4);
+  long n = 0x69291413;
+  char *p = (char *)&n;
+  *p = *(p+2) - (*p >> 4);
   </pre>
-  <h2>Choose 1 answer</h2>
+  </div>
+  <div style="color:powderblue;">
+    <h2>Chọn một đáp án</h2>
   <hr />
 
   <div id='block-11' style='padding: 10px;'>
@@ -52,6 +55,7 @@
   </div>
   <hr />
   <button type='button' onclick='displayAnswer1()' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Submit</button>
+  </div>
 </div>
 <!-- <a id='showanswer1'></a> -->
 <hr>
