@@ -1,5 +1,8 @@
 @media (max-width : 800px){
-	#des,#vio,#inc,#cre,#cre1,#fi,#old{
+	#video1{
+		width: 100%;
+	}
+	.imge{
 		width: 100%;
 	}
 }
