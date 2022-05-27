@@ -5,11 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Excercise 8</title>
 	<style type="text/css">
-		@media (max-width : 800px){
-			#lo,#im{
-				width: 100%;
-		}
-}
+	@media (max-width : 800px){
+	#imge,#lo,#im{
+		width: 100%;
+	 }
+	}
 	</style>
 </head>
 <body>
@@ -21,26 +21,11 @@
 	<p><strong>Định dạng đầu ra:</strong>số nhận được ở dạng thập lục phân.</p>
 	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
 	<img id="im" src="bit.png">
-	<h2>Code :</h2>
-	<pre class="cod">
-<span style="color:red;">#include &lt;iostream&gt;</span>
-<span style="color:blue;">using namespace </span><span style="color: red">std</span><span>;</span>
-<span style="color:red;">typedef unsigned char </span><span>uchar;</span>
-<span style="color:red;">typedef unsigned short </span><span>ushort;</span>
-<span style="color:red;">int </span><span>main() {</span>
-	<span style="color:red;">ushort </span><span>x</span><span>;</span>
-	<span style="color:red;">int </span><span>n</span><span>;</span>
-	<span style="color:red;">int </span><span>i = 0</span><span>;</span>
-	<span style="color:gray;">cin </span><span>>> hex >> </span><span>x;</span>
-	<span style="color:gray;">cin </span><span>>> dec >> </span><span>n;</span>
-	<span style="color:blue;">while </span><span>(i < n){</span>
-		<span>x=(x>>1)|(x<<15);</span>
-		<span>i++;</span>
-	<span>}</span>
-	<span style="color:gray;">cout </span><span><< hex << </span><span>x << endl;</span>
-	<span style="color:blue;">return </span><span>0;</span>
-<span>}</span>
-	</pre>
+	<div>
+		<button type="button" onclick="document.getElementById('imge').src='ex_20.png'">Code</button>
+	<button type="button" onclick="document.getElementById('imge').src='change.png'">Hide Code</button>
+	</div>
+	<img style="border: 1px solid;" id="imge" src="change.png">
 <hr>
 <a href="../excercise_for_beginners.html">Back Page.</a>
 </body>
