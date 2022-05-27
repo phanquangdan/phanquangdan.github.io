@@ -1,5 +1,8 @@
 @media (max-width : 800px){
-	#ex_6,#video1,#ui,#op,#sta,#pain,#eve,#up{
+	#video1{
+		width: 100%;
+	}
+	.imge{
 		width: 100%;
 	}
 }
