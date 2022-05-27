@@ -4,6 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Excercise 12</title>
+	<style type="text/css">
+	@media (max-width : 800px){
+	#imge{
+		width: 100%;
+	 }
+	}
+	</style>
 </head>
 <body>
 	<h2>Đề bài:</h2>
@@ -12,23 +19,11 @@
 	<p><strong>Định dạng đầu ra:</strong>ký tự đầu tiên và ký tự cuối cùng của mỗi từ, được phân tách bằng dấu cách.</p>
 	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
 	<p><span style="font-size: large; font-family: times new roman,times,serif;"><span style="font-family: times new roman,times,serif; font-size: large;"><span style="color: #000000;"><img src="data:image/png;base64,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" alt=""></span></span></span></p>
-	<h2>Code :</h2>
-	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="main.cpp.1"></a>    1 </span><span class="vpl_m">#include &lt;iostream&gt;</span>
-<span class="vpl_ln"><a name="main.cpp.2"></a>    2 </span><span class="vpl_m">#include&lt;sstream&gt;</span>
-<span class="vpl_ln"><a name="main.cpp.3"></a>    3 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span> std;
-<span class="vpl_ln"><a name="main.cpp.4"></a>    4 </span>
-<span class="vpl_ln"><a name="main.cpp.17"></a>   5 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span>
-<span class="vpl_ln"><a name="main.cpp.18"></a>   6 </span><span class="vpl_h0">{
-<span class="vpl_ln"><a name="main.cpp.19"></a>   7 </span>    string s;
-<span class="vpl_ln"><a name="main.cpp.20"></a>   8 </span>    string l;
-<span class="vpl_ln"><a name="main.cpp.21"></a>   9 </span>    getline<span class="vpl_h1">(cin,s)</span>;
-<span class="vpl_ln"><a name="main.cpp.22"></a>   10 </span>    istringstream a<span class="vpl_h1">(s)</span>;
-<span class="vpl_ln"><a name="main.cpp.23"></a>   11 </span>    <span class="vpl_r">while</span><span class="vpl_h1">(a&gt;&gt;l)</span><span class="vpl_h1">{
-<span class="vpl_ln"><a name="main.cpp.24"></a>   12 </span>        cout&lt;&lt;l<span class="vpl_h2">[0]</span>&lt;&lt;l<span class="vpl_h2">[l.size<span class="vpl_h3">()</span>-1]</span>&lt;&lt;<span class="vpl_s">" "</span>;
-<span class="vpl_ln"><a name="main.cpp.25"></a>   13 </span>    }</span>
-<span class="vpl_ln"><a name="main.cpp.26"></a>   14 </span>    <span class="vpl_r">return</span>  0;
-<span class="vpl_ln"><a name="main.cpp.27"></a>   15 </span>}</span>
-<span class="vpl_ln"><a name="main.cpp.28"></a>   16 </span></pre></div>
+	<div>
+		<button type="button" onclick="document.getElementById('imge').src='ex_12.png'">Code</button>
+	<button type="button" onclick="document.getElementById('imge').src='change.png'">Hide Code</button>
+	</div>
+	<img style="border: 1px solid;" id="imge" src="change.png">
 <hr>
 <a href="../excercise_for_beginners.html">Back Page.</a>
 </body>
