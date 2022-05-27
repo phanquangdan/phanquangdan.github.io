@@ -4,6 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Excercise 11</title>
+	<style type="text/css">
+	@media (max-width : 800px){
+	#imge{
+		width: 100%;
+	 }
+	}
+	</style>
 </head>
 <body>
 	<h2>Đề bài:</h2>
@@ -12,40 +19,13 @@
 	<p><strong>Định dạng đầu ra:</strong>số từ trong chuỗi đã cho.</p>
 	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
 	<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQEAAABoCAIAAAB+AtKMAAAImElEQVR4nO2dW28bRRiG/XP2P+QHRIgAJa2ACjVE+AZQZAkJEYRoXKhQ06Zp6UkkgRSa0oNCaXDaqAc38TqlUHoQdanLwQLqRGoFsZ3ECU1CLsyFk/UeZmbPO7ue99F30dizM9/Ofo93djepY12DMgIhcsTeOfVT/811BCKA+GHLljCEOiU4gAg0uFc/HEBwDu7VDwcQnIN79cMBBOfgXv1wAME5uFe/PQf2fZvbczprJfaO3dv//Rr3+UUEGRIT2lbcq9+eA1+PXbhzL3/n3gND5O/m8ndz+fEr0+OXs+OXs6dHz+++8jf3o4IIMgJ2oFar1Wo19iveO3BN/m51bW1l1SRW19bSU9nkxRnabvck21WT051ovJVuk9o7UprGiThpRuNp344lIQdDzpIkSS3JgpUOE3GrLZ0lFp5gFLpP5wF10bsRwIYD8vSNX3+f7R2e2vvF5L4T1/q+Svefufrw4Z+VcmmmWJwpFsvl0lDq9lDqNt2BQkertu4HutsGLFVMIu5r6Zvk0JNs146ebtMLbKM3DxMLTwTvgFL6LgWw4UAme/23wuM3Doy/eTjVNXA+MXzu7ZHRXK5QKf2jdmD40o80B3qS7VLrUA9jKlNDLZQGgTlAzMHgwPqGz2YpeVm49MkJQ3BxwP0ZwJ4DV69lfis83jly5a2BczuOfLn92OD2waO5XKFSmisWi8Xio3K5NDJ9/cztKYoD6TZJUn/qa47uxom+0NFKbkN0QLVEaawTEnGpJZnuaN14o22g3r9+6VWvzkYPjfIi5EByYL1/oFvdIT0Z4ijatU1qqEWbm9I+0RiaOjlhCCHOA3UHtvYNP9N75LmDn2w5tn/rUG/9PFAsPqqfB775+VLql3GyA9qKoThAqTaSA5qziqrzRLxRhRvFt9FM88ldr7PND2nNW8YcyFnp0qYmQxyF6kAiLmm7YiXmsmptXb+GzQEO1wN1B57tO/z8oQMvftq37fM9r4x8VD8PKGuh/JN8/knetgP6wiI0Mzigu0ZsfEZqW2pPPgPdSnnpO1QVtDEHSvEpOVhMRj0KzQH9ta+mB8rkhMQBBp47wOe+UN2BF472bx3c+9Lxj7ef/HDH2Q9yuUJZdT2wtrqytrriyoGb64k44YyvL6b6B6QWpexUS3BtSWkd0K7UNS11OZicB6wmQ9dGKW4z/YiTE91wuRbyKtQpmTuw7bM9L5/Y/eqp5Guj779+/t1crlCa23SgVFpeXlqYnyc7oP6gZYeqUtXH3uAA2ShPHNDlQL0eqLexmsy6uQOGrvRDkyYnusG9+m06MCnff/DHvrHRvtTZ/gunDk6cPHTpxK1b9xUHSnNz1cWFcrlMuSa2dCOFUI6bxURdurDKjuUAUyrNhiQHVKssZjKUUQyJNc4D9LUQZXKiG9yr354Dl9OZ9fX/qouV6kKlulBZqlaXqgtLi/MrT/9dXXm6vLy0uLg4P1+Zn6/Qnw+k2zT3RjafDxgOfE+yXXdL0XhNnIhLqqotdMSJH/BMBxqXCuk2w2MvdQ56B+o3mrRLFFoylFF018fK5oWOVuo1sT4xZd6M/+Bd3M3pwPGz4+mprDEm5euZ6RuTmWnlleOnx3ZNzFJ2u6DctZQUH4xHzrAsJt4bVT9FVurVzlqocQuVstzfyMHwnJhy1U5OhjZKvfQlSepOaPa3oG5POAVpLh7gQIAO9GaruyZmkxdnTGPXxGxvtupudny/F27h6VUo7seT8gxFYp4E9+q350DA4e29cGNYeYLrdw7mQbna5p9Y80aIHPA7QvvrN9pfE/TsaQDCYgjkAAJBDDiAED3gAEL0gAMI0QMOIEQPggPvjT5EIJo4do7/Ze5ADIBIUavVFiwDB0ATAgeoyLIsyzLvLHxEVkF8y79BeY1FBA5QaQIH1Lug2x3GW8RX/Egp+LGIwAEqTe+AriVtQ/9SCn4sInCAChzwO6XgxyJCdKCzsxMONL8DWAvVMTrQuUkYHbAyg7IKWktiA93rQToga7G1Fe0VmQJxUFrPdlNymTM7MZ+OoM6BTi3hdYC2n8Zp0r1lWhO6xj7ujGpc3Y8WxzWtJ8ZssMfS7b6HUxHCI6h2QF36RA3C7gC7JtiTwt42SKyPa5qzlcnRtbHYs2NCeASNDtB+bBIHTHtmvOITMgnrG9JeIXZLnA32u7RXnBHCI6hzwHhtAAf8xc24ptsydt/6hnazMoWdFV8HTIED3uNyXMe7b2zpYVZs4IBbwjaDLnE/rnoHGZ2bOmB9Jl0StiPYVA6w3zWdEeO2wTvgYFxZBaNzxmwYeyD+aD0lKwnTeg7+CDabAzF6TViZEfWG3h54K4M6HtdZqsTS13VovZLsjmv8NyMxRmPathbbx2KxWq121xphcQAAb4ED4UVmwju75gEOANGBA0B0fHQAJ24QCfxywPTaH4CQ4IsDzu5qAcAFOABEJ6BrYjgAQgscAKIT0H0hCABCC84DQHTgABAdOABEB/dGgej48vcDcABECL/+hga/KwGigo9/R4YboyASRO9vKQHwFjgARAcOANGBA0B04AAQHTgARAcOANGBA0B04AAQHTgARAcOANGJ2PfQAOA5Efs+MgA8J2LfSwmA50Ts+4kB8JyIfU89AJ5DvC9EFAAOgOYE90aB6MABIDpwAIiO9w7UAIgU1gWw6oCtHi3+/14hwdaugaYEDgDRgQNAdJw7QHvwxruq7eH/DANfYDz3tYtDBxgZ8K5qe7ifQcALrzRw4gB7bN5VbQ+X0wf44kaDTCaTyWQWHDhgOirvqraHg7kDocKxBs4dMB2Vd1Xbw8Gkg/DgyXII1wMgqjgTQPn4d3UeYGfAu6rt4WjyAX/cL4E8cIAG76q2h90ZBM0HHABCYPz4x3lgAz+mG4SQQB0AIFpYcgCBaOIwdwCBECrgAEL0gAMI0QMOIESPrkE51jUoIxAix/+SFXhSORsk7AAAAABJRU5ErkJggg==" alt="">
-	<h2>Code :</h2>
-	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="main.cpp.1"></a>    1 </span><span class="vpl_m">#include &lt;iostream&gt;</span>
-<span class="vpl_ln"><a name="main.cpp.2"></a>    2 </span>
-<span class="vpl_ln"><a name="main.cpp.3"></a>    3 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span> std;
-<span class="vpl_ln"><a name="main.cpp.4"></a>    4 </span>
-<span class="vpl_ln"><a name="main.cpp.5"></a>    5 </span><span class="vpl_r">void</span> editS<span class="vpl_h0">(string &amp;s)</span><span class="vpl_h0">{
-<span class="vpl_ln"><a name="main.cpp.6"></a>    6 </span>    <span class="vpl_r">while</span><span class="vpl_h1">(s<span class="vpl_h2">[0]</span> == <span class="vpl_s">' '</span>)</span><span class="vpl_h1">{
-<span class="vpl_ln"><a name="main.cpp.7"></a>    7 </span>        s.erase<span class="vpl_h2">(0,1)</span>;
-<span class="vpl_ln"><a name="main.cpp.8"></a>    8 </span>    }</span>
-<span class="vpl_ln"><a name="main.cpp.9"></a>    9 </span>    <span class="vpl_r">while</span><span class="vpl_h1">(s<span class="vpl_h2">[s.size<span class="vpl_h3">()</span>-1]</span> == <span class="vpl_s">' '</span>)</span><span class="vpl_h1">{
-<span class="vpl_ln"><a name="main.cpp.10"></a>   10 </span>        s.erase<span class="vpl_h2">(s.size<span class="vpl_h3">()</span>-1,1)</span>;
-<span class="vpl_ln"><a name="main.cpp.11"></a>   11 </span>    }</span>
-<span class="vpl_ln"><a name="main.cpp.12"></a>   12 </span>    <span class="vpl_r">while</span><span class="vpl_h1">(s.find<span class="vpl_h2">(<span class="vpl_s">"  "</span>)</span> != -1)</span><span class="vpl_h1">{
-<span class="vpl_ln"><a name="main.cpp.13"></a>   13 </span>        s.erase<span class="vpl_h2">(s.find<span class="vpl_h3">(<span class="vpl_s">"  "</span>)</span>,1)</span>;
-<span class="vpl_ln"><a name="main.cpp.14"></a>   14 </span>    }</span>
-<span class="vpl_ln"><a name="main.cpp.15"></a>   15 </span>}</span>
-<span class="vpl_ln"><a name="main.cpp.16"></a>   16 </span>
-<span class="vpl_ln"><a name="main.cpp.17"></a>   17 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span>
-<span class="vpl_ln"><a name="main.cpp.18"></a>   18 </span><span class="vpl_h0">{
-<span class="vpl_ln"><a name="main.cpp.19"></a>   19 </span>    string s;
-<span class="vpl_ln"><a name="main.cpp.20"></a>   20 </span>    <span class="vpl_r">int</span> count = 1;
-<span class="vpl_ln"><a name="main.cpp.21"></a>   21 </span>    getline<span class="vpl_h1">(cin,s)</span>;
-<span class="vpl_ln"><a name="main.cpp.22"></a>   22 </span>    editS<span class="vpl_h1">(s)</span>;
-<span class="vpl_ln"><a name="main.cpp.23"></a>   23 </span>    <span class="vpl_r">for</span><span class="vpl_h1">(<span class="vpl_r">int</span> i=0;i&lt;s.size<span class="vpl_h2">()</span>;i++)</span><span class="vpl_h1">{
-<span class="vpl_ln"><a name="main.cpp.24"></a>   24 </span>        <span class="vpl_r">if</span><span class="vpl_h2">(s<span class="vpl_h3">[i]</span> == <span class="vpl_s">' '</span>)</span><span class="vpl_h2">{
-<span class="vpl_ln"><a name="main.cpp.25"></a>   25 </span>            count++;
-<span class="vpl_ln"><a name="main.cpp.26"></a>   26 </span>        }</span>
-<span class="vpl_ln"><a name="main.cpp.27"></a>   27 </span>    }</span>
-<span class="vpl_ln"><a name="main.cpp.28"></a>   28 </span>    <span class="vpl_r">if</span><span class="vpl_h1">(s.size<span class="vpl_h2">()</span> == 0)</span> cout&lt;&lt;0;
-<span class="vpl_ln"><a name="main.cpp.29"></a>   29 </span>    <span class="vpl_r">else</span> cout&lt;&lt;count;
-<span class="vpl_ln"><a name="main.cpp.30"></a>   30 </span>    <span class="vpl_r">return</span>  0;
-<span class="vpl_ln"><a name="main.cpp.31"></a>   31 </span>}</span>
-<span class="vpl_ln"><a name="main.cpp.32"></a>   32 </span></pre></div>
-<hr>
-<a href="../excercise_for_beginners.html">Back Page.</a>
+	<div>
+		<button type="button" onclick="document.getElementById('imge').src='ex_11.png'">Code</button>
+	<button type="button" onclick="document.getElementById('imge').src='change.png'">Hide Code</button>
+	</div>
+	<img style="border: 1px solid;" id="imge" src="change.png">
+	<hr>
+<a href="../ex_10/ex.html">&#9194Excercise 10</a>
+<a style="float: right;" href="../ex_12/ex.html">Excercise 12&#9193</a>
 </body>
 </html>
