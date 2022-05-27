@@ -4,6 +4,13 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Excercise 7</title>
+	<style type="text/css">
+	@media (max-width : 800px){
+	#imge{
+		width: 100%;
+	 }
+	}
+	</style>
 </head>
 <body>
 	<h2>Đề bài:</h2>
@@ -11,28 +18,13 @@
 	<p><strong>Định dạng đầu vào:</strong>chuỗi ký tự gốc và ký tự tìm kiếm hoặc chuỗi con.</p>
 	<p><strong>Định dạng đầu ra:</strong>số lần xuất hiện của một ký tự hoặc chuỗi con trong chuỗi ban đầu.</p>
 	<p><span style="font-size: large; font-family: times new roman,times,serif;"><span style="font-family: times new roman,times,serif; font-size: large;"><span style="color: #000000;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Ví dụ (dòng đầu tiên và thứ hai </font></font><span style="font-family: courier new,courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> đầu vào của dữ liệu ban đầu, thứ ba </font></font><span style="font-family: courier new,courier,monospace;"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">-</font></font></span><font style="vertical-align: inherit;"><font style="vertical-align: inherit;"> đầu ra của kết quả):</font></font></span><br><img src="data:image/png;base64,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" alt="">&nbsp; <img src="data:image/png;base64,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" alt=""><br></span></span></p>
-	<h2>Code:</h2>
- 	<div class="box generalbox"><pre class="vpl_sh vpl_g"><span class="vpl_ln"><a name="main.cpp.1"></a>    1 </span><span class="vpl_m">#include &lt;iostream&gt;</span>
-<span class="vpl_ln"><a name="main.cpp.2"></a>    2 </span><span class="vpl_m">#include &lt;string&gt;</span>
-<span class="vpl_ln"><a name="main.cpp.3"></a>    3 </span>
-<span class="vpl_ln"><a name="main.cpp.4"></a>    4 </span><span class="vpl_r">using</span> <span class="vpl_r">namespace</span> std;
-<span class="vpl_ln"><a name="main.cpp.5"></a>    5 </span>
-<span class="vpl_ln"><a name="main.cpp.6"></a>    6 </span><span class="vpl_r">int</span> main<span class="vpl_h0">()</span>
-<span class="vpl_ln"><a name="main.cpp.7"></a>    7 </span><span class="vpl_h0">{
-<span class="vpl_ln"><a name="main.cpp.8"></a>    8 </span>    string s;
-<span class="vpl_ln"><a name="main.cpp.9"></a>    9 </span>    string a;
-<span class="vpl_ln"><a name="main.cpp.10"></a>   10 </span>    <span class="vpl_r">int</span> count = 0;
-<span class="vpl_ln"><a name="main.cpp.11"></a>   11 </span>    getline<span class="vpl_h1">(cin,s)</span>;
-<span class="vpl_ln"><a name="main.cpp.12"></a>   12 </span>    cin&gt;&gt;a;
-<span class="vpl_ln"><a name="main.cpp.13"></a>   13 </span>    <span class="vpl_r">while</span><span class="vpl_h1">(s.find<span class="vpl_h2">(a)</span> != -1)</span><span class="vpl_h1">{
-<span class="vpl_ln"><a name="main.cpp.14"></a>   14 </span>        count++;
-<span class="vpl_ln"><a name="main.cpp.15"></a>   15 </span>        s.erase<span class="vpl_h2">(s.find<span class="vpl_h3">(a)</span>,1)</span>;
-<span class="vpl_ln"><a name="main.cpp.16"></a>   16 </span>    }</span>
-<span class="vpl_ln"><a name="main.cpp.17"></a>   17 </span>    cout&lt;&lt;count&lt;&lt;endl;
-<span class="vpl_ln"><a name="main.cpp.18"></a>   18 </span>    <span class="vpl_r">return</span> 0;
-<span class="vpl_ln"><a name="main.cpp.19"></a>   19 </span>}</span>
-<span class="vpl_ln"><a name="main.cpp.20"></a>   20 </span></pre></div>
+	<div>
+		<button type="button" onclick="document.getElementById('imge').src='ex_7.png'">Code</button>
+	<button type="button" onclick="document.getElementById('imge').src='change.png'">Hide Code</button>
+	</div>
+	<img style="border: 1px solid;" id="imge" src="change.png">
 	<hr>
-<a href="../excercise_for_beginners.html">Back Page.</a>
+<a href="../ex_6/ex.html">&#9194Excercise 6</a>
+<a style="float: right;" href="../ex_8/ex.html">Excercise 8&#9193</a>
 </body>
 </html>
