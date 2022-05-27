@@ -5,12 +5,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Excercise 3</title>
 	<style type="text/css">
-		@media (max-width : 800px){
-	       .cod{
-	       	  width: 100%;
-	       }
-		}
-}
+	@media (max-width : 800px){
+	#imge{
+		width: 100%;
+	 }
+	}
 	</style>
 </head>
 <body>
@@ -20,7 +19,7 @@
 	<p><strong>Định dạng đầu ra:</strong>số bit của số bằng 1.</p>
 	<p>Ví dụ (dòng đầu tiên là đầu vào của chuỗi nguồn, dòng thứ hai là đầu ra của kết quả).</p>
 	<img src="bit.png">
-	<h2>Code :</h2>
+	<!-- <h2>Code :</h2>
 	<pre class="cod">
 <span style="color:red;">#include &lt;iostream&gt;</span>
 <span style="color:blue;">using namespace </span><span style=" color: red">std</span><span>;</span>
@@ -34,8 +33,14 @@
 	<span style="color:gray;">cout </span><span><< count << </span><span> endl;</span>
 	<span style="color:blue;">return </span><span>0;</span>
 <span>}</span>
-	</pre>
-<hr>
-<a href="../excercise_for_beginners.html">Back Page.</a>
+	</pre> -->
+<div>
+		<button type="button" onclick="document.getElementById('imge').src='ex_15.png'">Code</button>
+	<button type="button" onclick="document.getElementById('imge').src='change.png'">Hide Code</button>
+	</div>
+	<img style="border: 1px solid;" id="imge" src="change.png">
+	<hr>
+<a style="float: left;" href="../ex_14/ex.html">&#9193Excercise 2</a>
+<a style="float: right;" href="../ex_16/ex.html">Excercise 4&#9193</a>
 </body>
 </html>
