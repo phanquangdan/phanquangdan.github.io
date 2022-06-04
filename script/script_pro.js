@@ -4,7 +4,7 @@ function light(sw){
 			pic = "images/dan.png"
 		}
 		else{
-			pic = "images/hacker.jpg"
+			pic = "images/messi.jpg"
 		}
 		document.getElementById('myImage').src = pic;
 	}
