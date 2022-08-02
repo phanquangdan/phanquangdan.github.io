@@ -1,5 +1,5 @@
 #menu_text{
-	background-color: black;
+	background-color: dodgerblue;
 	color: greenyellow;
 	font-weight: bold;
 	text-align: center;
@@ -26,14 +26,19 @@ nav a{
 
 nav a.menu_left{
 	flex: 70%;
+	background-color: powderblue;
+    color: black;
 }
 
 nav a.menu_right{
 	flex: 30%;
+	background-color: powderblue;
+	color: black;
 }
 
 #flex_nav{
 	display: flex;
+
 }
 nav a:hover {
 	background-color: #DDD;
