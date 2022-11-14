@@ -16,7 +16,7 @@
     <p>Một ưu điểm khác của DLL là nó có thể được sử dụng bởi các ứng dụng được viết bằng ngôn ngữ lập trình khác.</p>
     <h2>Liên kết tĩnh và động của DLL với một ứng dụng</h2>
     <p>Liên kết tĩnh có nghĩa là DLL được tải ngay sau khi ứng dụng sẽ sử dụng nó bắt đầu chạy.Việc gọi một hàm từ DLL gần giống như gọi bất kì hàm nào khác.Một nhược điểm của cách này là tăng thời gian tải ứng dụng(ngoài bản thân ứng dụng,các Mô-đun của DLL tương ứng cũng được tải) và người dùng không có tệp DLL tưng ứng không thể thực thi ứng dụng.</p>
-    <p>Liên kết động khác với liên kết tĩnh ở chỗ là DLL chỉ cần tải tại thời điểm cần thực thi một số chức năng được lưu trữ trong nó, sau đó thư viện này sẽ được dỡ khỏi bộ nhớ.Điều này giúp sư dụng bộ nhơ hiệu quả hơn,nhưng việc gọi các hàm thư viện tương ứng trở nên phức tạp hơn nhiều và thời gian gọi cũng tăng lên do ngu cầu tải và dỡ thư viện.</p>
+    <p>Liên kết động khác với liên kết tĩnh ở chỗ là DLL chỉ cần tải tại thời điểm cần thực thi một số chức năng được lưu trữ trong nó, sau đó thư viện này sẽ được dỡ khỏi bộ nhớ.Điều này giúp sư dụng bộ nhơ hiệu quả hơn,nhưng việc gọi các hàm thư viện tương ứng trở nên phức tạp hơn nhiều và thời gian gọi cũng tăng lên do nhu cầu tải và dỡ thư viện.</p>
     <h2>Các cách để nhập các hàm</h2>
     <ul>
         <li>static bằng cách sử dụng _declspec(dllimport)</li>
