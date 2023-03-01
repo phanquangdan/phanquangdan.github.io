@@ -1,0 +1,33 @@
+body{
+	background: url('background.jpg');
+	background-size: cover;
+}
+@media (max-width : 800px){
+	.block{
+		width: 100%;
+		background-size: cover;
+	}
+	#Feistel,#spn,#ECB,#mode,#mode_cbc{
+		width: 100%;
+	}
+}
+@media (max-width : 400px){
+	.stream{
+		width: 100%;
+		background-size: cover;
+	}
+}
+h1,strong{
+	color: greenyellow;
+}
+h3{
+	color: red;
+}
+p,li{
+	color: yellow;
+}
+table,td,th{
+	border: 2px solid;
+	color: yellowgreen;
+	padding: 5px 20px;
+}

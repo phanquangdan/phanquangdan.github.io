@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="streamcipher.css">
+	<title>Stream Cipher</title>
+</head>
+<body>
+	<div class="stream">
+		<h1 class="header_1">Stream Cipher</h1>
+		<h3 class=header_3>Mã dòng có các đặc tính sau :</h3>
+		<ul class="paragraph">
+			<li>Bản rõ được chia thành các đơn vị mã.Mỗi đơn vị mã gồm k bit.P = P1||P2||Pb...Pn-1.</li>
+			<li>Dùng một khóa k để sinh ra các số ngẫu nhiên có kích thước bằng kích thước đơn vị mã.S</li>
+			<li>Dùng phép toán XOR cho cả hai để sinh ra bản mã cuối cùng.</li>
+			<br>
+			<img id="model" style="overflow: auto;" src="modelstream.png">
+		</ul>
+		<h3 class=header_3>Một số mã dòng tiêu biểu :</h3>
+		<ul class="paragraph">
+			<li><strong style="color:orange;">A5/1:</strong> được dùng trong mạng điện thoại GSM(Global System Message), để bảo mật dữ liệu trong quá trình liên lạc giữa máy điện thoại và trạm thu sóng vô tuyến.Đơn vị mã hóa của A5/1 là một bit.Bộ sinh số ngẫu nhiên mỗi lần sẽ sinh ra bit 0 hoặc 1 để sử dụng phép XOR.Mã hóa A5/1 có tốc độ nhanh do đó nó được dùng để mã hóa các dữ liệu real-time.</li>
+			<li><strong style="color: orange;">RC4:</strong> được dùng trong giao thức SSL(Secure Sockets Layer) dùng để bảo mật dữ liệu trong quá trình trao đổi giữa Browser và WebServer.Ngoài ra RC4 còn được dùng trong mã hóa WEP<strong style="color:yellow;">(Wired Equivalent Privacy)</strong> của mạng Wireless LAN.Hiện tại do tính bảo mật WEP kém nên đã thay thế bằng WPA2 <strong style="color:yellow;">(Wifi Protected Access)</strong>.Đơn vị mã hóa của RC4 là 8 bit.</li>
+		</ul>
+	</div>
+	<a style="border: 2px solid;color: yellowgreen;" href="../security.html">Back Page</a>
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="blockcipher.css">
+	<title>Block Cipher</title>
+</head>
+<body>
+	<div class="block">
+		<h1>Block Cipher</h1>
+		<h3>Mã khối an toàn lí tưởng.</h3>
+		<p>Mã khối an toàn lí tưởng là khối mà bản mã và bản rõ không có bất kì mối quan hệ toán học nào cả.Để làm được điều đó thì ta phải lập một bảng tra cứu ngẫu nhiên giữ bản rõ và bản mã.Ví dụ:</p>
+		<div align="center">
+			<table border="1px">
+				<tr>
+					<th>Bản rõ</th>
+					<th>Bản mã</th>
+				</tr>
+				<tr>
+					<td>0000</td>
+					<td>1110</td>
+				</tr>
+				<tr>
+					<td>0001</td>
+					<td>0100</td>
+				</tr>
+				<tr>
+					<td>0010</td>
+					<td>1101</td>
+				</tr>
+				<tr>
+					<td>0011</td>
+					<td>0001</td>
+				</tr>
+				<tr>
+					<td>0100</td>
+					<td>0010</td>
+				</tr>
+				<tr>
+					<td>0101</td>
+					<td>1111</td>
+				</tr>
+				<tr>
+					<td>0110</td>
+					<td>1011</td>
+				</tr>
+				<tr>
+					<td>0111</td>
+					<td>1000</td>
+				</tr>
+				<tr>
+					<td>1000</td>
+					<td>0011</td>
+				</tr>
+				<tr>
+					<td>1001</td>
+					<td>1010</td>
+				</tr>
+				<tr>
+					<td>1001</td>
+					<td>1010</td>
+				</tr>
+				<tr>
+					<td>1011</td>
+					<td>0110</td>
+				</tr>
+				<tr>
+					<td>1100</td>
+					<td>0101</td>
+				</tr>
+				<tr>
+					<td>1101</td>
+					<td>1001</td>
+				</tr>
+				<tr>
+					<td>0000</td>
+					<td>1110</td>
+				</tr>
+				<tr>
+					<td>1111</td>
+					<td>0111</td>
+				</tr>
+			</table>
+		</div>
+		<p>Lúc này khóa là toàn bộ bảng trên.Người gửi và người nhận phải biết toàn bộ bẳng trên để mã hóa và giải mã.Vậy muốn phá mã thì người phá cần phải biết được tất cả các cặp bản rõ và bản mã.Nếu chon kích thước khối là 6 bit thì số dòng của khóa là 2<sup>64</sup> và có khoảng 2<sup>64</sup>! bảng khóa như vậy => do đó việc nắm rõ tất cả bản rõ và bản mã là điều không thể đối với người phá mã.Nên trong trường hợp này ta gọi là <strong style="color:green;">Mã khối an toàn lí tưởng.</strong>.Tuy nhiên, khi kích thước khối lớn thì số dòng của bảng khóa cũng lớn và gây trở ngại cho việc lưu trữ cũng như trao đổi khóa giữa người gửi và người nhận.Bảng khóa có 2<sup>64</sup> dòng, mỗi dòng có 64 bit nên sẽ có kích thước khóa là 64x2<sup>64</sup> bit => Mã khối an toàn lí tưởng không khả thi trong thực tế.</p>
+		<h3>Mạng SPN</h3>
+		<p>Trong thực tê,người ta chỉ tìm cách chỉ cần dùng một khóa có kích thước ngắn để giả lập một bảng tra cứu có độ an toàn xấp xỉ như độ an toàn của mã khối an toàn lí tưởng.Để thực hiện được điều đó thì người ta kết hợp nhiều mã hóa đơn giải lại với nhau để tạo thành mã hóa tổng hợp.Mã hóa đơn giản thường là phép thay thê <strong style="color:green;">substitution(S-box)</strong> và hoán vị <strong style="color:green;">Permutation (P-box)</strong>.Do đó người ta gọi mã tổng hợp là Substitution-Permutation NetWork.Mã hóa AES là phương pháp mã hóa dựa trên nguyên tắc SPN.Hình ảnh minh họa:
+		</p>
+		<div align="center">
+			<img id="spn" src="spn.png">
+		</div>
+		<p>việc kết hợp mã hóa thay thế và mã hóa hoán vị tạo ra hai tính chất quan trọng của mã hóa là tính khuếch tán <strong style="color:green;">(Diffusion)</strong> và tính gây lẫn <strong>(Confusion)</strong>.
+		</p>	
+		<ul>
+			<li><strong style="color:green;">Diffusion : </strong> có nghĩa là một bit của bản mã đều chịu tác động của tất cả các bit trong bản rõ.Điều này làm giảm tối đa mối quan hệ giữa bản rõ và bản mã ngăn chặn việc suy lại khóa.Tính chất này có dduocj nhờ kết hợp cả S-box và P-box.</li>
+			<li><strong style="color:green;">Confision : </strong> có nghĩa là làm tăng mối quan hệ giữa bản rõ và bản mã.Tính chất này có được là nhờ S-box.</li>
+		</ul>
+		<h3>Mô hình mã Feistel</h3>
+		<p> Mô hình mã Feistel là một cách tiếp cận khác so với mô hình mạng SP, nó cũng là sư kết hợp các phép substitution và permutation.Trong hệ mã Feistel bản rõ sẽ được biến đổi qua một số vòng để cho ra bản mã cuối cùng.</p>
+		<p>Trong đó bản rõ P được chia ra nửa trái kí hiêu là L0 và nửa phải kí hiệu là R0.Qui tắc biến đổi các nửa trái phải theo các vòng theo qui tắc sau:</p>
+		<p>L<sub>i</sub> = R<sub>i-1</sub> và R<sub>i</sub> = L<sub>i-1</sub>+F(R<sub>i-1</sub>,K<sub>i</sub>).Trong đó K<sub>i</sub> là khóa con cho vòng khóa thứ i.Khóa con này được sinh ra từ khóa k ban đầu theo một thuật toán sinh khóa con.F là một hàm mã hóa dùng chung cho tất cả các vòng.Hàm F đóng vai trò như phép thay thế còn việc hoán đổi các nửa trái phải có vai trò hoán vị.Sơ đồ như sau:</p>
+		<div align="center">
+			<img id="Feistel" src="Feistel.png">
+		</div>
+		<p>Việc giải mã thì làm ngược lại quá trình trên.Hàm F và thuật toán sinh khóa con càng phức tạp thì càng khó phá mã.Mã hóa DES là phương pháp mã hóa dựa trên nguyên tắc của hệ mã Feistel.</p>
+		<h3>Một số mã hóa khối tiêu biểu</h3>
+		<ol>
+			<li>Data Encryption Standard (DES) có các tính chất sau:</li>
+			<ul>
+				<li>Là mã thuộc hệ Feistel gồm 16 vòng.</li>
+				<li>Có kích thước 64 bit.Ví dụ bản tin: PhanQuangDan2001 biểu diễn theo mã ASCII(Americance standard code for information interchage) thì mã DES sẽ mã hóa 3 lần, mỗi lần 8 chữ cái(64 bit):PhanQuan gDan2001</li>
+				<li>Kích thước khóa là 64 bit(8 bit coi như thừa => key hiệu quả mang lại 56 bit)</li>
+				<li>Mỗi vòng của khóa con có kích thức 48 bit được trích ra từ khóa chính.</li>
+				<li>Độ an toàn của DES: Nếu tấn công bằng vét cạn khóa (Brute Force Attack) thì vì khóa có kích thước là 56 bit nên sẽ cần kiểm tra 2<sup>56</sup> khóa khác nhau dẫn đến bất khả thi về mặt thời gian.Tuy nhiên hiện nay mã DES đã không còn an toàn nữa.Thôi thì chuyển qua AES xem sao :v</li>
+			</ul>
+			<li>Avanced Encryption Standard (AES) có các tính chất sau:</li>
+			<ul>
+				<li>Là mã thuộc hệ SPN.</li>
+				<li>Kích thước khối mã cho phép lựa chọn là :128,192 hoặc 256 bit.Khóa cũng tương tự.</li>
+				<li>Số vòng có thể thay đổi từ 10 đến 14 vòng tùy thuộc vào khóa.</li>
+			</ul>
+		</ol>
+		<h3>Các mô hình ứng dụng mã khối</h3>
+		<p>Mã khối được sử dụng để mã hóa một khối có dữ liệu xác định.Để mã hóa một bản tin dài, bản tin được chia ra nhiều khối và áp dụng mã hóa khối cho từng khối một.Các mô hình cũng sẽ quyết định đến độ bảo mật của block cipher.</p>
+		<ol>
+			<li><strong>Electronic CodeBook(ECB) :</strong> là chế độ hoạt động đơn giản nhất.Ta chia palintext thành từng khối,mỗi khối có độ dài 64 bit(hay độ dài qui định của block cipher) và thực hiện mã hóa độc lập từng khối một.</li><br>
+			<div align="center" style="background-color:white;">
+				<img id="ECB" src="ECB.png">
+			</div>
+			<p>Tuy nhiên mã hóa bằng chế độ ECB sẽ ít nhiều để lộ thông tin về tin nhắn gốc.Do đó ECB thiếu an toàn, vì thế không nên sử dụng mô hình ECB trong mọi trường hợp,bất chấp block cipher có bảo mật đến cỡ nào.</p>
+			<div align="center" style="background-color:white;">
+				<img id="mode" src="mode_comparison.png">
+			</div>
+			<p>So sánh output giữa ECB (giữa) và chế độ vận hành khác (phải)</p>
+			<li><strong>Cipher Block Chaining(CBC) :</strong>Trong mô hình này,bản mã của một lần mã hóa sẽ được dùng cho lần mã hóa tiếp theo:</li>
+			<p>Ci = E(Pi ⊕ Ci - 1,K); C0 = IV</p>
+			<p>Do đó để mã hóa khối đầu tiên, người ta dùng một khối dữ liệu giả gọi là vector khởi tạo <strong
+				>(initialization vector - IV)</strong> và được chọn ngẫu nhiên :</p>
+			<p>C<sub>0</sub> = E(P<sub>0</sub> ⊕ IV,K)</p>
+			<p>Để giải mã tiến hành ngược lại:</p>
+			<p>P<sub>0</sub> = D(C<sub>0</sub>,K)⊕IV</p>
+			<p>P<sub>i</sub> = D(C<sub>i</sub>,K)⊕C<sub>i-1</sub></p>
+			<div align="center" style="background-color:white;">
+				<img id="mode_cbc" src="CBC.png">
+			</div>
+		</ol>
+		<h3>Padding</h3>
+		<p>Một vấn đề xảy ra khi ta sử dung block cipher là nếu ta chọn kích thước khối là 64 bit thì kích thước bản tin phải là bội số của 64.Mà trong thực tế thì kích thước bản tin chắc gì đã là bội của 64.Vậy để mã hóa bản tin mà không để mất bất kì giữ liệu nào thì giải pháp ở đây là padding, tức là bù vào plaintext có độ dài đúng.Lúc này ta sẽ thêm ở trước plaintext là độ dài gốc và ở sau là bit 0 cần thiết để plaintext có độ dài thích hợp.Ví dụ ta có plaintext là 1011 sẽ padding thành(100)1011(0) trong khối 8 bit.</p>
+	</div>	
+	<h3>Tạm Kết</h3>
+	<p> Đây là những hiểu biết của mình về block cipher hệ thống cryptography phổ biến nhất trong những symmetric-key cipher</p>
+	<a style="border: 2px solid;color: yellowgreen;" href="../security.html">Back Page</a>
+</body>
+</html>

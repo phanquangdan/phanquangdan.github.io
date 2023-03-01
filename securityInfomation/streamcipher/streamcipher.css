@@ -1,0 +1,28 @@
+body{
+	background: url('background.jpg');
+	background-size: cover;
+}
+@media (max-width : 800px){
+	.stream{
+		width: 100%;
+		background-size: cover;
+	}
+	#model{
+		width: 100%;
+	}
+}
+@media (max-width : 400px){
+	.stream{
+		width: 100%;
+		background-size: cover;
+	}
+}
+.header_1{
+	color: greenyellow;
+}
+.header_3{
+	color: red;
+}
+.paragraph{
+	color: black;
+}
