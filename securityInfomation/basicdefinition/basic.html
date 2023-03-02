@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="basic.css">
+	<title>Introduction Cipher</title>
+</head>
+<body>
+	<div class="block">
+		<h1>1.Sơ lược về mã hóa đối xứng và bất đối xứng.</h1>
+		<div align="center">
+			<img id="asym" src="asym_encryption.png">
+		</div>
+		<p>Hầu hết ai tìm hiểu về an toàn thông tin đều biết đến hai loại mã hóa phổ biến đó là mã hóa đối xứng<strong>(symmetric cryptography)</strong> và mã hóa bất đối xứng<strong>(asymmetric cryptography)</strong>.Nói tóm tắt thì:</p>
+		<ul>
+			<li><strong>Mã hóa đối xứng hay còn gọi là mã hóa bí mật</strong>: tức là người ta dùng một chìa khóa để khóa và mở khóa thông tin bí mật.Và cả hai bên gửi và nhận đều cần phải biết chìa khóa này.</li>
+			<li><strong>Mã hóa bất đối xứng hay còn gọi là mã hóa công khai</strong>: Có thể hiểu là người dùng tạo ra hai chìa khóa khác nhau để khóa và mở khóa thông tin bí mật.<strong>public key</strong> sẽ được gửi đến đối tượng cần mã hóa thông tin, còn <strong>private key</strong> được giữ bí mật, và nó đóng vai trò như chìa khóa vạn năng có thể mở được tất cả thông tin được khóa bằng public key</li>
+		</ul>
+		<h1>2.Ưu và nhược điểm của Symmetric Cyptography và Asymmetric Cryptography</h1>
+		<h3>Ưu điểm Symmetric Cryptography</h3>
+		<ol>
+			<li>Tốc độ mã hóa nhanh hơn Asymmetric Cryptography cho nên ngày nay người ta dùng mã hóa đối xứng để mã hóa dữ liệu còn mã hóa bất đối xứng dùng để mã hóa khóa bí mật để trao đổi giữa các người dùng.</li>
+			<li>Đảm bảo được tính bảo mật <strong>(confidentiality)</strong> và tính chứng thực <strong>(Authentication)</strong></li>
+		</ol>
+		<h3>Nhược điểm Symmetric Cryptography</h3>
+		<ol>
+			<li>Cần phải thiết lập một kênh an toàn để trao đổi khóa bí mật giữa người gửi và người nhận mà ngày nay khối lượng thông tin cần trao đổi là rất lớn nên việc thiết lập một kênh như vậy là rất tốn kém về mặt chi phí và chậm trễ về mặt thời gian.</li>
+			<li>Do cả hai người biết khóa bí mật nên khi bị lộ khóa sẽ không có cơ chế nào để buộc tôi ai để lộ do đó nó vi phạm tính chất không từ chối <strong>(non-repudiation).</strong></li>
+		</ol>
+		<h3>Về Asymmetric Cryptography</h3>
+		<p>Theo mình nghĩ thì mã hóa bất đối xứng đều đáp ứng tất cả các tính chất cho cho một hệ thống trao đổi thông tin an toàn điểm yếu duy nhất mình nghĩ là tốc độ mã hóa của nó chậm hơn mã hóa đối xứng mà thôi.</p>
+		<h1>Tại sao cần mã hóa bất đối xứng ?</h1>
+		<p>Nói ngắn gọn thì hầu hết các ứng dụng bạn dùng hằng ngày hiên nay như Facebook,Gmail,... đều sử dụng giao thức HTTPs.Có thể hiểu là giao thức HTTPs an hoàn hơn HTTP vì toàn bộ dữ liệu thông tin truyền đi giữa clinet và server được bảo vệ bộ mã hóa SSL/TSL và bộ này thì hoạt động dựa trên cả hai loại mã hóa đối xứng và bất đối xứng.Nhờ nó mà chúng ta có thể bí mật thực hiện các giao dịch có chứa các thông tin <strong>nhạy cảm </strong>trên Internet mà không bị đánh cắp thông tin trong suốt quá trình truyền nhận dữ liệu.Nói tóm lại một cách xanh rờn : Nếu không có mật mã,đặc biệt là mã hóa bất đối xứng thì sẽ  <strong>không có thương mại điện tử.</strong></p>
+		<p>Về cơ bản thì HTTP truyền dữ liệu dưới dạng plaintext, nó có nghĩa là nếu ai đang nghe lén dữ liệu mà bạn truyền và nhận từ server thì có thể can thiệp được vào nội dung <strong>(Man-in-the-middle attack) </strong>.Ngay cả khi dùng mã hoá đối xứng để encrypt và decrypt thông tin truyền và nhận thì cũng có lỗ hổng là hai bên phải trao đổi key mới mã hoá và giải mã được, như vậy attacker vẫn có thể tóm được key và đọc được thông tin như thường.</p>
+		<p>Điểm yếu của mã hoá đối xứng được khắc chế trong mã hoá bất đối xứng. Ý tưởng là thay vì gửi chìa khoá cho phía client, thì server sẽ gửi ổ khoá, để client khoá thông điệp bí mật trong một chiếc hộp, và chỉ có server có thể giải mã được. Cho nên các client sẽ không đọc được thông điệp của nhau, và chỉ có sever với private key mới mở khoá được những chiếc hộp này.</p>
+	<a style="border: 2px solid;color: yellowgreen;" href="../security.html">Back Page</a>
+</body>
+</html>

@@ -1,0 +1,28 @@
+body{
+	background: url('background.jpg');
+	background-size: cover;
+}
+@media (max-width : 800px){
+	.block{
+		width: 100%;
+		background-size: cover;
+	}
+	#asym{
+		width: 100%;
+	}
+}
+@media (max-width : 400px){
+	.stream{
+		width: 100%;
+		background-size: cover;
+	}
+}
+h1,strong{
+	color: greenyellow;
+}
+h3{
+	color: red;
+}
+p,li{
+	color: yellow;
+}
