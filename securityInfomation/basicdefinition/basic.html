@@ -32,7 +32,7 @@
 		<p>Theo mình nghĩ thì mã hóa bất đối xứng đều đáp ứng tất cả các tính chất cho cho một hệ thống trao đổi thông tin an toàn điểm yếu duy nhất mình nghĩ là tốc độ mã hóa của nó chậm hơn mã hóa đối xứng mà thôi.</p>
 		<h1>Tại sao cần mã hóa bất đối xứng ?</h1>
 		<div align="center">
-			<img id="asym" src="https.jpg">
+			<img id="https" src="https.jpg">
 		</div>
 		<p>Nói ngắn gọn thì hầu hết các ứng dụng bạn dùng hằng ngày hiên nay như Facebook,Gmail,... đều sử dụng giao thức HTTPs.Có thể hiểu là giao thức HTTPs an hoàn hơn HTTP vì toàn bộ dữ liệu thông tin truyền đi giữa clinet và server được bảo vệ bộ mã hóa SSL/TSL và bộ này thì hoạt động dựa trên cả hai loại mã hóa đối xứng và bất đối xứng.Nhờ nó mà chúng ta có thể bí mật thực hiện các giao dịch có chứa các thông tin <strong>nhạy cảm </strong>trên Internet mà không bị đánh cắp thông tin trong suốt quá trình truyền nhận dữ liệu.Nói tóm lại một cách xanh rờn : Nếu không có mật mã,đặc biệt là mã hóa bất đối xứng thì sẽ  <strong>không có thương mại điện tử.</strong></p>
 		<p>Về cơ bản thì HTTP truyền dữ liệu dưới dạng plaintext, nó có nghĩa là nếu ai đang nghe lén dữ liệu mà bạn truyền và nhận từ server thì có thể can thiệp được vào nội dung <strong>(Man-in-the-middle attack) </strong>.Ngay cả khi dùng mã hoá đối xứng để encrypt và decrypt thông tin truyền và nhận thì cũng có lỗ hổng là hai bên phải trao đổi key mới mã hoá và giải mã được, như vậy attacker vẫn có thể tóm được key và đọc được thông tin như thường.</p>
