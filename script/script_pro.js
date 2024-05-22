@@ -12,7 +12,7 @@ function light(sw){
 function insertimage(sw){
 	var pic;
 	if(sw == 0){
-		pic = "images/duhoc.jpg";
+		pic = "images/cham2024.jpg";
 	}
 	else{
 		pic = "images/namanhem.jpg";
